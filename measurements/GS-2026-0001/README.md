@@ -1,4 +1,4 @@
-# GS-2026-0001 — 1 kHz Reference Check
+# Rega P3 / RB330 / Audio-Technica AT-OC9XML / Audio Research SP20 — 1 kHz Reference Check
 
 **Groove Scope Measurement GS-2026-0001 was conducted by Michelangelo Canonico for Direct Sound Records using Groove Scope.**
 
