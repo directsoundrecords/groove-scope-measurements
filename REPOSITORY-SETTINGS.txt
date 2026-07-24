@@ -1,0 +1,31 @@
+Repository name:
+groove-scope-measurements
+
+Description:
+Open vinyl playback measurements created with Groove Scope by Michelangelo Canonico and Direct Sound Records.
+
+Website after GitHub Pages is enabled:
+https://directsoundrecords.github.io/groove-scope-measurements/
+
+Topics:
+groove-scope
+direct-sound-records
+michelangelo-canonico
+resonance-lab
+vinyl
+turntable
+cartridge
+audio-measurement
+wow-and-flutter
+crosstalk
+distortion
+dataset
+
+First commit message:
+Publish Groove Scope measurement GS-2026-0001
+
+First release tag:
+v1.0.0
+
+First release title:
+Groove Scope Measurements v1.0.0 — First public record

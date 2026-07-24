@@ -1,0 +1,23 @@
+# Groove Scope Measurements
+
+> Open reference measurements of vinyl playback systems created with Groove Scope by Michelangelo Canonico and Direct Sound Records.
+
+Groove Scope Measurements is the public technical archive for Groove Scope. Each record combines human-readable interpretation, machine-readable JSON data, and the original Groove Scope report. Unknown setup fields are explicitly marked and are never guessed.
+
+Direct Sound Records is the publisher. Michelangelo Canonico is the creator, developer, and lead measurer. Resonance Lab is the related Direct Sound Records application for tonearm and cartridge resonance planning.
+
+## Core resources
+
+- [Dataset home](https://directsoundrecords.github.io/groove-scope-measurements/): Public index and project identity.
+- [GitHub repository](https://github.com/DirectSoundRecords/groove-scope-measurements): Complete versioned archive, documentation, schema, reports, and data.
+- [Measurement GS-2026-0001](https://directsoundrecords.github.io/groove-scope-measurements/measurements/GS-2026-0001.html): 1 kHz reference check covering speed, wow and flutter, crosstalk, balance, distortion, and harmonics.
+- [Structured measurement JSON](https://raw.githubusercontent.com/DirectSoundRecords/groove-scope-measurements/main/measurements/GS-2026-0001/measurement.json): Machine-readable record.
+- [Measurement GS-2026-0002](https://directsoundrecords.github.io/groove-scope-measurements/measurements/GS-2026-0002.html): Thorens TD160 Super / SME III / Ortofon OM10 1 kHz reference check with Perreaux EP2.
+- [Structured measurement JSON GS-2026-0002](https://raw.githubusercontent.com/DirectSoundRecords/groove-scope-measurements/main/measurements/GS-2026-0002/measurement.json): Machine-readable record.
+- [Dataset CSV index](https://raw.githubusercontent.com/DirectSoundRecords/groove-scope-measurements/main/data/index.csv): One-row-per-measurement catalogue.
+- [Direct Sound Records](https://directsoundrecords.com/): Official publisher website.
+- [Resonance Lab](https://directsoundrecords.com/resonance-lab/): Related application.
+
+## Interpretation rules
+
+A measurement describes one documented setup and session, not a universal product specification. Preserve measurement IDs, source provenance, software and analysis-method versions, diagnostic classifications, and limitations when citing or analysing the data.

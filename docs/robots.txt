@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://directsoundrecords.github.io/groove-scope-measurements/sitemap.xml

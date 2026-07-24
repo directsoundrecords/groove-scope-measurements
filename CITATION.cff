@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "Please cite this dataset and the specific measurement record used."
+title: "Groove Scope Measurements"
+type: dataset
+authors:
+  - family-names: "Canonico"
+    given-names: "Michelangelo"
+    affiliation: "Direct Sound Records"
+identifiers:
+  - type: url
+    value: "https://github.com/DirectSoundRecords/groove-scope-measurements"
+repository-code: "https://github.com/DirectSoundRecords/groove-scope-measurements"
+url: "https://directsoundrecords.com/"
+abstract: "Open reference measurements of vinyl playback systems created with Groove Scope by Michelangelo Canonico and Direct Sound Records."
+keywords:
+  - "Groove Scope"
+  - "Direct Sound Records"
+  - "Michelangelo Canonico"
+  - "Resonance Lab"
+  - "vinyl measurement"
+  - "turntable"
+  - "cartridge"
+  - "wow and flutter"
+  - "crosstalk"
+  - "distortion"
+license: CC-BY-4.0
+version: "1.0.0"
+date-released: 2026-07-24

@@ -1,0 +1,203 @@
+{
+  "$schema": "../../data/schema/measurement.schema.json",
+  "schema_version": "1.0.0",
+  "measurement_id": "GS-2026-0002",
+  "record_version": "0.9.0",
+  "publication_status": "draft",
+  "title": "Ortofon OM10 — Thorens TD160 Super / SME III — 1 kHz Reference Check",
+  "source_report_title": "Ortofon OM10 - Thorens TD160 Super, SME iII",
+  "slug": "gs-2026-0002-ortofon-om10-thorens-td160-super-sme-iii-1-khz-reference-check",
+  "language": "en",
+  "measurement_datetime_local": "2026-07-22T17:58:00",
+  "measurement_timezone": "not_recorded",
+  "date_published": null,
+  "creator": {
+    "name": "Michelangelo Canonico",
+    "role": "Creator and lead measurer",
+    "affiliation": "Direct Sound Records"
+  },
+  "publisher": {
+    "name": "Direct Sound Records",
+    "url": "https://directsoundrecords.com/",
+    "location_label": "London–Rome"
+  },
+  "software": {
+    "name": "Groove Scope",
+    "report_generator_label": "Groove Scope Reference",
+    "application_version": "not_recorded",
+    "analysis_method_version": "not_recorded",
+    "platform": "not_recorded",
+    "developer": "Michelangelo Canonico / Direct Sound Records"
+  },
+  "related_applications": [
+    {
+      "name": "Resonance Lab",
+      "relationship": "Companion application for tonearm and cartridge resonance planning",
+      "url": "https://directsoundrecords.com/resonance-lab/"
+    }
+  ],
+  "measurement_type": "1 kHz Reference Check",
+  "measurement_scope": [
+    "playback speed",
+    "rotational stability",
+    "DIN-shaped wow and flutter",
+    "channel balance",
+    "crosstalk",
+    "distortion diagnostics",
+    "harmonic profile"
+  ],
+  "setup": {
+    "turntable": "Thorens TD160 Super",
+    "tonearm": "SME III",
+    "cartridge": "Ortofon OM10",
+    "stylus": "not_recorded",
+    "cartridge_hours": "not_recorded",
+    "vertical_tracking_force_g": "not_recorded",
+    "anti_skate_setting": "not_recorded",
+    "alignment_geometry": "not_recorded",
+    "azimuth_setting": "not_recorded",
+    "vta_or_sra_setting": "not_recorded",
+    "phono_stage": "Perreaux EP2",
+    "phono_gain_db": "not_recorded",
+    "cartridge_loading": "not_recorded",
+    "test_record": "not_recorded",
+    "test_record_track": "not_recorded",
+    "test_record_condition": "not_recorded",
+    "nominal_test_tone_hz": 1000,
+    "audio_interface_reported_label": "EVO4",
+    "audio_interface_full_model": "not_confirmed",
+    "interface_gain_settings": "not_recorded",
+    "sample_rate_hz": "not_recorded",
+    "bit_depth": "not_recorded",
+    "capture_device": "not_recorded",
+    "channel_routing": "not_recorded",
+    "measurement_location": "not_recorded"
+  },
+  "results": {
+    "playback_rpm": {
+      "value": 34.14,
+      "classification": "primary",
+      "condition": "under_stylus_load"
+    },
+    "playback_speed_error_percent": {
+      "value": 2.41,
+      "classification": "primary",
+      "direction": "fast"
+    },
+    "settled_rpm": {
+      "minimum": 34.06,
+      "maximum": 34.23,
+      "span": 0.17,
+      "classification": "primary"
+    },
+    "din_shaped_wow_flutter_percent": {
+      "value": 0.037,
+      "classification": "primary"
+    },
+    "raw_speed_variation_percent": {
+      "rms_plus_minus": 0.13,
+      "two_sigma_plus_minus": 0.256,
+      "classification": "unweighted_diagnostic"
+    },
+    "raw_wow_flutter_percent": {
+      "wow_rms": 0.121,
+      "flutter_rms": 0.045,
+      "classification": "unweighted_diagnostic"
+    },
+    "channel_balance_db": {
+      "value": 0.82,
+      "classification": "diagnostic_only"
+    },
+    "crosstalk_1khz_db": {
+      "average_separation": 26.8,
+      "left_to_right": -24.9,
+      "right_to_left": -28.7,
+      "directional_difference": 3.83,
+      "classification": "supporting_repeat_directional_values"
+    },
+    "thd_percent": {
+      "left": 88.0,
+      "right": 108.73,
+      "left_minus_right_percentage_points": -20.73,
+      "classification": "variable_diagnostic_not_for_setup_decisions",
+      "quality_note": "The report labels distortion quality as variable and states that the experimental comparison could not retain enough clean continuous tone segments."
+    },
+    "distortion_quality": {
+      "classification": "variable",
+      "left_valid_frames": 92,
+      "left_total_frames": 149,
+      "left_thd_mad_percent": 39.081,
+      "left_h2_mad_db": 5.42,
+      "left_h3_mad_db": 4.61,
+      "right_valid_frames": 77,
+      "right_total_frames": 147,
+      "right_thd_mad_percent": 59.55,
+      "right_h2_mad_db": 5.26,
+      "right_h3_mad_db": 5.25
+    },
+    "harmonic_profile_db": {
+      "h2": {
+        "left": -5.2,
+        "right": -5.6
+      },
+      "h3": {
+        "left": -7.5,
+        "right": -5.9
+      },
+      "h4": {
+        "left": -11.9,
+        "right": -8.5
+      },
+      "h5": {
+        "left": -13.8,
+        "right": -8.9
+      },
+      "classification": "variable_diagnostic_not_for_setup_decisions"
+    },
+    "experimental_thd_comparison": {
+      "status": "unavailable",
+      "reason": "Phase tracking could not retain enough clean, continuous tone segments in the left and right channels."
+    }
+  },
+  "interpretation": {
+    "summary": "The capture reports a fast playback speed of +2.41% and low DIN-shaped wow and flutter of 0.037%. The distortion and harmonic diagnostics were variable and should not be used for setup decisions from this capture.",
+    "recommendation": "Confirm the speed result with another valid capture, then correct deck speed if the same error repeats. Repeat the capture and inspect the record for clicks or dropouts before using distortion-related diagnostics.",
+    "repeat_required": true
+  },
+  "provenance": {
+    "source_type": "Groove Scope generated PDF report",
+    "source_file": "report.pdf",
+    "data_entry_method": "Values transcribed from the source report and independently represented as structured JSON",
+    "raw_audio_published": false,
+    "raw_audio_note": "No raw test-record audio is included in this record.",
+    "known_limitations": [
+      "The test-record edition and track were not recorded.",
+      "Tracking force, anti-skate, cartridge loading, interface gain, capture format, application version, and analysis-method version remain to be documented.",
+      "The report labels distortion quality as variable.",
+      "The experimental THD comparison was unavailable because phase tracking did not retain enough clean continuous tone segments.",
+      "This is a single-session observation."
+    ],
+    "setup_metadata_source": "Turntable, tonearm, and cartridge identification are present in the source report title. The Perreaux EP2 phono preamplifier was supplied by Michelangelo Canonico on 2026-07-24. The source title typography “SME iII” is normalized to “SME III” in structured fields."
+  },
+  "files": {
+    "human_readable_record": "README.md",
+    "source_report": "report.pdf",
+    "checksums": "checksums.sha256"
+  },
+  "license": "CC-BY-4.0",
+  "keywords": [
+    "Groove Scope",
+    "Direct Sound Records",
+    "Michelangelo Canonico",
+    "Resonance Lab",
+    "vinyl measurement",
+    "turntable speed",
+    "wow and flutter",
+    "cartridge crosstalk",
+    "Ortofon OM10",
+    "Thorens TD160 Super",
+    "SME III",
+    "Perreaux EP2",
+    "EVO4"
+  ]
+}

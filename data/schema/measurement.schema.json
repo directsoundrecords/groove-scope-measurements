@@ -1,0 +1,77 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/DirectSoundRecords/groove-scope-measurements/blob/main/data/schema/measurement.schema.json",
+  "title": "Groove Scope Measurement Record",
+  "description": "Schema for public vinyl playback measurement records created with Groove Scope and published by Direct Sound Records.",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "measurement_id",
+    "record_version",
+    "publication_status",
+    "title",
+    "creator",
+    "publisher",
+    "software",
+    "measurement_type",
+    "setup",
+    "results",
+    "provenance",
+    "license"
+  ],
+  "properties": {
+    "schema_version": {"type": "string"},
+    "measurement_id": {"type": "string", "pattern": "^GS-[0-9]{4}-[0-9]{4,}$"},
+    "record_version": {"type": "string"},
+    "publication_status": {
+      "type": "string",
+      "enum": ["draft", "published", "superseded", "withdrawn"]
+    },
+    "title": {"type": "string", "minLength": 3},
+    "slug": {"type": "string"},
+    "language": {"type": "string"},
+    "measurement_datetime_local": {"type": "string"},
+    "measurement_timezone": {"type": "string"},
+    "date_published": {"type": ["string", "null"], "format": "date"},
+    "creator": {
+      "type": "object",
+      "required": ["name", "affiliation"],
+      "properties": {
+        "name": {"type": "string"},
+        "role": {"type": "string"},
+        "affiliation": {"type": "string"}
+      },
+      "additionalProperties": true
+    },
+    "publisher": {
+      "type": "object",
+      "required": ["name"],
+      "properties": {
+        "name": {"type": "string"},
+        "url": {"type": "string", "format": "uri"},
+        "location_label": {"type": "string"}
+      },
+      "additionalProperties": true
+    },
+    "software": {
+      "type": "object",
+      "required": ["name", "application_version", "analysis_method_version"],
+      "additionalProperties": true
+    },
+    "related_applications": {"type": "array", "items": {"type": "object"}},
+    "measurement_type": {"type": "string"},
+    "measurement_scope": {"type": "array", "items": {"type": "string"}},
+    "setup": {"type": "object"},
+    "results": {"type": "object"},
+    "interpretation": {"type": "object"},
+    "provenance": {
+      "type": "object",
+      "required": ["source_type", "source_file", "data_entry_method"],
+      "additionalProperties": true
+    },
+    "files": {"type": "object"},
+    "license": {"type": "string"},
+    "keywords": {"type": "array", "items": {"type": "string"}}
+  },
+  "additionalProperties": true
+}
