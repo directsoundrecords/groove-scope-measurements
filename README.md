@@ -6,7 +6,7 @@ This repository is the public measurement archive for **Groove Scope**, a vinyl 
 
 **Direct Sound Records** publishes these measurements to improve transparency, repeatability, and shared knowledge around turntable, tonearm, cartridge, alignment, speed, crosstalk, distortion, tracking, and related analogue playback measurements.
 
-## Published measurements
+## Measurement Records
 
 | ID | Date | Measurement | Status | Report | Structured data |
 |---|---:|---|---|---|---|
