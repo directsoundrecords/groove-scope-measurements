@@ -13,3 +13,5 @@ Recommended attribution:
 > Groove Scope Measurements, created by Michelangelo Canonico and published by Direct Sound Records using Groove Scope. Measurement ID: [insert ID]. Source: [insert record URL]. Licensed under CC BY 4.0.
 
 Third-party product names and trademarks are not licensed and remain the property of their respective owners. This licence does not grant rights in third-party test-record audio or other third-party content.
+
+The Direct Sound Records, Groove Scope and Resonance Lab names, logos and brand assets are excluded from the CC BY 4.0 licence. No permission is granted to use these elements in a way that suggests sponsorship, endorsement or official affiliation.
