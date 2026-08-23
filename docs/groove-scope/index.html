@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Groove Scope Measurements — Direct Sound Records</title>
+  <meta name="description" content="Human-readable Groove Scope measurement records for analogue playback systems, with links to structured data and the public GitHub archive.">
+  <link rel="canonical" href="https://measurements.directsoundrecords.com/groove-scope/">
+  <meta name="robots" content="index,follow">
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"Dataset",
+    "name":"Groove Scope Measurements",
+    "url":"https://measurements.directsoundrecords.com/groove-scope/",
+    "sameAs":"https://github.com/directsoundrecords/groove-scope-measurements",
+    "description":"Documented analogue playback measurements created with Groove Scope and published by Direct Sound Records.",
+    "publisher":{"@type":"Organization","name":"Direct Sound Records","url":"https://directsoundrecords.com/"},
+    "license":"https://creativecommons.org/licenses/by/4.0/"
+  }
+  </script>
+  <style>
+    :root{color-scheme:light dark;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;--max:980px;--line:#8885;--muted:color-mix(in srgb,currentColor 67%,transparent);--soft:color-mix(in srgb,currentColor 4%,transparent)}
+    *{box-sizing:border-box} body{max-width:var(--max);margin:0 auto;padding:48px 22px 80px;line-height:1.62} a{color:inherit;text-underline-offset:3px} header{border-bottom:1px solid var(--line);padding-bottom:28px;margin-bottom:34px} h1{font-size:clamp(2.5rem,7vw,5.4rem);line-height:.94;letter-spacing:-.05em;margin:0 0 18px} h2{line-height:1.15} .eyebrow{text-transform:uppercase;letter-spacing:.14em;font-weight:750;font-size:.78rem}.intro{max-width:760px;color:var(--muted);font-size:1.08rem}.card{border:1px solid var(--line);border-radius:20px;padding:24px;margin:22px 0;background:var(--soft)} .status{font-weight:700}.actions{display:flex;flex-wrap:wrap;gap:10px 18px;font-weight:700}.small{font-size:.93rem;color:var(--muted)} footer{border-top:1px solid var(--line);margin-top:44px;padding-top:22px;color:var(--muted);font-size:.92rem}
+  </style>
+</head>
+<body>
+  <p><a href="../">← Direct Sound Records Measurements</a></p>
+  <header>
+    <div class="eyebrow">Audio / test-record analysis</div>
+    <h1>Groove Scope Measurements</h1>
+    <p class="intro">Documented measurements of analogue playback systems created with Groove Scope. Each record links the result to the playback chain, capture conditions and versioned technical evidence.</p>
+  </header>
+  <main>
+    <section>
+      <h2>Public measurements</h2>
+      <p>These records are technical observations of specific systems and sessions, not universal product specifications.</p>
+    </section>
+
+    <article class="card">
+      <div class="eyebrow">GS-2026-0001</div>
+      <h2>1 kHz Reference Check</h2>
+      <p class="status">Draft — metadata completion required</p>
+      <p>Rega P3 / Rega RB330 / Audio-Technica AT-OC9XML. Playback speed error: -0.71%. DIN-weighted wow and flutter: 0.045%. Average 1 kHz separation: 30.4 dB.</p>
+      <div class="actions"><a href="measurements/GS-2026-0001.html">Read the measurement</a><a href="https://github.com/directsoundrecords/groove-scope-measurements/tree/main/measurements/GS-2026-0001">View technical files</a></div>
+    </article>
+
+    <article class="card">
+      <div class="eyebrow">GS-2026-0002</div>
+      <h2>Thorens TD160 Super / SME III / Ortofon OM10</h2>
+      <p class="status">Draft — metadata completion and repeat capture required</p>
+      <p>Playback speed error: +2.41%. DIN-shaped wow and flutter: 0.037%. Average 1 kHz separation: 26.8 dB.</p>
+      <div class="actions"><a href="measurements/GS-2026-0002.html">Read the measurement</a><a href="https://github.com/directsoundrecords/groove-scope-measurements/tree/main/measurements/GS-2026-0002">View technical files</a></div>
+    </article>
+
+    <section>
+      <h2>About Groove Scope</h2>
+      <p>Groove Scope analyses test signals reproduced by a vinyl playback system and captured through a compatible audio interface. Results should always be interpreted with the setup and measurement conditions recorded for that session.</p>
+      <div class="actions"><a href="https://directsoundrecords.com/groove-scope-measurements/">Project page on Direct Sound Records</a><a href="https://github.com/directsoundrecords/groove-scope-measurements">Open GitHub archive</a></div>
+      <p class="small">The two records above pre-date the newer Resonance Lab setup-centric archive model and retain their own Groove Scope identifiers and methodology.</p>
+    </section>
+  </main>
+  <footer><p>Published by Direct Sound Records. Data licensing and limitations are stated in the Groove Scope archive.</p></footer>
+</body>
+</html>
