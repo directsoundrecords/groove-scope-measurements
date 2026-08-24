@@ -24,12 +24,21 @@ Measurements describe documented physical setups and sessions, not universal man
 
 ## Resonance Lab Measurements
 
+The current public Resonance Lab archive contains 2 Setups and 9 independent observations.
+
 - [Resonance Lab archive](https://measurements.directsoundrecords.com/resonance-lab/): Human-readable setup-centric Resonance Lab index.
 - [Resonance Lab GitHub repository](https://github.com/directsoundrecords/resonance-lab-measurements): Canonical structured Setup and Measurement archive.
 - [DSR-SETUP-0001](https://measurements.directsoundrecords.com/resonance-lab/setups/DSR-SETUP-0001/): Rega P3 / Rega RB330 / Audio-Technica AT-OC9XML with three public observations.
 - [RL-2026-000001](https://measurements.directsoundrecords.com/resonance-lab/setups/DSR-SETUP-0001/measurements/RL-2026-000001/): RPM observation, average 33.396 RPM, unweighted wow & flutter 0.0346%.
 - [RL-2026-000002](https://measurements.directsoundrecords.com/resonance-lab/setups/DSR-SETUP-0001/measurements/RL-2026-000002/): RPM observation, average 33.404 RPM, unweighted wow & flutter 0.0396%.
 - [RL-2026-000003](https://measurements.directsoundrecords.com/resonance-lab/setups/DSR-SETUP-0001/measurements/RL-2026-000003/): 1–40 Hz vibration observation, capture RMS 1.362 mg.
+- [DSR-SETUP-0002](https://measurements.directsoundrecords.com/resonance-lab/setups/DSR-SETUP-0002/): Technics SL-1410 mk2 / AMG 12J2 / Ortofon 2M Blue with six public observations.
+- [RL-2026-000004](https://measurements.directsoundrecords.com/resonance-lab/setups/DSR-SETUP-0002/measurements/RL-2026-000004/): RPM observation, average 33.349 RPM, unweighted wow & flutter 0.0243%.
+- [RL-2026-000005](https://measurements.directsoundrecords.com/resonance-lab/setups/DSR-SETUP-0002/measurements/RL-2026-000005/): RPM observation with record present and stylus tracking, average 33.344 RPM, unweighted wow & flutter 0.0266%.
+- [RL-2026-000006](https://measurements.directsoundrecords.com/resonance-lab/setups/DSR-SETUP-0002/measurements/RL-2026-000006/): 1–40 Hz vibration observation, capture RMS 1.094 mg; operating context not recorded.
+- [RL-2026-000007](https://measurements.directsoundrecords.com/resonance-lab/setups/DSR-SETUP-0002/measurements/RL-2026-000007/): 1–40 Hz vibration observation, capture RMS 1.087 mg; phone on top plate, motor off, speakers inactive.
+- [RL-2026-000008](https://measurements.directsoundrecords.com/resonance-lab/setups/DSR-SETUP-0002/measurements/RL-2026-000008/): 1–40 Hz vibration observation, capture RMS 2.094 mg; phone on turntable plinth, motor off, speakers active.
+- [RL-2026-000009](https://measurements.directsoundrecords.com/resonance-lab/setups/DSR-SETUP-0002/measurements/RL-2026-000009/): 1–40 Hz vibration observation, capture RMS 1.266 mg; phone on platter, motor off, speakers active.
 - [Resonance Lab project page](https://directsoundrecords.com/resonance-lab-measurements/): Editorial explanation of the public archive.
 
 ## Scientific interpretation
