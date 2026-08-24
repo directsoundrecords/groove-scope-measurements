@@ -8,16 +8,7 @@
   <link rel="canonical" href="https://measurements.directsoundrecords.com/resonance-lab/">
   <meta name="robots" content="index,follow">
   <script type="application/ld+json">
-  {
-    "@context":"https://schema.org",
-    "@type":"Dataset",
-    "name":"Resonance Lab Measurements",
-    "url":"https://measurements.directsoundrecords.com/resonance-lab/",
-    "sameAs":"https://github.com/directsoundrecords/resonance-lab-measurements",
-    "description":"Setup-centric public technical observations created with Resonance Lab and curated by Direct Sound Records.",
-    "publisher":{"@type":"Organization","name":"Direct Sound Records","url":"https://directsoundrecords.com/"},
-    "license":"https://creativecommons.org/licenses/by/4.0/"
-  }
+  {"@context":"https://schema.org","@type":"Dataset","name":"Resonance Lab Measurements","url":"https://measurements.directsoundrecords.com/resonance-lab/","sameAs":"https://github.com/directsoundrecords/resonance-lab-measurements","description":"Setup-centric public technical observations created with Resonance Lab and curated by Direct Sound Records.","publisher":{"@type":"Organization","name":"Direct Sound Records","url":"https://directsoundrecords.com/"},"license":"https://creativecommons.org/licenses/by/4.0/","hasPart":[{"@type":"Dataset","name":"DSR-SETUP-0001","url":"https://measurements.directsoundrecords.com/resonance-lab/setups/DSR-SETUP-0001/"},{"@type":"Dataset","name":"DSR-SETUP-0002","url":"https://measurements.directsoundrecords.com/resonance-lab/setups/DSR-SETUP-0002/"}]}
   </script>
   <style>
     :root{color-scheme:light dark;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;--max:980px;--line:#8885;--muted:color-mix(in srgb,currentColor 67%,transparent);--soft:color-mix(in srgb,currentColor 4%,transparent)}
@@ -34,26 +25,30 @@
   <main>
     <section>
       <h2>Public setups</h2>
-      <p>Each Setup has a persistent public identity. RPM and Vibration sessions remain independent dated observations beneath that Setup.</p>
+      <p>Two public Setups currently contain nine Resonance Lab observations. RPM and Vibration sessions remain independent dated observations beneath each Setup.</p>
     </section>
 
     <article class="card">
       <div class="eyebrow">DSR-SETUP-0001</div>
       <h2>Rega P3 / Rega RB330 / Audio-Technica AT-OC9XML</h2>
-      <p>Three public Resonance Lab observations are currently associated with this Setup: two RPM / wow &amp; flutter sessions and one 1–40 Hz Vibration session.</p>
-      <ul>
-        <li>RL-2026-000001 — 33.396 RPM</li>
-        <li>RL-2026-000002 — 33.404 RPM</li>
-        <li>RL-2026-000003 — 1.362 mg RMS vibration</li>
-      </ul>
+      <p>Three public observations: two RPM / wow &amp; flutter sessions and one 1–40 Hz Vibration session.</p>
+      <ul><li>RL-2026-000001 — 33.396 RPM</li><li>RL-2026-000002 — 33.404 RPM</li><li>RL-2026-000003 — 1.362 mg RMS vibration</li></ul>
       <div class="actions"><a href="setups/DSR-SETUP-0001/">Explore this Setup</a><a href="https://github.com/directsoundrecords/resonance-lab-measurements/tree/main/setups/DSR-SETUP-0001">View technical files</a></div>
+    </article>
+
+    <article class="card">
+      <div class="eyebrow">DSR-SETUP-0002</div>
+      <h2>Technics SL-1410 mk2 / AMG 12J2 / Ortofon 2M Blue</h2>
+      <p>Six public observations: two RPM / wow &amp; flutter sessions and four 1–40 Hz Vibration sessions under different recorded operating conditions.</p>
+      <ul><li>RL-2026-000004 — 33.349 RPM</li><li>RL-2026-000005 — 33.344 RPM</li><li>RL-2026-000006 — 1.094 mg RMS vibration</li><li>RL-2026-000007 — 1.087 mg RMS vibration</li><li>RL-2026-000008 — 2.094 mg RMS vibration</li><li>RL-2026-000009 — 1.266 mg RMS vibration</li></ul>
+      <div class="actions"><a href="setups/DSR-SETUP-0002/">Explore this Setup</a><a href="https://github.com/directsoundrecords/resonance-lab-measurements/tree/main/setups/DSR-SETUP-0002">View technical files</a></div>
     </article>
 
     <section>
       <h2>Scientific boundary</h2>
       <p>Phone-measured vibration describes mechanical motion at the phone placement point. It is not a direct measurement of stylus/cantilever or cartridge/tonearm resonance. Resonance Lab may compare measured vibration frequency content with a calculated resonance region, but that comparison is contextual evidence rather than proof of cause.</p>
       <div class="actions"><a href="https://directsoundrecords.com/resonance-lab-measurements/">Project page on Direct Sound Records</a><a href="https://github.com/directsoundrecords/resonance-lab-measurements">Open GitHub archive</a></div>
-      <p class="small">Public IDs are assigned centrally by the Direct Sound Records archive; the app-generated UUIDs remain the permanent technical identities used for duplicate detection and provenance.</p>
+      <p class="small">Public IDs are assigned centrally by the Direct Sound Records archive; app-generated UUIDs remain the permanent technical identities used for duplicate detection and provenance.</p>
     </section>
   </main>
   <footer><p>Published by Direct Sound Records. Public Resonance Lab measurement data is released under CC BY 4.0 unless a record states otherwise.</p></footer>
