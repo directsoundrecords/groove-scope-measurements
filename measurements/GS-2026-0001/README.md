@@ -4,7 +4,7 @@
 
 This record documents a 1 kHz vinyl playback reference check covering playback speed, rotational stability, DIN-weighted wow and flutter, channel balance, crosstalk, distortion, harmonic character, and relative residual noise.
 
-> **Publication status:** Draft — the turntable, external power supply, cartridge, stylus profile, and phono preamplifier have now been identified. The actual phono loading, test-record details, capture format, Groove Scope version, and analysis-method version still need confirmation before this record is promoted to `published`.
+> **Publication status:** Published as an archival observation on 29 August 2026. Unavailable setup and capture fields remain explicitly marked `not_recorded`. Results that require repetition remain diagnostic and must not be treated as confirmed setup findings.
 
 ## Identity and provenance
 
@@ -82,7 +82,7 @@ Playback speed and rotational stability were measured consistently during this c
 
 The report recommends confirming the speed result with another valid capture and correcting the deck speed only if the same error repeats. It also advises repeating variable diagnostics before adjusting anti-skate, zenith, azimuth, VTA, or VTF.
 
-## Missing metadata required before final publication
+## Unavailable metadata and publication limitations
 
 - Cartridge hours of use
 - Tracking force and anti-skate setting
@@ -95,7 +95,7 @@ The report recommends confirming the speed result with another valid capture and
 - Capture repetition count and whether this result is representative
 - Measurement location and timezone at city/country level only
 
-Unknown values are explicitly preserved as `not_recorded` in the JSON record. This is deliberate: an honest blank is more useful than a beautifully formatted invention.
+Unknown values are explicitly preserved as `not_recorded` in the JSON record. Publication makes this historical observation citable; it does not remove these limitations or promote repeat-dependent diagnostics to reference-quality evidence.
 
 ## Files and verification
 

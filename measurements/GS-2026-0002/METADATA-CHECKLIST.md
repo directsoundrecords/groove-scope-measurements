@@ -9,7 +9,7 @@
 - [x] Audio interface report label: EVO4
 - [x] Measurement date and time: 22 July 2026 at 17:58 local time
 
-## Still required before publication
+## Unavailable metadata retained at archival publication
 
 - [ ] Stylus model/profile and approximate hours
 - [ ] Vertical tracking force
@@ -26,4 +26,12 @@
 - [ ] Repeat capture confirming the speed result
 - [ ] Repeat capture suitable for distortion comparison
 
-Do not replace unknowns with inferred specifications. Record the actual settings used during this session.
+Do not replace unknowns with inferred specifications. The record was published on 29 August 2026 as an archival observation with these fields explicitly unrecorded. Repeat captures remain required before confirming speed or using distortion diagnostics for setup decisions.
+
+## Publication actions
+
+- [x] Date published — 29 August 2026
+- [x] Change status to `published`
+- [x] Change record version to `1.0.0`
+- [x] Update CSV index
+- [x] Regenerate checksums

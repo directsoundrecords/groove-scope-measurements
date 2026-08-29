@@ -30,6 +30,8 @@ A final public record should identify the turntable, tonearm, cartridge/stylus, 
 
 When information is genuinely unavailable, use `not_recorded`. Never infer a model or setting merely because it seems likely.
 
+Historical captures made before this publication policy was established may be published as archival observations when unavailable fields are explicitly recorded as `not_recorded`, the source report and provenance are preserved, and the record clearly limits any result that requires repetition or missing context. Such publication makes the observation citable; it does not upgrade incomplete diagnostics into reference-quality evidence.
+
 ## Repetition and interpretation
 
 Speed and rotational-stability results may be stable within a capture, while channel-specific distortion, harmonic, balance, and directional crosstalk measurements can vary. The classification supplied by Groove Scope must be retained in the record, and variable diagnostics should be repeated before mechanical adjustment.
