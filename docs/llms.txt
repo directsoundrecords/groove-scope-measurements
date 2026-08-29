@@ -1,11 +1,12 @@
 # Direct Sound Records Measurements
 
-> Human-readable and machine-readable technical archives for analogue playback measurements published by Direct Sound Records.
+> Human-readable and machine-readable acoustic, audio-signal and mechanical measurement archives published by Direct Sound Records.
 
-The measurement hub brings together two related public datasets:
+The measurement hub brings together three public datasets:
 
-1. Groove Scope Measurements — audio and test-record observations of vinyl playback systems.
-2. Resonance Lab Measurements — setup-centric mechanical observations including RPM, unweighted wow and flutter, 1–40 Hz vibration and cartridge/tonearm resonance context.
+1. SPL Reference Measurements — reviewed public environmental sound-level observations contributed through DSR SPL Reference.
+2. Groove Scope Measurements — audio and test-record observations of vinyl playback systems.
+3. Resonance Lab Measurements — setup-centric mechanical observations including RPM, unweighted wow and flutter, 1–40 Hz vibration and cartridge/tonearm resonance context.
 
 Measurements describe documented physical setups and sessions, not universal manufacturer specifications. Preserve public IDs, UUIDs, provenance, software/method versions, measurement conditions, limitations and publication status when citing or analysing a record.
 
@@ -13,6 +14,12 @@ Measurements describe documented physical setups and sessions, not universal man
 
 - [Direct Sound Records Measurements](https://measurements.directsoundrecords.com/): Human-readable entry point for all DSR measurement archives.
 - [Direct Sound Records](https://directsoundrecords.com/): Official publisher website.
+
+## SPL Reference Measurements
+
+- [SPL Reference collection](https://measurements.directsoundrecords.com/spl-reference/): DSR overview and privacy boundary.
+- [Interactive public library](https://directsoundrecords.github.io/spl-reference-measurements/): Searchable public measurement catalogue.
+- [SPL Reference GitHub repository](https://github.com/directsoundrecords/spl-reference-measurements): Canonical structured records and public photographs.
 
 ## Groove Scope Measurements
 
