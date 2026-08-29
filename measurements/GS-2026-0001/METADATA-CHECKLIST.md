@@ -1,6 +1,6 @@
 # Metadata completion checklist for GS-2026-0001
 
-Complete this list before changing the record from `draft` to `published`.
+The record was published on 29 August 2026 as an archival observation. Unchecked fields were unavailable for the historical capture and remain explicitly `not_recorded`; they continue to limit comparison and interpretation.
 
 - [x] Turntable manufacturer and model — Rega P3
 - [x] External turntable power supply — Rega Neo PSU MK2
@@ -23,8 +23,8 @@ Complete this list before changing the record from `draft` to `published`.
 - [ ] Groove Scope analysis-method version
 - [ ] Number of repeated captures
 - [ ] Measurement city/country and timezone
-- [ ] Date published
-- [ ] Change status to `published`
-- [ ] Change record version to `1.0.0`
-- [ ] Update CSV index
-- [ ] Regenerate checksums
+- [x] Date published — 29 August 2026
+- [x] Change status to `published`
+- [x] Change record version to `1.0.0`
+- [x] Update CSV index
+- [x] Regenerate checksums

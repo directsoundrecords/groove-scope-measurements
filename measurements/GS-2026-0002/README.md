@@ -4,7 +4,7 @@
 
 This record documents a 1 kHz vinyl playback reference check of a **Thorens TD160 Super**, **SME III** tonearm, **Ortofon OM10** cartridge, and **Perreaux EP2** phono preamplifier.
 
-> **Publication status:** Draft — the main playback components are identified, but test-record details, setup settings, capture format, Groove Scope version, and analysis-method version still need confirmation. The report also labels its distortion diagnostics as variable.
+> **Publication status:** Published as an archival observation on 29 August 2026. Unavailable fields remain explicitly marked `not_recorded`. The source report labels its distortion diagnostics as variable, so those figures are preserved for provenance but are not suitable for setup decisions.
 
 ## Identity and provenance
 
@@ -67,7 +67,7 @@ For that reason, these distortion and harmonic values are preserved for provenan
 
 The measurement indicates that playback speed was fast by 2.41%. The report recommends confirming the speed result with another valid capture before correcting the deck and repeating the capture before relying on distortion-related diagnostics.
 
-## Missing metadata required before final publication
+## Unavailable metadata and publication limitations
 
 - Test record, edition, track, nominal frequency, and record condition
 - Cartridge stylus identification and approximate hours
@@ -77,6 +77,8 @@ The measurement indicates that playback speed was fast by 2.41%. The report reco
 - Device, operating system, sample rate, bit depth, and channel routing
 - Groove Scope application version and analysis-method version
 - Measurement location and timezone at city/country level only
+
+Publication makes this historical capture citable while preserving its limits. A repeat capture is still required before confirming the speed result or using distortion-related diagnostics for comparison or adjustment.
 
 ## Files and verification
 
