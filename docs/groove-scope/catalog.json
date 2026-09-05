@@ -9,7 +9,7 @@
       "date": "2026-09-05",
       "status": "draft",
       "hero_image": "assets/GS-2026-0003/web/hero-2400.webp",
-      "summary": "Near-nominal speed measurement with four L/R rotation-fingerprint views and an explicit harmonic-repeat recommendation.",
+      "summary": "Near-nominal speed measurement with four L/R rotation-fingerprint views and an informative baseline for repeat comparison.",
       "primary_metrics": {"playback_rpm": 33.34, "speed_error_percent": 0.02, "din_shaped_wow_flutter_percent": 0.03, "average_separation_db": 31.8},
       "measurement_url": "measurements/GS-2026-0003.html",
       "provenance_label": "DSR measurement session; sample ownership not recorded"

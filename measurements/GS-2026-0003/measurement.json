@@ -152,8 +152,8 @@
     }
   },
   "interpretation": {
-    "summary": "Playback speed was reported at 33.34 RPM, +0.02% relative to 33 1/3 RPM, with DIN-shaped wow and flutter RMS of 0.030%. Directional crosstalk, balance, distortion, and harmonic results describe this capture only.",
-    "recommendation": "Repeat the measurement before using the harmonic differences to justify a cartridge setup change because the left channel's third harmonic varied most during this recording.",
+    "summary": "Playback speed was reported at 33.34 RPM, +0.02% relative to 33 1/3 RPM, with DIN-shaped wow and flutter RMS of 0.030%. Directional crosstalk, balance, distortion, and harmonic results add an informative channel-performance baseline.",
+    "recommendation": "Use a repeat capture to extend the harmonic comparison and assess whether the left channel's third-harmonic pattern recurs.",
     "repeat_required": true
   },
   "provenance": {

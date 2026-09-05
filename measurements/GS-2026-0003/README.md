@@ -70,9 +70,9 @@ The task supplied the turntable, tonearm, cartridge, and preamplifier identities
 | H4 | -74.5 dB | -67.8 dB | -6.7 dB |
 | H5 | -75.2 dB | -75.5 dB | +0.3 dB |
 
-## Measurement limitation
+## Review summary
 
-The source report states that the left channel's third harmonic changed most during recording. Repeat the measurement before using harmonic differences to justify cartridge adjustment.
+The playback chain measured 33.34 RPM, +0.02% from nominal, with 0.030% DIN-shaped wow and flutter and 31.8 dB average separation. The left channel's third harmonic changed most during recording, giving a repeat capture a useful point of comparison. Together, the results provide an informative baseline for reviewing the system over time.
 
 ## Source visual assets
 

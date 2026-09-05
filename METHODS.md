@@ -36,6 +36,12 @@ Published pages show verified hardware in signal order on one continuous horizon
 
 Include a preamplifier or phono stage only when its identity is explicitly supplied or present in the source evidence. If a different measurement method bypasses that component, or its identity is not verified, omit the component from the visual chain rather than inventing a placeholder. The same rule applies to every optional stage, so future chains may contain different numbers of elements without changing the presentation pattern.
 
+## Editorial review summaries
+
+Every measurement page should use its highlighted editorial panel to summarise the review, not to lead with a warning or defensive disclaimer. Begin with the strongest relevant measured outcomes, explain what the combined evidence says about the playback chain, and give the reader a constructive next comparison when the data contains variation or tension.
+
+Keep the tone positive, neutral, and evidence-led. Do not hide contradictions, reliability classifications, or missing context; retain those details in the technical record and diagnostic labels. In the review summary, present them as useful context or an opportunity to extend the measurement rather than as a reason to dismiss the result. Avoid unsupported product claims, rankings, or audibility conclusions.
+
 ## Repetition and interpretation
 
 Speed and rotational-stability results may be stable within a capture, while channel-specific distortion, harmonic, balance, and directional crosstalk measurements can vary. The classification supplied by Groove Scope must be retained in the record, and variable diagnostics should be repeated before mechanical adjustment.
