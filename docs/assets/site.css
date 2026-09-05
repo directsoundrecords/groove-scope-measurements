@@ -182,3 +182,7 @@ a:focus-visible{outline:2px solid var(--copper);outline-offset:4px;border-radius
 .complete-results th:first-child{width:40%}
 .complete-results tbody th{font-size:inherit;font-weight:400;text-transform:none;letter-spacing:normal}
 @media(max-width:600px){.complete-results th,.complete-results td{padding:12px 10px;overflow-wrap:anywhere}.complete-results th:first-child{width:43%}}
+
+/* Allow the full measurements brand and home link to wrap on small screens. */
+.measurement-detail .detail-site-header .site-nav{flex-wrap:wrap}
+.measurement-detail .brand-mark{flex-shrink:0}
