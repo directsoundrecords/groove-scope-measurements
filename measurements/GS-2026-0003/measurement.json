@@ -2,7 +2,7 @@
   "$schema": "../../data/schema/measurement.schema.json",
   "schema_version": "1.0.0",
   "measurement_id": "GS-2026-0003",
-  "record_version": "0.9.1",
+  "record_version": "0.9.2",
   "publication_status": "draft",
   "title": "Audio-Technica AT-OC9XML — Rega P3 / Rega RB330 / Audio Research SP20 — 1 kHz Reference Check",
   "source_report_title": "Rega P3 EVO4 2",
@@ -152,7 +152,7 @@
     }
   },
   "interpretation": {
-    "summary": "Playback speed was reported at 33.34 RPM, +0.02% relative to 33 1/3 RPM, with DIN-shaped wow and flutter RMS of 0.030%. Directional crosstalk, balance, distortion, and harmonic results add an informative channel-performance baseline.",
+    "summary": "The AT-OC9XML achieved 31.8 dB average separation at 1 kHz, 4.8 dB above Audio-Technica's published 27 dB figure, while its measured 0.24 dB channel-balance magnitude sat inside the published 1.0 dB specification. Playback speed was 33.34 RPM (+0.02%) with DIN-shaped wow and flutter RMS of 0.030%.",
     "recommendation": "Use a repeat capture to extend the harmonic comparison and assess whether the left channel's third-harmonic pattern recurs.",
     "repeat_required": true
   },

@@ -72,7 +72,7 @@ The task supplied the turntable, tonearm, cartridge, and preamplifier identities
 
 ## Review summary
 
-The playback chain measured 33.34 RPM, +0.02% from nominal, with 0.030% DIN-shaped wow and flutter and 31.8 dB average separation. The left channel's third harmonic changed most during recording, giving a repeat capture a useful point of comparison. Together, the results provide an informative baseline for reviewing the system over time.
+The AT-OC9XML delivered 31.8 dB average separation at 1 kHz, 4.8 dB above [Audio-Technica's published 27 dB figure](https://docs.audio-technica.com/us/at_oc9xml_um.pdf). Its measured 0.24 dB channel-balance magnitude also sits comfortably inside the manufacturer's 1.0 dB specification. The Rega P3 measured 33.34 RPM (+0.02%) with 0.030% DIN-shaped wow and flutter. THD measured 0.29% left and 0.37% right; the moving left-channel H3 pattern is the focused comparison point for a repeat capture.
 
 ## Source visual assets
 

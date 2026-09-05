@@ -42,6 +42,8 @@ Every measurement page should use its highlighted editorial panel to summarise t
 
 Keep the tone positive, neutral, and evidence-led. Do not hide contradictions, reliability classifications, or missing context; retain those details in the technical record and diagnostic labels. In the review summary, present them as useful context or an opportunity to extend the measurement rather than as a reason to dismiss the result. Avoid unsupported product claims, rankings, or audibility conclusions.
 
+When a review compares a measured result with an external benchmark, use a primary source such as the manufacturer's current manual or an applicable published standard and link it directly. Compare the same metric, frequency, unit, and channel convention. Name the component most clearly illuminated by the result—for example, cartridge separation and output balance—while identifying the value as an in-system measurement when the full playback chain contributes to it.
+
 ## Repetition and interpretation
 
 Speed and rotational-stability results may be stable within a capture, while channel-specific distortion, harmonic, balance, and directional crosstalk measurements can vary. The classification supplied by Groove Scope must be retained in the record, and variable diagnostics should be repeated before mechanical adjustment.
