@@ -2,9 +2,9 @@
   "$schema": "../../data/schema/measurement.schema.json",
   "schema_version": "1.0.0",
   "measurement_id": "GS-2026-0003",
-  "record_version": "0.9.0",
+  "record_version": "0.9.1",
   "publication_status": "draft",
-  "title": "Audio-Technica AT-OC9XML — Rega P3 / Rega RB330 — 1 kHz Reference Check",
+  "title": "Audio-Technica AT-OC9XML — Rega P3 / Rega RB330 / Audio Research SP20 — 1 kHz Reference Check",
   "source_report_title": "Rega P3 EVO4 2",
   "slug": "gs-2026-0003-audio-technica-at-oc9xml-rega-p3-rb330-1-khz-reference-check",
   "language": "en",
@@ -59,7 +59,7 @@
     "alignment_geometry": "not_recorded",
     "azimuth_setting": "not_recorded",
     "vta_or_sra_setting": "not_recorded",
-    "phono_stage": "not_recorded",
+    "phono_stage": "Audio Research SP20",
     "phono_gain_db": "not_recorded",
     "cartridge_loading": "not_recorded",
     "test_record": "not_recorded",
@@ -165,11 +165,11 @@
     "sample_ownership": "not_recorded",
     "known_limitations": [
       "The report recommends repetition before changing cartridge setup because the left channel's third harmonic changed most during recording.",
-      "The phono stage, cartridge loading, tracking force, anti-skate, test-record edition and track, capture format, application version, and analysis-method version were not recorded in the supplied report.",
+      "The phono-stage gain, cartridge loading, tracking force, anti-skate, test-record edition and track, capture format, application version, and analysis-method version were not recorded in the supplied report.",
       "The sample ID, ownership, measurement location, and timezone were not recorded.",
       "This is a single-session observation."
     ],
-    "setup_metadata_source": "Turntable, tonearm, cartridge, and input-interface identification were supplied with the task. Numeric results were transcribed from report.pdf. No absent setup value was inferred from another measurement."
+    "setup_metadata_source": "Turntable, tonearm, cartridge, Audio Research SP20 preamplifier, and input-interface identification were supplied with the task. Numeric results were transcribed from report.pdf. No absent setup value was inferred from another measurement."
   },
   "files": {
     "human_readable_record": "README.md",
@@ -202,6 +202,7 @@
     "Rega P3",
     "Rega RB330",
     "Audio-Technica AT-OC9XML",
+    "Audio Research SP20",
     "EVO4"
   ]
 }

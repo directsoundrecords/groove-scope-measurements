@@ -1,8 +1,8 @@
-# GS-2026-0003 — Audio-Technica AT-OC9XML / Rega P3 / Rega RB330
+# GS-2026-0003 — Audio-Technica AT-OC9XML / Rega P3 / Rega RB330 / Audio Research SP20
 
 **Groove Scope Measurement GS-2026-0003 was conducted by Michelangelo Canonico for Direct Sound Records using Groove Scope.**
 
-This record documents a 1 kHz vinyl playback reference check of a Rega P3, Rega RB330 tonearm, Audio-Technica AT-OC9XML cartridge, and EVO4 input. It preserves the source report, the supplied measurement photograph, and eight app-generated rotation-fingerprint images.
+This record documents a 1 kHz vinyl playback reference check of a Rega P3, Rega RB330 tonearm, Audio-Technica AT-OC9XML cartridge, Audio Research SP20 preamplifier, and EVO4 input. It preserves the source report, the supplied measurement photograph, and eight app-generated rotation-fingerprint images.
 
 > **Publication status:** Draft — the primary report is preserved and transcribed, but setup, capture, sample, location, and software-version metadata remain incomplete. The report recommends repeating the measurement before using harmonic differences to justify cartridge adjustment.
 
@@ -29,9 +29,10 @@ This record documents a 1 kHz vinyl playback reference check of a Rega P3, Rega 
 | Turntable | Rega P3 |
 | Tonearm | Rega RB330 |
 | Cartridge | Audio-Technica AT-OC9XML |
+| Preamplifier | Audio Research SP20 |
 | Input interface label | EVO4 |
 
-The task supplied these component identities. The report supplies the EVO4 input label and the numeric results. No phono stage, cartridge-loading value, test-record detail, tracking force, anti-skate setting, sample rate, or bit depth has been inferred.
+The task supplied the turntable, tonearm, cartridge, and preamplifier identities. The report supplies the EVO4 input label and the numeric results. No phono gain, cartridge-loading value, test-record detail, tracking force, anti-skate setting, sample rate, or bit depth has been inferred.
 
 ## Primary results
 
@@ -80,7 +81,7 @@ The exact supplied originals are preserved under [`assets/source/`](assets/sourc
 ## Missing metadata required before final publication
 
 - Sample ID and sample ownership or loan status
-- Phono stage, gain, and cartridge loading
+- Phono-stage gain and cartridge loading
 - Tracking force, anti-skate, alignment, azimuth, and VTA/SRA settings
 - Test record, edition, track, and condition
 - Audio interface model confirmation and gain settings
@@ -98,4 +99,4 @@ The exact supplied originals are preserved under [`assets/source/`](assets/sourc
 
 ## Recommended citation
 
-Canonico, Michelangelo. “GS-2026-0003 — Audio-Technica AT-OC9XML / Rega P3 / Rega RB330 — 1 kHz Reference Check.” *Groove Scope Measurements*. Direct Sound Records, 2026. Measurement made with Groove Scope.
+Canonico, Michelangelo. “GS-2026-0003 — Audio-Technica AT-OC9XML / Rega P3 / Rega RB330 / Audio Research SP20 — 1 kHz Reference Check.” *Groove Scope Measurements*. Direct Sound Records, 2026. Measurement made with Groove Scope.

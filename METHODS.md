@@ -30,6 +30,12 @@ A final public record should identify the turntable, tonearm, cartridge/stylus, 
 
 When information is genuinely unavailable, use `not_recorded`. Never infer a model or setting merely because it seems likely.
 
+## Measurement-chain presentation
+
+Published pages show verified hardware in signal order on one continuous horizontal line. On narrow screens, the line remains intact and becomes horizontally scrollable rather than wrapping into rows.
+
+Include a preamplifier or phono stage only when its identity is explicitly supplied or present in the source evidence. If a different measurement method bypasses that component, or its identity is not verified, omit the component from the visual chain rather than inventing a placeholder. The same rule applies to every optional stage, so future chains may contain different numbers of elements without changing the presentation pattern.
+
 ## Repetition and interpretation
 
 Speed and rotational-stability results may be stable within a capture, while channel-specific distortion, harmonic, balance, and directional crosstalk measurements can vary. The classification supplied by Groove Scope must be retained in the record, and variable diagnostics should be repeated before mechanical adjustment.

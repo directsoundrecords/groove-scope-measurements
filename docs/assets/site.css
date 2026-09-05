@@ -119,8 +119,8 @@ a:focus-visible{outline:2px solid var(--copper);outline-offset:4px;border-radius
 .limitation-panel,.provenance-panel{border:1px solid rgba(216,145,75,.45);border-radius:20px;padding:clamp(24px,4vw,40px);background:linear-gradient(135deg,rgba(216,145,75,.105),rgba(21,28,36,.92) 52%)}
 .limitation-panel h2,.provenance-panel h2{font-size:clamp(1.5rem,3vw,2.2rem);margin:0 0 10px;letter-spacing:-.025em}
 .limitation-panel p,.provenance-panel p{color:#c8c1b8;max-width:860px;margin:0}
-.measurement-chain{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));border:1px solid var(--line);border-radius:19px;overflow:hidden;background:var(--line);gap:1px}
-.measurement-chain div{background:var(--panel);padding:20px}
+.measurement-chain{display:grid;grid-auto-flow:column;grid-auto-columns:minmax(190px,1fr);overflow-x:auto;overscroll-behavior-inline:contain;scrollbar-width:thin;border:1px solid var(--line);border-radius:19px;background:var(--line);gap:1px}
+.measurement-chain div{min-width:0;background:var(--panel);padding:20px}
 .measurement-chain dt{color:var(--copper);font-size:.68rem;font-weight:800;letter-spacing:.1em;text-transform:uppercase}
 .measurement-chain dd{font-size:1rem;font-weight:710;margin:7px 0 0}
 .measurement-chain dd small{display:block;color:var(--muted);font-weight:520;margin-top:4px}
@@ -142,7 +142,6 @@ a:focus-visible{outline:2px solid var(--copper);outline-offset:4px;border-radius
 @media(max-width:1050px){
   .metric-summary{grid-template-columns:repeat(3,minmax(0,1fr))}
   .fingerprint-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
-  .measurement-chain{grid-template-columns:repeat(3,minmax(0,1fr))}
   .technical-record{grid-template-columns:repeat(3,minmax(0,1fr))}
 }
 @media(max-width:760px){
@@ -159,7 +158,6 @@ a:focus-visible{outline:2px solid var(--copper);outline-offset:4px;border-radius
   .fingerprint-grid{display:flex;overflow-x:auto;contain:layout paint;scroll-snap-type:x mandatory;scrollbar-width:thin;margin-inline:-15px;padding:0 15px 12px;overscroll-behavior-inline:contain}
   .fingerprint-card{flex:0 0 min(82vw,360px);scroll-snap-align:center}
   .story-grid{grid-template-columns:1fr;gap:52px}
-  .measurement-chain{grid-template-columns:repeat(2,minmax(0,1fr))}
   .technical-record{grid-template-columns:repeat(2,minmax(0,1fr))}
 }
 @media(max-width:430px){
@@ -173,7 +171,6 @@ a:focus-visible{outline:2px solid var(--copper);outline-offset:4px;border-radius
   .metric-item dd{margin:0;text-align:right}
   .metric-item small{grid-column:1/-1;margin:0}
   .fingerprint-card{flex-basis:88vw}
-  .measurement-chain{grid-template-columns:1fr}
   .technical-record{grid-template-columns:1fr}
   .technical-action{min-height:96px}
 }

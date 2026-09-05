@@ -10,7 +10,7 @@ This repository is the public measurement archive for **Groove Scope**, a vinyl 
 
 | ID | Date | Measurement | Status | Report | Structured data |
 |---|---:|---|---|---|---|
-| [GS-2026-0003](measurements/GS-2026-0003/README.md) | 2026-09-05 | Audio-Technica AT-OC9XML / Rega P3 / Rega RB330 — 1 kHz Reference Check | Draft — metadata completion and harmonic repeat required | [PDF](measurements/GS-2026-0003/report.pdf) | [JSON](measurements/GS-2026-0003/measurement.json) |
+| [GS-2026-0003](measurements/GS-2026-0003/README.md) | 2026-09-05 | Audio-Technica AT-OC9XML / Rega P3 / Rega RB330 / Audio Research SP20 — 1 kHz Reference Check | Draft — metadata completion and harmonic repeat required | [PDF](measurements/GS-2026-0003/report.pdf) | [JSON](measurements/GS-2026-0003/measurement.json) |
 
 The numerical results are transcribed from the original Groove Scope report. Several setup fields were not stored in the report and are intentionally marked `not_recorded`; they must not be guessed.
 
