@@ -1,0 +1,207 @@
+{
+  "$schema": "../../data/schema/measurement.schema.json",
+  "schema_version": "1.0.0",
+  "measurement_id": "GS-2026-0003",
+  "record_version": "0.9.0",
+  "publication_status": "draft",
+  "title": "Audio-Technica AT-OC9XML — Rega P3 / Rega RB330 — 1 kHz Reference Check",
+  "source_report_title": "Rega P3 EVO4 2",
+  "slug": "gs-2026-0003-audio-technica-at-oc9xml-rega-p3-rb330-1-khz-reference-check",
+  "language": "en",
+  "measurement_datetime_local": "2026-09-05T10:01:00",
+  "measurement_timezone": "not_recorded",
+  "date_published": null,
+  "sample_id": "not_recorded",
+  "creator": {
+    "name": "Michelangelo Canonico",
+    "role": "Creator and lead measurer",
+    "affiliation": "Direct Sound Records"
+  },
+  "publisher": {
+    "name": "Direct Sound Records",
+    "url": "https://directsoundrecords.com/",
+    "location_label": "London–Rome"
+  },
+  "software": {
+    "name": "Groove Scope",
+    "report_generator_label": "Groove Scope Reference",
+    "application_version": "not_recorded",
+    "analysis_method_version": "not_recorded",
+    "platform": "not_recorded",
+    "developer": "Michelangelo Canonico / Direct Sound Records"
+  },
+  "related_applications": [
+    {
+      "name": "Resonance Lab",
+      "relationship": "Companion application for tonearm and cartridge resonance planning",
+      "url": "https://directsoundrecords.com/resonance-lab/"
+    }
+  ],
+  "measurement_type": "1 kHz Reference Check",
+  "measurement_scope": [
+    "playback speed",
+    "rotational stability",
+    "DIN-shaped wow and flutter",
+    "channel balance",
+    "electrical crosstalk",
+    "distortion diagnostics",
+    "harmonic profile",
+    "rotation fingerprints"
+  ],
+  "setup": {
+    "turntable": "Rega P3",
+    "tonearm": "Rega RB330",
+    "cartridge": "Audio-Technica AT-OC9XML",
+    "stylus": "not_recorded",
+    "cartridge_hours": "not_recorded",
+    "vertical_tracking_force_g": "not_recorded",
+    "anti_skate_setting": "not_recorded",
+    "alignment_geometry": "not_recorded",
+    "azimuth_setting": "not_recorded",
+    "vta_or_sra_setting": "not_recorded",
+    "phono_stage": "not_recorded",
+    "phono_gain_db": "not_recorded",
+    "cartridge_loading": "not_recorded",
+    "test_record": "not_recorded",
+    "test_record_track": "not_recorded",
+    "test_record_condition": "not_recorded",
+    "nominal_test_tone_hz": 1000,
+    "audio_interface_reported_label": "EVO4",
+    "audio_interface_full_model": "not_confirmed",
+    "interface_gain_settings": "not_recorded",
+    "sample_rate_hz": "not_recorded",
+    "bit_depth": "not_recorded",
+    "capture_device": "not_recorded",
+    "channel_routing": "not_recorded",
+    "measurement_location": "not_recorded"
+  },
+  "results": {
+    "playback_rpm": {
+      "value": 33.34,
+      "classification": "primary",
+      "condition": "under_stylus_load"
+    },
+    "playback_speed_error_percent": {
+      "value": 0.02,
+      "classification": "primary",
+      "direction": "fast"
+    },
+    "settled_rpm": {
+      "minimum": 33.26,
+      "maximum": 33.42,
+      "span": 0.16,
+      "classification": "primary"
+    },
+    "din_shaped_wow_flutter_percent": {
+      "value": 0.03,
+      "classification": "primary"
+    },
+    "raw_speed_variation_percent": {
+      "rms_plus_minus": 0.144,
+      "two_sigma_plus_minus": 0.287,
+      "classification": "unweighted_diagnostic"
+    },
+    "raw_wow_flutter_percent": {
+      "wow_rms": 0.14,
+      "flutter_rms": 0.033,
+      "classification": "unweighted_diagnostic"
+    },
+    "channel_balance_db": {
+      "value": -0.24,
+      "classification": "diagnostic_only"
+    },
+    "crosstalk_1khz_db": {
+      "average_separation": 31.8,
+      "left_to_right": -30.2,
+      "right_to_left": -33.5,
+      "directional_difference": 3.27,
+      "classification": "supporting_repeat_directional_values"
+    },
+    "thd_percent": {
+      "left": 0.29,
+      "right": 0.37,
+      "left_minus_right_percentage_points": -0.07,
+      "classification": "diagnostic_repeat_before_setup_change"
+    },
+    "harmonic_profile_db": {
+      "h2": {
+        "left": -50.8,
+        "right": -49.0,
+        "left_minus_right": -1.8
+      },
+      "h3": {
+        "left": -68.1,
+        "right": -63.3,
+        "left_minus_right": -4.8
+      },
+      "h4": {
+        "left": -74.5,
+        "right": -67.8,
+        "left_minus_right": -6.7
+      },
+      "h5": {
+        "left": -75.2,
+        "right": -75.5,
+        "left_minus_right": 0.3
+      },
+      "classification": "diagnostic_repeat_before_setup_change"
+    },
+    "harmonic_reliability": {
+      "classification": "repeat_recommended",
+      "quality_note": "The left channel's third harmonic changed most during recording. Repeat before changing the cartridge setup."
+    }
+  },
+  "interpretation": {
+    "summary": "Playback speed was reported at 33.34 RPM, +0.02% relative to 33 1/3 RPM, with DIN-shaped wow and flutter RMS of 0.030%. Directional crosstalk, balance, distortion, and harmonic results describe this capture only.",
+    "recommendation": "Repeat the measurement before using the harmonic differences to justify a cartridge setup change because the left channel's third harmonic varied most during this recording.",
+    "repeat_required": true
+  },
+  "provenance": {
+    "source_type": "Groove Scope generated PDF report",
+    "source_file": "report.pdf",
+    "data_entry_method": "Values transcribed from the source report and independently represented as structured JSON",
+    "raw_audio_published": false,
+    "raw_audio_note": "No raw test-record audio is included in this record.",
+    "sample_ownership": "not_recorded",
+    "known_limitations": [
+      "The report recommends repetition before changing cartridge setup because the left channel's third harmonic changed most during recording.",
+      "The phono stage, cartridge loading, tracking force, anti-skate, test-record edition and track, capture format, application version, and analysis-method version were not recorded in the supplied report.",
+      "The sample ID, ownership, measurement location, and timezone were not recorded.",
+      "This is a single-session observation."
+    ],
+    "setup_metadata_source": "Turntable, tonearm, cartridge, and input-interface identification were supplied with the task. Numeric results were transcribed from report.pdf. No absent setup value was inferred from another measurement."
+  },
+  "files": {
+    "human_readable_record": "README.md",
+    "source_report": "report.pdf",
+    "checksums": "checksums.sha256",
+    "source_hero": "assets/source/hero-original.heic",
+    "rotation_fingerprints": [
+      "assets/source/harmonic-distortion-left.png",
+      "assets/source/harmonic-distortion-right.png",
+      "assets/source/opposite-channel-leakage-left.png",
+      "assets/source/opposite-channel-leakage-right.png",
+      "assets/source/level-modulation-left.png",
+      "assets/source/level-modulation-right.png",
+      "assets/source/speed-deviation-left.png",
+      "assets/source/speed-deviation-right.png"
+    ]
+  },
+  "license": "CC-BY-4.0",
+  "keywords": [
+    "Groove Scope",
+    "Direct Sound Records",
+    "Michelangelo Canonico",
+    "vinyl measurement",
+    "turntable speed",
+    "wow and flutter",
+    "cartridge crosstalk",
+    "vinyl distortion",
+    "rotation fingerprint",
+    "1 kHz reference check",
+    "Rega P3",
+    "Rega RB330",
+    "Audio-Technica AT-OC9XML",
+    "EVO4"
+  ]
+}
