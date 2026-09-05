@@ -12,7 +12,8 @@ Complete only from verified source information. Do not infer values from another
 - [ ] Sample ownership or loan provenance
 - [ ] Measurement timezone and location
 - [ ] Phono-stage gain and cartridge loading
-- [ ] Tracking force, anti-skate, alignment, azimuth, and VTA/SRA
+- [x] Tracking force measured at 2 g; overhang checked; wall shelf confirmed
+- [ ] Anti-skate, alignment geometry and overhang distance, azimuth, and VTA/SRA
 - [ ] Test record, edition, track, and condition
 - [ ] Interface model confirmation and gain settings
 - [ ] Capture device, sample rate, bit depth, and channel routing

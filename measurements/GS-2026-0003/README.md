@@ -31,8 +31,11 @@ This record documents a 1 kHz vinyl playback reference check of a Rega P3, Rega 
 | Cartridge | Audio-Technica AT-OC9XML |
 | Preamplifier | Audio Research SP20 |
 | Input interface label | EVO4 |
+| Measured tracking force | 2 g |
+| Overhang | Checked and confirmed correctly aligned by the measurer |
+| Turntable support | Wall shelf |
 
-The task supplied the turntable, tonearm, cartridge, and preamplifier identities. The report supplies the EVO4 input label and the numeric results. No phono gain, cartridge-loading value, test-record detail, tracking force, anti-skate setting, sample rate, or bit depth has been inferred.
+The task supplied the turntable, tonearm, cartridge, and preamplifier identities. The report supplies the EVO4 input label and the numeric results. No phono gain, cartridge-loading value, test-record detail, anti-skate setting, sample rate, or bit depth has been inferred.
 
 ## Primary results
 
@@ -100,3 +103,7 @@ The exact supplied originals are preserved under [`assets/source/`](assets/sourc
 ## Recommended citation
 
 Canonico, Michelangelo. “GS-2026-0003 — Audio-Technica AT-OC9XML / Rega P3 / Rega RB330 / Audio Research SP20 — 1 kHz Reference Check.” *Groove Scope Measurements*. Direct Sound Records, 2026. Measurement made with Groove Scope.
+
+### Setup and presentation update (record 0.9.3)
+
+The measurer confirmed 2 g tracking force, correctly aligned overhang and a wall shelf for this session. Alignment geometry and overhang distance remain unrecorded. The website omits the left THD resolution-label strip through an SVG viewport layout; the archived source screenshot and all plot pixels are preserved. The results table now includes every numeric result in the structured record.

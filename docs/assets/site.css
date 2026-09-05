@@ -174,3 +174,11 @@ a:focus-visible{outline:2px solid var(--copper);outline-offset:4px;border-radius
   .technical-record{grid-template-columns:1fr}
   .technical-action{min-height:96px}
 }
+
+/* GS-2026-0003: equal evidence viewports across metrics and channel toggles. */
+.aligned-fingerprints .fingerprint-media{aspect-ratio:760 / 1260}
+.aligned-fingerprints .profile-image{width:100%;height:100%;object-fit:fill}
+.complete-results{min-width:0;table-layout:fixed}
+.complete-results th:first-child{width:40%}
+.complete-results tbody th{font-size:inherit;font-weight:400;text-transform:none;letter-spacing:normal}
+@media(max-width:600px){.complete-results th,.complete-results td{padding:12px 10px;overflow-wrap:anywhere}.complete-results th:first-child{width:43%}}

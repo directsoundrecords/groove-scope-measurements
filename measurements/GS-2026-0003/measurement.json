@@ -2,7 +2,7 @@
   "$schema": "../../data/schema/measurement.schema.json",
   "schema_version": "1.0.0",
   "measurement_id": "GS-2026-0003",
-  "record_version": "0.9.2",
+  "record_version": "0.9.3",
   "publication_status": "draft",
   "title": "Audio-Technica AT-OC9XML — Rega P3 / Rega RB330 / Audio Research SP20 — 1 kHz Reference Check",
   "source_report_title": "Rega P3 EVO4 2",
@@ -54,7 +54,7 @@
     "cartridge": "Audio-Technica AT-OC9XML",
     "stylus": "not_recorded",
     "cartridge_hours": "not_recorded",
-    "vertical_tracking_force_g": "not_recorded",
+    "vertical_tracking_force_g": 2,
     "anti_skate_setting": "not_recorded",
     "alignment_geometry": "not_recorded",
     "azimuth_setting": "not_recorded",
@@ -73,7 +73,9 @@
     "bit_depth": "not_recorded",
     "capture_device": "not_recorded",
     "channel_routing": "not_recorded",
-    "measurement_location": "not_recorded"
+    "measurement_location": "not_recorded",
+    "overhang_check": "Checked and confirmed correctly aligned by the measurer",
+    "turntable_support": "Wall shelf"
   },
   "results": {
     "playback_rpm": {
@@ -165,11 +167,11 @@
     "sample_ownership": "not_recorded",
     "known_limitations": [
       "The report recommends repetition before changing cartridge setup because the left channel's third harmonic changed most during recording.",
-      "The phono-stage gain, cartridge loading, tracking force, anti-skate, test-record edition and track, capture format, application version, and analysis-method version were not recorded in the supplied report.",
+      "The phono-stage gain, cartridge loading, anti-skate, test-record edition and track, capture format, application version, and analysis-method version were not recorded in the supplied report.",
       "The sample ID, ownership, measurement location, and timezone were not recorded.",
       "This is a single-session observation."
     ],
-    "setup_metadata_source": "Turntable, tonearm, cartridge, Audio Research SP20 preamplifier, and input-interface identification were supplied with the task. Numeric results were transcribed from report.pdf. No absent setup value was inferred from another measurement."
+    "setup_metadata_source": "Turntable, tonearm, cartridge, Audio Research SP20 preamplifier, and input-interface identification were supplied with the task. Numeric results were transcribed from report.pdf. No absent setup value was inferred from another measurement. Follow-up details supplied by the measurer: tracking force measured at 2 g, overhang checked and confirmed correctly aligned, and turntable positioned on a wall shelf. Alignment geometry and overhang distance were not supplied."
   },
   "files": {
     "human_readable_record": "README.md",

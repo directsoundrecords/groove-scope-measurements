@@ -2,6 +2,12 @@
 
 All notable repository and measurement-record changes are documented here.
 
+## 1.1.3 — 2026-09-05
+
+- Updated GS-2026-0003 to 0.9.3 with measurer-confirmed 2 g tracking force, checked overhang and wall-shelf support.
+- Expanded the public results into a two-column table covering every recorded numeric measurement.
+- Rewrote the setup introduction and aligned fingerprint viewports, omitting the redundant left THD label while preserving original plot pixels and archived sources.
+
 ## 1.1.2 — 2026-09-05
 
 - Advanced GS-2026-0003 to record version 0.9.2 and refocused its review on the AT-OC9XML cartridge's measured separation and channel balance.
