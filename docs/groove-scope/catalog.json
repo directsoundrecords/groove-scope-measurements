@@ -13,30 +13,6 @@
       "primary_metrics": {"playback_rpm": 33.34, "speed_error_percent": 0.02, "din_shaped_wow_flutter_percent": 0.03, "average_separation_db": 31.8},
       "measurement_url": "measurements/GS-2026-0003.html",
       "provenance_label": "DSR measurement session; sample ownership not recorded"
-    },
-    {
-      "measurement_id": "GS-2026-0002",
-      "title": "Ortofon OM10 — Thorens TD160 Super / SME III — 1 kHz Reference Check",
-      "short_title": "Ortofon OM10 / Thorens TD160 Super",
-      "date": "2026-07-22",
-      "status": "draft",
-      "hero_image": "assets/GS-2026-0002/web/thorens-temporary-placeholder.webp",
-      "summary": "Fast playback result with variable distortion quality and a clearly labelled temporary editorial image.",
-      "primary_metrics": {"playback_rpm": 34.14, "speed_error_percent": 2.41, "din_shaped_wow_flutter_percent": 0.037, "average_separation_db": 26.8},
-      "measurement_url": "measurements/GS-2026-0002.html",
-      "provenance_label": "DSR measurement session; sample ownership not recorded"
-    },
-    {
-      "measurement_id": "GS-2026-0001",
-      "title": "Rega P3 / RB330 / Audio-Technica AT-OC9XML / Audio Research SP20 — 1 kHz Reference Check",
-      "short_title": "1 kHz Reference Check",
-      "date": "2026-07-12",
-      "status": "draft",
-      "hero_image": "assets/GS-2026-0001/web/report-page-1.webp",
-      "summary": "Historical first record with its original speed, channel and diagnostic values preserved.",
-      "primary_metrics": {"playback_rpm": 33.1, "speed_error_percent": -0.71, "din_weighted_wow_flutter_percent": 0.045, "average_separation_db": 30.4},
-      "measurement_url": "measurements/GS-2026-0001.html",
-      "provenance_label": "DSR measurement session; sample ownership not recorded"
     }
   ]
 }

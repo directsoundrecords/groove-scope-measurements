@@ -10,10 +10,9 @@ This repository is the public measurement archive for **Groove Scope**, a vinyl 
 
 | ID | Date | Measurement | Status | Report | Structured data |
 |---|---:|---|---|---|---|
-| [GS-2026-0001](measurements/GS-2026-0001/README.md) | 2026-07-12 | 1 kHz Reference Check | Draft — metadata completion required | [PDF](measurements/GS-2026-0001/report.pdf) | [JSON](measurements/GS-2026-0001/measurement.json) |
-| [GS-2026-0002](measurements/GS-2026-0002/README.md) | 2026-07-22 | Ortofon OM10 / Thorens TD160 Super / SME III — 1 kHz Reference Check | Draft — repeat capture and metadata completion required | [PDF](measurements/GS-2026-0002/report.pdf) | [JSON](measurements/GS-2026-0002/measurement.json) |
+| [GS-2026-0003](measurements/GS-2026-0003/README.md) | 2026-09-05 | Audio-Technica AT-OC9XML / Rega P3 / Rega RB330 — 1 kHz Reference Check | Draft — metadata completion and harmonic repeat required | [PDF](measurements/GS-2026-0003/report.pdf) | [JSON](measurements/GS-2026-0003/measurement.json) |
 
-The numerical results in GS-2026-0001 and GS-2026-0002 are transcribed from the original Groove Scope reports. Several setup fields were not stored in the report and are intentionally marked `not_recorded`; they must not be guessed.
+The numerical results are transcribed from the original Groove Scope report. Several setup fields were not stored in the report and are intentionally marked `not_recorded`; they must not be guessed.
 
 ## Why both Markdown and JSON?
 

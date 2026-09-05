@@ -1,6 +1,6 @@
 # GS-2026-0003 metadata checklist
 
-Complete only from verified source information. Do not infer values from GS-2026-0001 or from a similarly named playback chain.
+Complete only from verified source information. Do not infer values from another or similarly named playback chain.
 
 - [x] Measurement ID
 - [x] Local measurement date and time

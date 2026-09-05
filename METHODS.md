@@ -42,6 +42,6 @@ Raw audio is not included by default. Derived data, metadata, short visualisatio
 
 Corrections should be made through a documented commit. The commit message should name the measurement ID and the reason, for example:
 
-`Correct cartridge loading metadata for GS-2026-0001`
+`Correct cartridge loading metadata for GS-YYYY-NNNN`
 
 Numerical values transcribed from a report should only be changed when the source report was transcribed incorrectly. If the algorithm itself changes, preserve the original and publish a new analysis version.

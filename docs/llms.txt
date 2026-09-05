@@ -25,8 +25,6 @@ Measurements describe documented physical setups and sessions, not universal man
 
 - [Groove Scope archive](https://measurements.directsoundrecords.com/groove-scope/): Human-readable Groove Scope measurement index.
 - [Groove Scope GitHub repository](https://github.com/directsoundrecords/groove-scope-measurements): Versioned technical archive, schema, reports and structured data.
-- [GS-2026-0001](https://measurements.directsoundrecords.com/groove-scope/measurements/GS-2026-0001.html): 1 kHz reference check using Rega P3 / Rega RB330 / Audio-Technica AT-OC9XML.
-- [GS-2026-0002](https://measurements.directsoundrecords.com/groove-scope/measurements/GS-2026-0002.html): Thorens TD160 Super / SME III / Ortofon OM10 1 kHz reference check.
 - [GS-2026-0003](https://measurements.directsoundrecords.com/groove-scope/measurements/GS-2026-0003.html): Rega P3 / Rega RB330 / Audio-Technica AT-OC9XML 1 kHz reference check recorded on 5 September 2026, with eight channel-selectable rotation-fingerprint views.
 - [Groove Scope catalogue manifest](https://measurements.directsoundrecords.com/groove-scope/catalog.json): Static discovery data for the current measurement pages, status, hero assets and primary metrics.
 - [Groove Scope project page](https://directsoundrecords.com/groove-scope-measurements/): Editorial explanation and methodology context.
