@@ -32,7 +32,7 @@
       "short_title": "1 kHz Reference Check",
       "date": "2026-07-12",
       "status": "draft",
-      "hero_image": "assets/GS-2026-0001/web/social-card.svg",
+      "hero_image": "assets/GS-2026-0001/web/report-page-1.webp",
       "summary": "Historical first record with its original speed, channel and diagnostic values preserved.",
       "primary_metrics": {"playback_rpm": 33.1, "speed_error_percent": -0.71, "din_weighted_wow_flutter_percent": 0.045, "average_separation_db": 30.4},
       "measurement_url": "measurements/GS-2026-0001.html",
