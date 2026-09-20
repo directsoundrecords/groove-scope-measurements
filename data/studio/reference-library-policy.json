@@ -1,0 +1,10 @@
+{
+  "schema_version": "1.0.0",
+  "catalog_schema_version": "1.0.0",
+  "included_statuses": [
+    "draft",
+    "published"
+  ],
+  "base_url": "https://measurements.directsoundrecords.com",
+  "catalog_path": "/groove-scope/studio/catalog.json"
+}

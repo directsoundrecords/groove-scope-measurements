@@ -1,0 +1,243 @@
+{
+  "schema_version": "1.0.0",
+  "catalogue_version": "ba23b5ba1b4f1bd3",
+  "generated_at": "2026-09-20T14:04:36Z",
+  "catalogue_url": "https://measurements.directsoundrecords.com/groove-scope/studio/catalog.json",
+  "status_policy": {
+    "included_statuses": [
+      "draft",
+      "published"
+    ],
+    "excluded_statuses": [
+      "superseded",
+      "withdrawn"
+    ]
+  },
+  "measurement_count": 1,
+  "latest_measurement_id": "GS-2026-0003",
+  "measurements": [
+    {
+      "measurement_id": "GS-2026-0003",
+      "publication_status": "draft",
+      "status_label": "Draft",
+      "measurement_date": "2026-09-05",
+      "publication_date": null,
+      "measurement_type": "1 kHz Reference Check",
+      "title": "Audio-Technica AT-OC9XML — Rega P3 / Rega RB330 / Audio Research SP20 — 1 kHz Reference Check",
+      "short_display_title": "Rega P3 / Rega RB330 / Audio-Technica AT-OC9XML",
+      "system_title": "Rega P3 / Rega RB330 / Audio-Technica AT-OC9XML",
+      "summary": "The AT-OC9XML achieved 31.8 dB average separation at 1 kHz, 4.8 dB above Audio-Technica's published 27 dB figure, while its measured 0.24 dB channel-balance magnitude sat inside the published 1.0 dB specification. Playback speed was 33.34 RPM (+0.02%) with DIN-shaped wow and flutter RMS of 0.030%.",
+      "hero_image_url": "https://measurements.directsoundrecords.com/groove-scope/assets/GS-2026-0003/web/hero-2400.webp",
+      "card_image_url": "https://measurements.directsoundrecords.com/groove-scope/studio/images/GS-2026-0003-card-1200.jpg",
+      "images": {
+        "card": {
+          "url": "https://measurements.directsoundrecords.com/groove-scope/studio/images/GS-2026-0003-card-1200.jpg",
+          "width": 1200,
+          "height": 675
+        },
+        "hero": {
+          "url": "https://measurements.directsoundrecords.com/groove-scope/assets/GS-2026-0003/web/hero-2400.webp",
+          "width": 2400,
+          "height": 1800
+        }
+      },
+      "measurement_url": "https://measurements.directsoundrecords.com/groove-scope/measurements/GS-2026-0003.html",
+      "technical_record_url": "https://github.com/directsoundrecords/groove-scope-measurements/tree/main/measurements/GS-2026-0003",
+      "canonical_json_url": "https://raw.githubusercontent.com/directsoundrecords/groove-scope-measurements/main/measurements/GS-2026-0003/measurement.json",
+      "components": {
+        "turntable": {
+          "kind": "turntable",
+          "state": "recorded",
+          "display_name": "Rega P3",
+          "manufacturer": null,
+          "model": null
+        },
+        "tonearm": {
+          "kind": "tonearm",
+          "state": "recorded",
+          "display_name": "Rega RB330",
+          "manufacturer": null,
+          "model": null
+        },
+        "cartridge": {
+          "kind": "cartridge",
+          "state": "recorded",
+          "display_name": "Audio-Technica AT-OC9XML",
+          "manufacturer": null,
+          "model": null
+        },
+        "stylus": {
+          "kind": "stylus",
+          "state": "not_recorded",
+          "display_name": null,
+          "manufacturer": null,
+          "model": null
+        },
+        "phono_stage": {
+          "kind": "phono_stage",
+          "state": "recorded",
+          "display_name": "Audio Research SP20",
+          "manufacturer": null,
+          "model": null
+        },
+        "audio_interface": {
+          "kind": "audio_interface",
+          "state": "not_confirmed",
+          "display_name": "EVO4",
+          "reported_label": "EVO4",
+          "confirmed_model": null
+        },
+        "tracking_force": {
+          "state": "recorded",
+          "value": 2,
+          "unit": "g"
+        },
+        "cartridge_loading": {
+          "state": "not_recorded",
+          "value": null
+        },
+        "phono_gain": {
+          "state": "not_recorded",
+          "value": null,
+          "unit": "dB"
+        },
+        "test_record": {
+          "kind": "test_record",
+          "state": "not_recorded",
+          "display_name": null,
+          "manufacturer": null,
+          "model": null
+        },
+        "test_record_track": {
+          "state": "not_recorded",
+          "value": null
+        },
+        "nominal_test_tone": {
+          "state": "recorded",
+          "value": 1000,
+          "unit": "Hz"
+        },
+        "turntable_support": {
+          "state": "recorded",
+          "value": "Wall shelf"
+        }
+      },
+      "headline_metrics": [
+        {
+          "identifier": "playback_rpm",
+          "display_label": "Playback speed",
+          "value": 33.34,
+          "unit": "RPM",
+          "classification": "primary"
+        },
+        {
+          "identifier": "playback_speed_error_percent",
+          "display_label": "Speed error",
+          "value": 0.02,
+          "unit": "%",
+          "classification": "primary"
+        },
+        {
+          "identifier": "din_shaped_wow_flutter_percent",
+          "display_label": "DIN W&F",
+          "value": 0.03,
+          "unit": "%",
+          "classification": "primary"
+        },
+        {
+          "identifier": "channel_balance_db",
+          "display_label": "Channel balance",
+          "value": -0.24,
+          "unit": "dB",
+          "classification": "diagnostic_only"
+        },
+        {
+          "identifier": "average_channel_separation_db",
+          "display_label": "Average separation",
+          "value": 31.8,
+          "unit": "dB",
+          "classification": "supporting_repeat_directional_values"
+        },
+        {
+          "identifier": "crosstalk_left_to_right_db",
+          "display_label": "L→R crosstalk",
+          "value": -30.2,
+          "unit": "dB",
+          "classification": "supporting_repeat_directional_values"
+        },
+        {
+          "identifier": "crosstalk_right_to_left_db",
+          "display_label": "R→L crosstalk",
+          "value": -33.5,
+          "unit": "dB",
+          "classification": "supporting_repeat_directional_values"
+        },
+        {
+          "identifier": "thd_left_percent",
+          "display_label": "THD left",
+          "value": 0.29,
+          "unit": "%",
+          "classification": "diagnostic_repeat_before_setup_change"
+        },
+        {
+          "identifier": "thd_right_percent",
+          "display_label": "THD right",
+          "value": 0.37,
+          "unit": "%",
+          "classification": "diagnostic_repeat_before_setup_change"
+        }
+      ],
+      "search_text": "GS-2026-0003 1 kHz Reference Check Rega P3 Rega RB330 Audio-Technica AT-OC9XML Audio Research SP20 EVO4"
+    }
+  ],
+  "components": {
+    "cartridges": [
+      {
+        "identifier": "audio-technica-at-oc9xml",
+        "display_name": "Audio-Technica AT-OC9XML",
+        "manufacturer": null,
+        "model": null,
+        "measurement_count": 1,
+        "measurement_ids": [
+          "GS-2026-0003"
+        ]
+      }
+    ],
+    "turntables": [
+      {
+        "identifier": "rega-p3",
+        "display_name": "Rega P3",
+        "manufacturer": null,
+        "model": null,
+        "measurement_count": 1,
+        "measurement_ids": [
+          "GS-2026-0003"
+        ]
+      }
+    ],
+    "tonearms": [
+      {
+        "identifier": "rega-rb330",
+        "display_name": "Rega RB330",
+        "manufacturer": null,
+        "model": null,
+        "measurement_count": 1,
+        "measurement_ids": [
+          "GS-2026-0003"
+        ]
+      }
+    ],
+    "phono_stages": [
+      {
+        "identifier": "audio-research-sp20",
+        "display_name": "Audio Research SP20",
+        "manufacturer": null,
+        "model": null,
+        "measurement_count": 1,
+        "measurement_ids": [
+          "GS-2026-0003"
+        ]
+      }
+    ]
+  }
+}

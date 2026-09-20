@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080b10">
+  <title>Reference Library — Groove Scope Studio</title>
+  <meta name="description" content="A Studio-ready reference library of documented analogue playback systems measured with Groove Scope.">
+  <meta name="application-name" content="Groove Scope Studio Reference Library">
+  <meta name="robots" content="noindex,follow">
+  <link rel="canonical" href="https://measurements.directsoundrecords.com/groove-scope/studio/">
+  <link rel="alternate" type="application/json" href="catalog.json" title="Groove Scope Studio catalogue">
+  <link rel="stylesheet" href="assets/studio-reference.css">
+  <!-- Application-support interface. Data is generated from canonical Groove Scope measurement records. -->
+  <script src="assets/studio-reference.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#library">Skip to reference library</a>
+  <header class="site-header">
+    <a class="brand" href="../" aria-label="Groove Scope public measurement catalogue">
+      <span class="brand-mark" aria-hidden="true"><span></span></span>
+      <span><strong>GROOVE SCOPE</strong><small>STUDIO</small></span>
+    </a>
+    <div class="header-context"><span>Application support resource</span><a href="catalog.json">JSON feed</a></div>
+  </header>
+
+  <main id="library" tabindex="-1">
+    <section class="title-block" aria-labelledby="page-title">
+      <p class="eyebrow">Groove Scope Studio</p>
+      <h1 id="page-title">Reference Library</h1>
+      <p class="subtitle">Real systems. Real measurements. Independent and reproducible.</p>
+    </section>
+
+    <section id="latest" class="latest" aria-labelledby="latest-heading" aria-busy="true">
+      <div class="loading-panel">Loading the latest documented system…</div>
+    </section>
+
+    <section class="library-section" aria-labelledby="browse-heading">
+      <div class="section-heading">
+        <div><p class="eyebrow">Documented sessions</p><h2 id="browse-heading">Browse the library</h2></div>
+        <p id="catalogue-status" role="status" aria-live="polite">Loading catalogue…</p>
+      </div>
+
+      <div class="toolbar">
+        <div class="tabs" role="tablist" aria-label="Browse by">
+          <button type="button" role="tab" aria-selected="true" data-view="systems">Systems</button>
+          <button type="button" role="tab" aria-selected="false" data-view="cartridges">Cartridges</button>
+          <button type="button" role="tab" aria-selected="false" data-view="turntables">Turntables</button>
+          <button type="button" role="tab" aria-selected="false" data-view="tonearms">Tonearms</button>
+          <button type="button" role="tab" aria-selected="false" data-view="phono_stages">Phono Stages</button>
+        </div>
+        <div class="find-controls">
+          <label class="search-field"><span class="visually-hidden">Search measurements</span><input id="search" type="search" placeholder="Search ID, system, test record or measurement type" autocomplete="off"></label>
+          <label class="sort-field"><span class="visually-hidden">Sort library</span><select id="sort"><option value="newest">Newest first</option><option value="oldest">Oldest first</option><option value="cartridge">Cartridge</option><option value="turntable">Turntable</option></select></label>
+        </div>
+      </div>
+
+      <div id="library-results" class="card-grid" aria-live="polite"></div>
+      <div id="empty-state" class="empty-state" hidden>No documented systems match this search.</div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Independent measurements by Direct Sound Records. Product names and trademarks belong to their respective owners. Measurements describe documented playback systems and sessions and do not constitute manufacturer certification.</p>
+    <p><a href="../">Public Groove Scope catalogue</a> · <a href="catalog.json">Studio catalogue JSON</a> · <a href="https://github.com/directsoundrecords/groove-scope-measurements">Technical archive</a></p>
+  </footer>
+
+  <noscript><p class="noscript">JavaScript is required for this visual preview. The <a href="catalog.json">static JSON catalogue</a> remains directly available.</p></noscript>
+</body>
+</html>
