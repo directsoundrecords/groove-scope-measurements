@@ -5,6 +5,8 @@
   const sort = document.getElementById('sort');
   const count = document.getElementById('result-count');
   const empty = document.getElementById('empty-state');
+  const total = document.getElementById('measurement-count');
+  if (list && total) total.textContent = list.querySelectorAll('.measurement-card').length;
   if (!list || !controls || !search || !sort || !count || !empty) return;
   const cards = Array.from(list.querySelectorAll('.measurement-card'));
   const normalise = text => text.normalize('NFKD').replace(/[\u0300-\u036f]/g, '').toLocaleLowerCase();
