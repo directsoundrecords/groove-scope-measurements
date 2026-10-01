@@ -6,7 +6,7 @@ The Technics SL-1410 MK2 / Empire 7000/III capture measured 33.33 RPM (−0.01%)
 
 ## Record status and setup
 
-Public archive entry, status **draft**: setup and software metadata remain incomplete. Measured 1 October 2026 at 12:18 local time; timezone not recorded. Record version 0.9.0.
+Public archive entry, status **draft**: setup and software metadata remain incomplete. Measured 1 October 2026 at 12:18 local time; timezone not recorded. Record version 0.9.1.
 
 | Component | Identification |
 |---|---|
@@ -49,7 +49,7 @@ Differences are transcribed exactly as reported. They may differ from subtractio
 
 ## Rotation fingerprints
 
-Four labelled placeholder panels reserve space for speed deviation, 1 kHz level modulation, opposite-channel leakage and harmonic distortion. Correct screenshots will be supplied later by the measurer. No provisional plot is published or interpreted.
+Eight supplied screenshots now show L/R views of speed deviation, 1 kHz level modulation, opposite-channel leakage and harmonic distortion. Each view contains an eight-rotation heatmap and robust median profile. L/R labels follow the supplied pair order; the screenshots themselves do not display channel labels. The original PNGs are preserved without image editing.
 
 ## Review summary
 
@@ -57,7 +57,7 @@ Near-nominal mean speed and steady harmonic levels characterise this capture. Th
 
 ## Source assets
 
-The original PDF and HEIC are preserved. The hero is an AI-assisted cosmetic retouch with background removal, refreshed finish, studio lighting and the raised dust cover digitally removed. The original hardware photograph remains archived. Rotation-fingerprint panels are placeholders awaiting the correct images. No raw test-record audio is published.
+The original PDF and HEIC are preserved. The hero is an AI-assisted cosmetic retouch with background removal, refreshed finish, studio lighting and the raised dust cover digitally removed. The original hardware photograph remains archived. The eight original fingerprint PNGs are preserved; WebP copies are format conversions for web display. No raw test-record audio is published.
 
 ## Files
 
@@ -74,4 +74,5 @@ Canonico, Michelangelo. “GS-2026-0005 — Empire 7000/III / Technics SL-1410 M
 
 ## Changelog
 
+- 0.9.1 — Added eight supplied L/R rotation-fingerprint screenshots and web views.
 - 0.9.0 — Initial public entry with report transcription, original sources, labelled fingerprint placeholders and retouched hero.

@@ -39,7 +39,7 @@
   ],
   "license": "CC-BY-4.0",
   "measurement_id": "GS-2026-0005",
-  "record_version": "0.9.0",
+  "record_version": "0.9.1",
   "publication_status": "draft",
   "title": "Empire 7000/III — Technics SL-1410 MK2 / ART USB Phono Plus — 1 kHz Reference Check",
   "source_report_title": "Technics SL-1410MK2 - Empire 7000/III - ART USB phono plus",
@@ -154,7 +154,7 @@
   },
   "interpretation": {
     "summary": "The Technics SL-1410 MK2 / Empire 7000/III capture measured 33.33 RPM (−0.01%) with 0.040% DIN-shaped wow and flutter RMS through ART USB Phono Plus. Average separation was 23.8 dB at 1 kHz, with −0.26 dB channel balance. Harmonic levels were steady during recording; THD measured 2.26% left and 1.85% right.",
-    "recommendation": "Repeat the capture with unchanged settings to assess whether the channel differences recur. Add the correct rotation fingerprints and document the remaining setup and capture settings.",
+    "recommendation": "Repeat the capture with unchanged settings to assess whether the channel differences recur. Document the remaining setup and capture settings.",
     "repeat_required": false
   },
   "provenance": {
@@ -167,18 +167,27 @@
     "setup_metadata_source": "The supplied report identifies Technics SL-1410MK2, Empire 7000/III and ART USB phono plus. Its capture input label is USB Audio CODEC. These session-specific labels supply the published chain. The user supplied IMG_4209.HEIC as the turntable photograph.",
     "known_limitations": [
       "Tonearm model, stylus details, loading, tracking force, alignment, anti-skate, test-record identity/track, gain, capture format, software versions, timezone, sample ownership and repeat count were not supplied.",
-      "Rotation-fingerprint images are pending replacement from the measurer. The public page contains labelled placeholders rather than measurement plots.",
       "One supplied report; steady harmonics within a recording do not establish repeatability across sessions.",
       "Reported differences retain the original precision and may differ from subtraction of rounded channel values."
     ],
-    "photo_treatment": "AI-assisted cosmetic retouch, background removal, studio lighting and digital removal of the raised dust cover. Original HEIC preserved."
+    "photo_treatment": "AI-assisted cosmetic retouch, background removal, studio lighting and digital removal of the raised dust cover. Original HEIC preserved. Rotation-fingerprint source PNGs are preserved without image editing; WebP copies are format conversions for web display.",
+    "fingerprint_channel_assignment": "L/R labels follow the order of the two screenshots supplied for each metric; the screenshots themselves do not display channel labels."
   },
   "files": {
     "human_readable_record": "README.md",
     "source_report": "report.pdf",
     "checksums": "checksums.sha256",
     "source_hero": "assets/source/hero-original.heic",
-    "rotation_fingerprints": [],
+    "rotation_fingerprints": [
+      "assets/source/speed-deviation-left.png",
+      "assets/source/speed-deviation-right.png",
+      "assets/source/level-modulation-left.png",
+      "assets/source/level-modulation-right.png",
+      "assets/source/opposite-channel-leakage-left.png",
+      "assets/source/opposite-channel-leakage-right.png",
+      "assets/source/harmonic-distortion-left.png",
+      "assets/source/harmonic-distortion-right.png"
+    ],
     "retouched_hero": "assets/hero-retouched.png",
     "image_edit_prompt": "assets/image-edit-prompt.txt"
   },
