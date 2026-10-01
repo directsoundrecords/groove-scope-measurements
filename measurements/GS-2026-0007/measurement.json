@@ -1,0 +1,208 @@
+{
+  "$schema": "../../data/schema/measurement.schema.json",
+  "schema_version": "1.0.0",
+  "language": "en",
+  "creator": {
+    "name": "Michelangelo Canonico",
+    "role": "Creator and lead measurer",
+    "affiliation": "Direct Sound Records"
+  },
+  "publisher": {
+    "name": "Direct Sound Records",
+    "url": "https://directsoundrecords.com/",
+    "location_label": "London–Rome"
+  },
+  "software": {
+    "name": "Groove Scope",
+    "report_generator_label": "Groove Scope Reference",
+    "application_version": "not_recorded",
+    "analysis_method_version": "not_recorded",
+    "platform": "not_recorded",
+    "developer": "Michelangelo Canonico / Direct Sound Records"
+  },
+  "related_applications": [
+    {
+      "name": "Resonance Lab",
+      "relationship": "Companion application for tonearm and cartridge resonance planning",
+      "url": "https://directsoundrecords.com/resonance-lab/"
+    }
+  ],
+  "measurement_type": "1 kHz Reference Check",
+  "measurement_scope": [
+    "playback speed",
+    "rotational stability",
+    "DIN-shaped wow and flutter",
+    "channel balance",
+    "electrical crosstalk",
+    "distortion diagnostics",
+    "harmonic profile",
+    "rotation fingerprints"
+  ],
+  "license": "CC-BY-4.0",
+  "measurement_id": "GS-2026-0007",
+  "record_version": "0.9.0",
+  "publication_status": "draft",
+  "title": "Micro Seiki DQX-500 — 1 kHz Reference Check",
+  "source_report_title": "1 kHz Reference Check",
+  "slug": "gs-2026-0007-micro-seiki-dqx-500-1-khz-reference-check",
+  "measurement_datetime_local": "2026-10-01T22:17:00",
+  "measurement_timezone": "not_recorded",
+  "date_published": "2026-10-02",
+  "sample_id": "not_recorded",
+  "setup": {
+    "turntable": "Micro Seiki DQX-500",
+    "tonearm": "not_recorded",
+    "cartridge": "not_recorded",
+    "stylus": "not_recorded",
+    "cartridge_hours": "not_recorded",
+    "vertical_tracking_force_g": "not_recorded",
+    "anti_skate_setting": "not_recorded",
+    "alignment_geometry": "not_recorded",
+    "azimuth_setting": "not_recorded",
+    "vta_or_sra_setting": "not_recorded",
+    "phono_stage": "not_recorded",
+    "phono_gain_db": "not_recorded",
+    "cartridge_loading": "not_recorded",
+    "test_record": "not_recorded",
+    "test_record_track": "not_recorded",
+    "test_record_condition": "not_recorded",
+    "nominal_test_tone_hz": 1000,
+    "audio_interface_reported_label": "not_recorded",
+    "audio_interface_full_model": "not_recorded",
+    "interface_gain_settings": "not_recorded",
+    "sample_rate_hz": "not_recorded",
+    "bit_depth": "not_recorded",
+    "capture_device": "not_recorded",
+    "channel_routing": "not_recorded",
+    "measurement_location": "not_recorded"
+  },
+  "results": {
+    "playback_rpm": {
+      "value": 33.33,
+      "classification": "primary",
+      "condition": "under_stylus_load"
+    },
+    "playback_speed_error_percent": {
+      "value": -0.01,
+      "classification": "primary",
+      "direction": "slow"
+    },
+    "settled_rpm": {
+      "minimum": 33.24,
+      "maximum": 33.42,
+      "span": 0.18,
+      "classification": "primary"
+    },
+    "din_shaped_wow_flutter_percent": {
+      "value": 0.032,
+      "classification": "primary"
+    },
+    "raw_speed_variation_percent": {
+      "rms_plus_minus": 0.169,
+      "two_sigma_plus_minus": 0.338,
+      "classification": "unweighted_diagnostic"
+    },
+    "raw_wow_flutter_percent": {
+      "wow_rms": 0.163,
+      "flutter_rms": 0.04,
+      "classification": "unweighted_diagnostic"
+    },
+    "channel_balance_db": {
+      "value": -0.54,
+      "classification": "diagnostic_only"
+    },
+    "crosstalk_1khz_db": {
+      "average_separation": 20.1,
+      "left_to_right": -21.6,
+      "right_to_left": -18.6,
+      "directional_difference": 2.95,
+      "classification": "supporting"
+    },
+    "thd_percent": {
+      "left": 1.72,
+      "right": 2.15,
+      "left_minus_right_percentage_points": -0.43,
+      "classification": "diagnostic"
+    },
+    "harmonic_profile_db": {
+      "h2": {
+        "left": -35.4,
+        "right": -33.4
+      },
+      "h3": {
+        "left": -54.7,
+        "right": -59.1
+      },
+      "h4": {
+        "left": -71.6,
+        "right": -61.6
+      },
+      "h5": {
+        "left": -74.9,
+        "right": -69.4
+      },
+      "classification": "diagnostic"
+    },
+    "harmonic_difference_summary_db": {
+      "h2_right_higher": 2.0,
+      "h3_left_higher": 4.4,
+      "classification": "source_report_summary"
+    },
+    "harmonic_reliability": {
+      "classification": "repeat_before_setup_change",
+      "quality_note": "The right channel's third harmonic changed most during recording. Repeat before changing the cartridge setup."
+    }
+  },
+  "interpretation": {
+    "summary": "The 22:17 Micro Seiki DQX-500 capture measured 33.33 RPM (−0.01%) with 0.032% DIN-shaped wow and flutter RMS. Average separation was 20.1 dB at 1 kHz and channel balance was −0.54 dB. THD was 1.72% left and 2.15% right. The report recommends a repeat because the right-channel third harmonic changed most during recording.",
+    "recommendation": "Repeat before changing cartridge setup, as the report advises. Confirm the cartridge, input interface and remaining setup details for this later capture.",
+    "repeat_required": true
+  },
+  "provenance": {
+    "source_type": "Groove Scope generated PDF report",
+    "source_file": "report.pdf",
+    "data_entry_method": "Values transcribed verbatim from the original PDF report; rounded differences are preserved rather than recalculated.",
+    "raw_audio_published": false,
+    "raw_audio_note": "No raw test-record audio is included.",
+    "sample_ownership": "not_recorded",
+    "setup_metadata_source": "The PDF does not name the turntable, cartridge or input interface. The measurer identified this later capture as the Micro Seiki DQX-500. The reused hero photograph came from the earlier GS-2026-0004 session and is not evidence of this capture’s cartridge or signal chain.",
+    "known_limitations": [
+      "The PDF has a blank input field and does not identify a cartridge. The DQX-500 identity comes from the measurer’s accompanying request; the signal chain is otherwise unconfirmed for this capture.",
+      "The hero photograph is reused from the earlier GS-2026-0004 session and is illustrative, not capture-specific evidence.",
+      "Tonearm, cartridge, stylus, phono stage, interface, loading, tracking force, alignment, anti-skate, test-record identity and track, capture settings, software versions, timezone and repeat count were not supplied.",
+      "The right-channel third harmonic varied during this recording; repeat before changing cartridge setup, as the source report states.",
+      "Reported differences retain source precision and may differ from subtraction of rounded channel values."
+    ],
+    "fingerprint_channel_assignment": "L/R labels follow the order of the two screenshots supplied for each metric; the screenshots themselves do not display channel labels.",
+    "photo_treatment": "The previously retouched DQX-500 hero from GS-2026-0004 is reused as an illustrative equipment image. Original HEIC preserved. Fingerprint source PNGs are unedited; WebP copies are format conversions for web display."
+  },
+  "files": {
+    "human_readable_record": "README.md",
+    "source_report": "report.pdf",
+    "checksums": "checksums.sha256",
+    "source_hero": "assets/source/hero-original.heic",
+    "rotation_fingerprints": [
+      "assets/source/speed-deviation-left.png",
+      "assets/source/speed-deviation-right.png",
+      "assets/source/level-modulation-left.png",
+      "assets/source/level-modulation-right.png",
+      "assets/source/opposite-channel-leakage-left.png",
+      "assets/source/opposite-channel-leakage-right.png",
+      "assets/source/harmonic-distortion-left.png",
+      "assets/source/harmonic-distortion-right.png"
+    ],
+    "retouched_hero": "assets/hero-retouched.png",
+    "image_edit_prompt": "assets/image-edit-prompt.txt"
+  },
+  "keywords": [
+    "Groove Scope",
+    "Direct Sound Records",
+    "Michelangelo Canonico",
+    "Micro Seiki",
+    "vinyl measurement",
+    "rotation fingerprint",
+    "wow and flutter",
+    "cartridge crosstalk",
+    "Micro Seiki DQX-500"
+  ]
+}
