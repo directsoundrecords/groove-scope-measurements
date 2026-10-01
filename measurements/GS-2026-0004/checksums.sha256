@@ -1,3 +1,14 @@
+5ad4a9642acd49a123215eb9f51d26f50d84dccc4d982c9aa6b4d81a8744912a  ../../docs/groove-scope/assets/GS-2026-0004/web/harmonic-distortion-left.webp
+e5d943e621329fa8388d8813bf5da96a85c1d2d44c022b51b4f016deb6b46a42  ../../docs/groove-scope/assets/GS-2026-0004/web/harmonic-distortion-right.webp
+5d5d446bada43d7d118279198ade48b9edd38f7a2fe76f55b04598b3cee1cbaa  ../../docs/groove-scope/assets/GS-2026-0004/web/hero-1448.webp
+dbeffb8980ca03d78eb710564ace5ef2e423c548a63d2c174a2bc8c26b3bb9bb  ../../docs/groove-scope/assets/GS-2026-0004/web/hero-2400.webp
+9685d243a864fe79564ca5589b5c58da0c237ee479161ac5d1a2b3fdb0228cce  ../../docs/groove-scope/assets/GS-2026-0004/web/level-modulation-left.webp
+d1173df43955ea14e23f35bc28b364499cc403a6f9ae16a61a04983001b8e73a  ../../docs/groove-scope/assets/GS-2026-0004/web/level-modulation-right.webp
+8345b2482be34b14243df697842736aae80a2f2e7b6adfbb311dff194a0a910f  ../../docs/groove-scope/assets/GS-2026-0004/web/opposite-channel-leakage-left.webp
+9bbf7a79a2c9786a313f71fc6f73abe931057fd3a00804e6d0c9f4caec8ac652  ../../docs/groove-scope/assets/GS-2026-0004/web/opposite-channel-leakage-right.webp
+cc63041167c8c39913c621707cd80816dfc00a44fef8837294255a9d0ac2a70e  ../../docs/groove-scope/assets/GS-2026-0004/web/speed-deviation-left.webp
+223d9155f07b612bce1947da5cf7d316d6392e96d37c4b4ef3e949c2a656d62e  ../../docs/groove-scope/assets/GS-2026-0004/web/speed-deviation-right.webp
+54acf0f1114a62cf640f8b4f8d99644f68b56755fce9d68f21196b69c8d1611b  ../../docs/groove-scope/studio/images/GS-2026-0004-card-1200.jpg
 9b978fc6cf9f18417ce14f79f80f791b18e3020a43a0f2edd9cf350c10628771  README.md
 0898ad89d2aaecd2ccf125c4272ad6374a28d1462b1ddb6bf38772dddc480eff  assets/hero-retouched.png
 06131cbfea87280af22012ef47a9de8237d6b4e821c182f8b5cb2b22726309ae  assets/image-edit-prompt.txt
@@ -12,12 +23,3 @@ c54769898557e8e5b53698eac8ebbe7c3943c89e9a6942f111821bf8a3d5e79c  assets/source/
 9a7c11b9cf299f5c736ff54f03407eefdfbaba29c2b9a52ea2bac242fcec0079  assets/source/speed-deviation-right.png
 d6e50bd57b3ab088fe0d83f3b8620c2f0f99c75871688a7bff13caac787127f4  measurement.json
 5e9bd2fc683d8ebb3277113584c6efa4d07f42ae77ce5d2295bd0f8f1c4e77d2  report.pdf
-5ad4a9642acd49a123215eb9f51d26f50d84dccc4d982c9aa6b4d81a8744912a  ../../docs/groove-scope/assets/GS-2026-0004/web/harmonic-distortion-left.webp
-e5d943e621329fa8388d8813bf5da96a85c1d2d44c022b51b4f016deb6b46a42  ../../docs/groove-scope/assets/GS-2026-0004/web/harmonic-distortion-right.webp
-5d5d446bada43d7d118279198ade48b9edd38f7a2fe76f55b04598b3cee1cbaa  ../../docs/groove-scope/assets/GS-2026-0004/web/hero-1448.webp
-9685d243a864fe79564ca5589b5c58da0c237ee479161ac5d1a2b3fdb0228cce  ../../docs/groove-scope/assets/GS-2026-0004/web/level-modulation-left.webp
-d1173df43955ea14e23f35bc28b364499cc403a6f9ae16a61a04983001b8e73a  ../../docs/groove-scope/assets/GS-2026-0004/web/level-modulation-right.webp
-8345b2482be34b14243df697842736aae80a2f2e7b6adfbb311dff194a0a910f  ../../docs/groove-scope/assets/GS-2026-0004/web/opposite-channel-leakage-left.webp
-9bbf7a79a2c9786a313f71fc6f73abe931057fd3a00804e6d0c9f4caec8ac652  ../../docs/groove-scope/assets/GS-2026-0004/web/opposite-channel-leakage-right.webp
-cc63041167c8c39913c621707cd80816dfc00a44fef8837294255a9d0ac2a70e  ../../docs/groove-scope/assets/GS-2026-0004/web/speed-deviation-left.webp
-223d9155f07b612bce1947da5cf7d316d6392e96d37c4b4ef3e949c2a656d62e  ../../docs/groove-scope/assets/GS-2026-0004/web/speed-deviation-right.webp

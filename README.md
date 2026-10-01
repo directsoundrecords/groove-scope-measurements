@@ -10,6 +10,7 @@ This repository is the public measurement archive for **Groove Scope**, a vinyl 
 
 | ID | Date | Measurement | Status | Report | Structured data |
 |---|---:|---|---|---|---|
+| [GS-2026-0006](measurements/GS-2026-0006/README.md) | 2026-09-26 | Transfiguration Orpheus / Micro Seiki RX-5000 / SME V / EVO4 — 1 kHz Reference Check | Draft — setup metadata incomplete | [PDF](measurements/GS-2026-0006/report.pdf) | [JSON](measurements/GS-2026-0006/measurement.json) |
 | [GS-2026-0005](measurements/GS-2026-0005/README.md) | 2026-10-01 | Empire 7000/III / Technics SL-1410 MK2 / ART USB Phono Plus — 1 kHz Reference Check | Draft — setup metadata incomplete | [PDF](measurements/GS-2026-0005/report.pdf) | [JSON](measurements/GS-2026-0005/measurement.json) |
 | [GS-2026-0004](measurements/GS-2026-0004/README.md) | 2026-10-01 | Goldring 2100 / Micro Seiki DQX-500 — 1 kHz Reference Check | Draft — setup metadata incomplete | [PDF](measurements/GS-2026-0004/report.pdf) | [JSON](measurements/GS-2026-0004/measurement.json) |
 | [GS-2026-0003](measurements/GS-2026-0003/README.md) | 2026-09-05 | Audio-Technica AT-OC9XML / Rega P3 / Rega RB330 / Audio Research SP20 — 1 kHz Reference Check | Draft — metadata completion and harmonic repeat required | [PDF](measurements/GS-2026-0003/report.pdf) | [JSON](measurements/GS-2026-0003/measurement.json) |

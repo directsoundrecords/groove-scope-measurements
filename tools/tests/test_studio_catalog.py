@@ -21,7 +21,10 @@ class StudioCatalogTests(unittest.TestCase):
         self.assertEqual(validate_catalog(self.catalog), [])
 
     def test_unknown_setup_values_remain_explicit(self) -> None:
-        measurement = self.catalog["measurements"][0]
+        measurement = next(
+            item for item in self.catalog["measurements"]
+            if item["measurement_id"] == "GS-2026-0003"
+        )
         self.assertEqual(measurement["components"]["stylus"]["state"], "not_recorded")
         self.assertIsNone(measurement["components"]["stylus"]["display_name"])
         self.assertEqual(measurement["components"]["audio_interface"]["state"], "not_confirmed")
