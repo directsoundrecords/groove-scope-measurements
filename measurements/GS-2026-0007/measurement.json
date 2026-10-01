@@ -40,7 +40,7 @@
   ],
   "license": "CC-BY-4.0",
   "measurement_id": "GS-2026-0007",
-  "record_version": "0.9.1",
+  "record_version": "0.9.2",
   "publication_status": "draft",
   "title": "Goldring 2100 — Micro Seiki DQX-500 — 1 kHz Reference Check",
   "source_report_title": "1 kHz Reference Check",
@@ -165,16 +165,16 @@
     "raw_audio_published": false,
     "raw_audio_note": "No raw test-record audio is included.",
     "sample_ownership": "not_recorded",
-    "setup_metadata_source": "The PDF does not name the turntable or cartridge and leaves the input field blank. The measurer identified the playback chain in conversation as Micro Seiki DQX-500, Goldring 2100, Audio Research SP20 and EVO4. The reused hero photograph came from the earlier GS-2026-0004 session and is illustrative rather than evidence of the later capture.",
+    "setup_metadata_source": "The PDF does not name the turntable or cartridge and leaves the input field blank. The measurer identified the playback chain in conversation as Micro Seiki DQX-500, Goldring 2100, Audio Research SP20 and EVO4. The illustrative hero was based on a previously supplied photograph of this turntable and cartridge.",
     "known_limitations": [
       "The PDF has a blank input field and does not identify the turntable or cartridge. Micro Seiki DQX-500, Goldring 2100, Audio Research SP20 and EVO4 were subsequently confirmed by the measurer.",
-      "The hero photograph is reused from the earlier GS-2026-0004 session and is illustrative rather than capture-specific evidence.",
+      "The hero photograph predates this capture and is illustrative rather than capture-specific evidence.",
       "Tonearm, stylus, loading, tracking force, alignment, anti-skate, test-record identity and track, capture settings, software versions, timezone and repeat count were not supplied.",
       "The right-channel third harmonic varied during this recording; repeat before changing cartridge setup, as the source report states.",
       "Reported differences retain source precision and may differ from subtraction of rounded channel values."
     ],
     "fingerprint_channel_assignment": "L/R labels follow the order of the two screenshots supplied for each metric; the screenshots themselves do not display channel labels.",
-    "photo_treatment": "The previously retouched DQX-500 and Goldring 2100 hero from GS-2026-0004 is reused as an illustrative equipment image. Original HEIC preserved. Fingerprint source PNGs are unedited; WebP copies are format conversions for web display."
+    "photo_treatment": "The previously retouched DQX-500 and Goldring 2100 hero is reused as an illustrative equipment image. Original HEIC preserved. Fingerprint source PNGs are unedited; WebP copies are format conversions for web display."
   },
   "files": {
     "human_readable_record": "README.md",

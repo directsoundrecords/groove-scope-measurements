@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
-  "catalogue_version": "b242f4ef8773c88d",
-  "generated_at": "2026-10-01T23:50:00Z",
+  "catalogue_version": "71bfad4c4ce47d82",
+  "generated_at": "2026-10-01T23:53:45Z",
   "catalogue_url": "https://measurements.directsoundrecords.com/groove-scope/studio/catalog.json",
   "status_policy": {
     "included_statuses": [
@@ -13,7 +13,7 @@
       "withdrawn"
     ]
   },
-  "measurement_count": 5,
+  "measurement_count": 4,
   "latest_measurement_id": "GS-2026-0007",
   "measurements": [
     {
@@ -361,179 +361,6 @@
         }
       ],
       "search_text": "GS-2026-0005 1 kHz Reference Check Technics SL-1410 MK2 Empire 7000/III ART USB Phono Plus ART USB Phono Plus"
-    },
-    {
-      "measurement_id": "GS-2026-0004",
-      "publication_status": "draft",
-      "status_label": "Draft",
-      "measurement_date": "2026-10-01",
-      "publication_date": "2026-10-01",
-      "measurement_type": "1 kHz Reference Check",
-      "title": "Goldring 2100 — Micro Seiki DQX-500 — 1 kHz Reference Check",
-      "short_display_title": "Micro Seiki DQX-500 / Goldring 2100",
-      "system_title": "Micro Seiki DQX-500 / Goldring 2100",
-      "summary": "The Micro Seiki DQX-500 / Goldring 2100 capture measured 33.36 RPM (+0.09%) with 0.032% DIN-shaped wow and flutter RMS. Average separation was 21.8 dB at 1 kHz and channel balance was +0.32 dB. Harmonic levels were steady during the recording, with THD of 1.37% left and 1.97% right.",
-      "hero_image_url": "https://measurements.directsoundrecords.com/groove-scope/assets/GS-2026-0004/web/hero-2400.webp",
-      "card_image_url": "https://measurements.directsoundrecords.com/groove-scope/studio/images/GS-2026-0004-card-1200.jpg",
-      "images": {
-        "card": {
-          "url": "https://measurements.directsoundrecords.com/groove-scope/studio/images/GS-2026-0004-card-1200.jpg",
-          "width": 1200,
-          "height": 675
-        },
-        "hero": {
-          "url": "https://measurements.directsoundrecords.com/groove-scope/assets/GS-2026-0004/web/hero-2400.webp",
-          "width": 2400,
-          "height": 1800
-        }
-      },
-      "measurement_url": "https://measurements.directsoundrecords.com/groove-scope/measurements/GS-2026-0004.html",
-      "technical_record_url": "https://github.com/directsoundrecords/groove-scope-measurements/tree/main/measurements/GS-2026-0004",
-      "canonical_json_url": "https://raw.githubusercontent.com/directsoundrecords/groove-scope-measurements/main/measurements/GS-2026-0004/measurement.json",
-      "components": {
-        "turntable": {
-          "kind": "turntable",
-          "state": "recorded",
-          "display_name": "Micro Seiki DQX-500",
-          "manufacturer": null,
-          "model": null
-        },
-        "tonearm": {
-          "kind": "tonearm",
-          "state": "not_recorded",
-          "display_name": null,
-          "manufacturer": null,
-          "model": null
-        },
-        "cartridge": {
-          "kind": "cartridge",
-          "state": "recorded",
-          "display_name": "Goldring 2100",
-          "manufacturer": null,
-          "model": null
-        },
-        "stylus": {
-          "kind": "stylus",
-          "state": "not_recorded",
-          "display_name": null,
-          "manufacturer": null,
-          "model": null
-        },
-        "phono_stage": {
-          "kind": "phono_stage",
-          "state": "not_recorded",
-          "display_name": null,
-          "manufacturer": null,
-          "model": null
-        },
-        "audio_interface": {
-          "kind": "audio_interface",
-          "state": "not_confirmed",
-          "display_name": "USB Audio CODEC",
-          "reported_label": "USB Audio CODEC",
-          "confirmed_model": null
-        },
-        "tracking_force": {
-          "state": "not_recorded",
-          "value": null,
-          "unit": "g"
-        },
-        "cartridge_loading": {
-          "state": "not_recorded",
-          "value": null
-        },
-        "phono_gain": {
-          "state": "not_recorded",
-          "value": null,
-          "unit": "dB"
-        },
-        "test_record": {
-          "kind": "test_record",
-          "state": "not_recorded",
-          "display_name": null,
-          "manufacturer": null,
-          "model": null
-        },
-        "test_record_track": {
-          "state": "not_recorded",
-          "value": null
-        },
-        "nominal_test_tone": {
-          "state": "recorded",
-          "value": 1000,
-          "unit": "Hz"
-        },
-        "turntable_support": {
-          "state": "not_recorded",
-          "value": null
-        }
-      },
-      "headline_metrics": [
-        {
-          "identifier": "playback_rpm",
-          "display_label": "Playback speed",
-          "value": 33.36,
-          "unit": "RPM",
-          "classification": "primary"
-        },
-        {
-          "identifier": "playback_speed_error_percent",
-          "display_label": "Speed error",
-          "value": 0.09,
-          "unit": "%",
-          "classification": "primary"
-        },
-        {
-          "identifier": "din_shaped_wow_flutter_percent",
-          "display_label": "DIN W&F",
-          "value": 0.032,
-          "unit": "%",
-          "classification": "primary"
-        },
-        {
-          "identifier": "channel_balance_db",
-          "display_label": "Channel balance",
-          "value": 0.32,
-          "unit": "dB",
-          "classification": "diagnostic_only"
-        },
-        {
-          "identifier": "average_channel_separation_db",
-          "display_label": "Average separation",
-          "value": 21.8,
-          "unit": "dB",
-          "classification": "supporting"
-        },
-        {
-          "identifier": "crosstalk_left_to_right_db",
-          "display_label": "L→R crosstalk",
-          "value": -22.4,
-          "unit": "dB",
-          "classification": "supporting"
-        },
-        {
-          "identifier": "crosstalk_right_to_left_db",
-          "display_label": "R→L crosstalk",
-          "value": -21.3,
-          "unit": "dB",
-          "classification": "supporting"
-        },
-        {
-          "identifier": "thd_left_percent",
-          "display_label": "THD left",
-          "value": 1.37,
-          "unit": "%",
-          "classification": "diagnostic"
-        },
-        {
-          "identifier": "thd_right_percent",
-          "display_label": "THD right",
-          "value": 1.97,
-          "unit": "%",
-          "classification": "diagnostic"
-        }
-      ],
-      "search_text": "GS-2026-0004 1 kHz Reference Check Micro Seiki DQX-500 Goldring 2100 USB Audio CODEC"
     },
     {
       "measurement_id": "GS-2026-0006",
@@ -909,10 +736,9 @@
         "display_name": "Goldring 2100",
         "manufacturer": null,
         "model": null,
-        "measurement_count": 2,
+        "measurement_count": 1,
         "measurement_ids": [
-          "GS-2026-0007",
-          "GS-2026-0004"
+          "GS-2026-0007"
         ]
       },
       {
@@ -932,10 +758,9 @@
         "display_name": "Micro Seiki DQX-500",
         "manufacturer": null,
         "model": null,
-        "measurement_count": 2,
+        "measurement_count": 1,
         "measurement_ids": [
-          "GS-2026-0007",
-          "GS-2026-0004"
+          "GS-2026-0007"
         ]
       },
       {
