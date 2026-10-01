@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
-  "catalogue_version": "2753bb3a37f9c619",
-  "generated_at": "2026-10-01T23:43:07Z",
+  "catalogue_version": "b242f4ef8773c88d",
+  "generated_at": "2026-10-01T23:50:00Z",
   "catalogue_url": "https://measurements.directsoundrecords.com/groove-scope/studio/catalog.json",
   "status_policy": {
     "included_statuses": [
@@ -23,9 +23,9 @@
       "measurement_date": "2026-10-01",
       "publication_date": "2026-10-02",
       "measurement_type": "1 kHz Reference Check",
-      "title": "Micro Seiki DQX-500 — 1 kHz Reference Check",
-      "short_display_title": "Micro Seiki DQX-500",
-      "system_title": "Micro Seiki DQX-500",
+      "title": "Goldring 2100 — Micro Seiki DQX-500 — 1 kHz Reference Check",
+      "short_display_title": "Micro Seiki DQX-500 / Goldring 2100",
+      "system_title": "Micro Seiki DQX-500 / Goldring 2100",
       "summary": "The 22:17 Micro Seiki DQX-500 capture measured 33.33 RPM (−0.01%) with 0.032% DIN-shaped wow and flutter RMS. Average separation was 20.1 dB at 1 kHz and channel balance was −0.54 dB. THD was 1.72% left and 2.15% right. The report recommends a repeat because the right-channel third harmonic changed most during recording.",
       "hero_image_url": "https://measurements.directsoundrecords.com/groove-scope/assets/GS-2026-0007/web/hero-2400.webp",
       "card_image_url": "https://measurements.directsoundrecords.com/groove-scope/studio/images/GS-2026-0007-card-1200.jpg",
@@ -61,8 +61,8 @@
         },
         "cartridge": {
           "kind": "cartridge",
-          "state": "not_recorded",
-          "display_name": null,
+          "state": "recorded",
+          "display_name": "Goldring 2100",
           "manufacturer": null,
           "model": null
         },
@@ -75,17 +75,17 @@
         },
         "phono_stage": {
           "kind": "phono_stage",
-          "state": "not_recorded",
-          "display_name": null,
+          "state": "recorded",
+          "display_name": "Audio Research SP20",
           "manufacturer": null,
           "model": null
         },
         "audio_interface": {
           "kind": "audio_interface",
-          "state": "not_recorded",
-          "display_name": null,
+          "state": "recorded",
+          "display_name": "EVO4",
           "reported_label": null,
-          "confirmed_model": null
+          "confirmed_model": "EVO4"
         },
         "tracking_force": {
           "state": "not_recorded",
@@ -187,7 +187,7 @@
           "classification": "diagnostic"
         }
       ],
-      "search_text": "GS-2026-0007 1 kHz Reference Check Micro Seiki DQX-500"
+      "search_text": "GS-2026-0007 1 kHz Reference Check Micro Seiki DQX-500 Goldring 2100 Audio Research SP20 EVO4"
     },
     {
       "measurement_id": "GS-2026-0005",
@@ -909,8 +909,9 @@
         "display_name": "Goldring 2100",
         "manufacturer": null,
         "model": null,
-        "measurement_count": 1,
+        "measurement_count": 2,
         "measurement_ids": [
+          "GS-2026-0007",
           "GS-2026-0004"
         ]
       },
@@ -1006,8 +1007,9 @@
         "display_name": "Audio Research SP20",
         "manufacturer": null,
         "model": null,
-        "measurement_count": 1,
+        "measurement_count": 2,
         "measurement_ids": [
+          "GS-2026-0007",
           "GS-2026-0003"
         ]
       }

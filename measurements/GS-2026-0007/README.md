@@ -1,4 +1,4 @@
-# GS-2026-0007 — Micro Seiki DQX-500 — 1 kHz Reference Check
+# GS-2026-0007 — Goldring 2100 / Micro Seiki DQX-500 — 1 kHz Reference Check
 
 **Measured by Michelangelo Canonico for Direct Sound Records using Groove Scope.**
 
@@ -6,9 +6,9 @@ The 22:17 Micro Seiki DQX-500 capture measured 33.33 RPM (−0.01%) with 0.032% 
 
 ## Record status and identity
 
-Public archive entry, status **draft**: setup and software metadata remain incomplete. Measured 1 October 2026 at 22:17 local time; timezone not recorded. Record version 0.9.0.
+Public archive entry, status **draft**: setup and software metadata remain incomplete. Measured 1 October 2026 at 22:17 local time; timezone not recorded. Record version 0.9.1.
 
-The measurer identified this later capture as Micro Seiki DQX-500. The source PDF does not name the turntable, cartridge or input. The equipment photograph is reused from the earlier GS-2026-0004 session and does not establish the later capture’s cartridge or signal chain.
+The measurer confirmed this later capture used the Micro Seiki DQX-500, Goldring 2100, Audio Research SP20 and EVO4. These setup identities were supplied after publication; the source PDF itself does not name the turntable or cartridge and leaves the input field blank. The equipment photograph is reused from the earlier GS-2026-0004 session, so it remains illustrative rather than capture-specific evidence.
 
 ## Complete results
 
@@ -50,7 +50,7 @@ The speed fingerprints show a recurring broad rise and fall. The report says the
 
 ## Setup and provenance
 
-The PDF input field is blank. Cartridge, tonearm, phono stage, interface, test record and track, loading, tracking force, alignment, anti-skate, capture settings and software versions were not supplied for this capture. The previously supplied DQX-500 photograph and editorial hero are reused for context; they are not capture-specific evidence. No raw test-record audio is published.
+The PDF input field is blank. The measurer supplied the cartridge, preamplifier and interface identities separately. Tonearm, stylus, test record and track, loading, tracking force, alignment, anti-skate, capture settings and software versions were not supplied for this capture. The previously supplied DQX-500 photograph and editorial hero are reused for context; they are not capture-specific evidence. No raw test-record audio is published.
 
 ## Files
 
@@ -63,8 +63,9 @@ The PDF input field is blank. Cartridge, tonearm, phono stage, interface, test r
 
 ## Citation
 
-Canonico, Michelangelo. “GS-2026-0007 — Micro Seiki DQX-500 — 1 kHz Reference Check.” *Groove Scope Measurements*. Direct Sound Records, 2026. CC BY 4.0.
+Canonico, Michelangelo. “GS-2026-0007 — Goldring 2100 / Micro Seiki DQX-500 — 1 kHz Reference Check.” *Groove Scope Measurements*. Direct Sound Records, 2026. CC BY 4.0.
 
 ## Changelog
 
+- 0.9.1 — Added measurer-confirmed Goldring 2100, Audio Research SP20 and EVO4 setup identities.
 - 0.9.0 — Initial public entry for the 22:17 capture with source PDF, eight supplied fingerprints and an illustrative DQX-500 hero.
