@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://measurements.directsoundrecords.com/</loc><lastmod>2026-08-29</lastmod></url>
   <url><loc>https://measurements.directsoundrecords.com/spl-reference/</loc><lastmod>2026-08-29</lastmod></url>
-  <url><loc>https://measurements.directsoundrecords.com/groove-scope/</loc><lastmod>2026-09-05</lastmod></url>
+  <url><loc>https://measurements.directsoundrecords.com/groove-scope/</loc><lastmod>2026-10-01</lastmod></url>
   <url><loc>https://measurements.directsoundrecords.com/groove-scope/measurements/GS-2026-0003.html</loc><lastmod>2026-09-05</lastmod></url>
   <url><loc>https://measurements.directsoundrecords.com/resonance-lab/</loc><lastmod>2026-08-24</lastmod></url>
   <url><loc>https://measurements.directsoundrecords.com/resonance-lab/setups/DSR-SETUP-0001/</loc><lastmod>2026-08-23</lastmod></url>
@@ -16,4 +16,5 @@
   <url><loc>https://measurements.directsoundrecords.com/resonance-lab/setups/DSR-SETUP-0002/measurements/RL-2026-000007/</loc><lastmod>2026-08-24</lastmod></url>
   <url><loc>https://measurements.directsoundrecords.com/resonance-lab/setups/DSR-SETUP-0002/measurements/RL-2026-000008/</loc><lastmod>2026-08-24</lastmod></url>
   <url><loc>https://measurements.directsoundrecords.com/resonance-lab/setups/DSR-SETUP-0002/measurements/RL-2026-000009/</loc><lastmod>2026-08-24</lastmod></url>
+  <url><loc>https://measurements.directsoundrecords.com/groove-scope/measurements/GS-2026-0004.html</loc><lastmod>2026-10-01</lastmod></url>
 </urlset>

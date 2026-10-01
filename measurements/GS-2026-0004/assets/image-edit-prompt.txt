@@ -1,0 +1,6 @@
+Tool: built-in image_gen
+Input: assets/source/hero-original.heic (converted to PNG for tool input)
+Output: assets/hero-retouched.png
+Purpose: cosmetic editorial hero; measurement graphics unchanged.
+
+Use case: background-extraction. Edit target: supplied photograph of the user's Micro Seiki turntable with Goldring cartridge. Retouch this exact photograph into a premium photorealistic website hero cutout. Remove the white room walls, the surface and vented equipment beneath the turntable, and the unrelated black rectangular device behind the platter. Genuine transparent background. Keep the entire turntable itself, black curved plinth, silver platter, translucent pale record, record clamp, straight black tonearm, headshell, cartridge, wires and controls. Preserve original angle, proportions, exact mechanical configuration and authentic visible markings; do not invent or change text. Clean dust, minor scratches, smudges and age discoloration; enhance the deep black finish, silver metal and natural colour. Attractive controlled studio lighting with a soft warm key reflection and subtle cool edge highlights. No added objects, no fake controls, no text overlays. Keep 4:3 landscape framing and sufficient margin around all original visible hardware. Cosmetic photographic retouch, not redesign.
