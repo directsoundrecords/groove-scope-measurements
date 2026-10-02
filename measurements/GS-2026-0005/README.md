@@ -2,7 +2,7 @@
 
 **Measured by Michelangelo Canonico for Direct Sound Records using Groove Scope.**
 
-The Technics SL-1410 MK2 / Empire 7000/III capture measured 33.33 RPM (−0.01%) with 0.040% DIN-shaped wow and flutter RMS through ART USB Phono Plus. Average separation was 23.8 dB at 1 kHz, with −0.26 dB channel balance. Harmonic levels were steady during recording; THD measured 2.26% left and 1.85% right.
+The Technics SL-1410 MK2 averaged 33.33 RPM (−0.01%) with 0.040% DIN-shaped wow and flutter. Average 1 kHz separation was 23.8 dB; the measured directions were −24.9 dB L→R and −22.8 dB R→L, while channel balance was −0.26 dB. Harmonics stayed steady within this recording, although THD was higher on the left (2.26%) than the right (1.85%). The directional and harmonic differences are observations from this capture; setup details and a repeat are needed to see whether they persist.
 
 ## Record status and setup
 
@@ -53,7 +53,7 @@ Eight supplied screenshots now show L/R views of speed deviation, 1 kHz level mo
 
 ## Review summary
 
-Near-nominal mean speed and steady harmonic levels characterise this capture. The report records 24.9 dB L→R and 22.8 dB R→L separation, with higher distortion in the left channel. A repeat capture at unchanged settings can test whether the channel differences recur. These are in-system observations, without a manufacturer-specification or audibility comparison.
+The Technics SL-1410 MK2 averaged 33.33 RPM (−0.01%) with 0.040% DIN-shaped wow and flutter. Average 1 kHz separation was 23.8 dB; the measured directions were −24.9 dB L→R and −22.8 dB R→L, while channel balance was −0.26 dB. Harmonics stayed steady within this recording, although THD was higher on the left (2.26%) than the right (1.85%). The directional and harmonic differences are observations from this capture; setup details and a repeat are needed to see whether they persist.
 
 ## Source assets
 

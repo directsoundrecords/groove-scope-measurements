@@ -2,7 +2,7 @@
 
 **Measured by Michelangelo Canonico for Direct Sound Records using Groove Scope.**
 
-The Micro Seiki RX-5000 / SME V / Transfiguration Orpheus capture measured 33.51 RPM (+0.52%) with 0.031% DIN-shaped wow and flutter RMS. Average separation was 19.5 dB at 1 kHz, channel balance was −0.35 dB, and THD was 0.87% left and 1.18% right. The report classified harmonic levels as steady during this capture.
+The RX-5000 averaged 33.51 RPM (+0.52%) with 0.031% DIN-shaped wow and flutter. The mean speed is above nominal while the weighted variation result is low; these are separate observations, and the plots do not establish why the mean is high. Average separation was 19.5 dB and channel balance −0.35 dB. Harmonic levels were reported steady during this recording; a repeat with the test-record track and setup documented would show whether the speed reading recurs.
 
 ## Record status and identity
 
@@ -51,7 +51,7 @@ Eight supplied screenshots cover speed deviation, 1 kHz level modulation, opposi
 
 ## Interpretation and next comparison
 
-The report describes harmonic levels as steady within this capture, which makes them useful setup context. A repeated session with the same record, track and settings can test whether the reported +0.52% mean speed offset and the channel-specific fingerprint patterns persist. The values describe this playback chain and recording; they are not manufacturer specifications.
+The report describes harmonic levels as steady within this capture. A repeated session with the same record, track and settings can test whether the +0.52% mean speed offset and channel-specific fingerprint patterns persist. These values describe this playback chain and recording; they are not manufacturer specifications.
 
 ## Setup and provenance
 

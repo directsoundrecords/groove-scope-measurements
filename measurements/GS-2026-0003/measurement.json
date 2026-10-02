@@ -154,7 +154,7 @@
     }
   },
   "interpretation": {
-    "summary": "The AT-OC9XML achieved 31.8 dB average separation at 1 kHz, 4.8 dB above Audio-Technica's published 27 dB figure, while its measured 0.24 dB channel-balance magnitude sat inside the published 1.0 dB specification. Playback speed was 33.34 RPM (+0.02%) with DIN-shaped wow and flutter RMS of 0.030%.",
+    "summary": "In this Rega P3 / RB330 capture, playback settled at 33.34 RPM (+0.02%) with 0.030% DIN-shaped wow and flutter. Average 1 kHz separation was 31.8 dB and channel balance was −0.24 dB; the left-channel third harmonic changed most during the recording, so a repeat is advisable before changing setup.",
     "recommendation": "Use a repeat capture to extend the harmonic comparison and assess whether the left channel's third-harmonic pattern recurs.",
     "repeat_required": true
   },

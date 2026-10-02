@@ -41,7 +41,7 @@
   "measurement_id": "GS-2026-0005",
   "record_version": "0.9.1",
   "publication_status": "draft",
-  "title": "Empire 7000/III — Technics SL-1410 MK2 / ART USB Phono Plus — 1 kHz Reference Check",
+  "title": "Technics SL-1410 MK2 / Empire 7000/III — 1 kHz Playback Check",
   "source_report_title": "Technics SL-1410MK2 - Empire 7000/III - ART USB phono plus",
   "slug": "gs-2026-0005-empire-7000-iii-technics-sl-1410-mk2-art-usb-phono-plus",
   "measurement_datetime_local": "2026-10-01T12:18:00",
@@ -153,7 +153,7 @@
     }
   },
   "interpretation": {
-    "summary": "The Technics SL-1410 MK2 / Empire 7000/III capture measured 33.33 RPM (−0.01%) with 0.040% DIN-shaped wow and flutter RMS through ART USB Phono Plus. Average separation was 23.8 dB at 1 kHz, with −0.26 dB channel balance. Harmonic levels were steady during recording; THD measured 2.26% left and 1.85% right.",
+    "summary": "The Technics SL-1410 MK2 averaged 33.33 RPM (−0.01%) with 0.040% DIN-shaped wow and flutter. Separation averaged 23.8 dB, but the two crosstalk directions differed by about 2 dB; channel balance was −0.26 dB. Harmonics stayed steady within this recording, while THD was higher on the left (2.26%) than the right (1.85%).",
     "recommendation": "Repeat the capture with unchanged settings to assess whether the channel differences recur. Document the remaining setup and capture settings.",
     "repeat_required": false
   },

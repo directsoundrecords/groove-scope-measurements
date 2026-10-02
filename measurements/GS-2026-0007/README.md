@@ -2,7 +2,7 @@
 
 **Measured by Michelangelo Canonico for Direct Sound Records using Groove Scope.**
 
-The 22:17 Micro Seiki DQX-500 capture measured 33.33 RPM (−0.01%) with 0.032% DIN-shaped wow and flutter RMS. Average separation was 20.1 dB at 1 kHz and channel balance was −0.54 dB. THD was 1.72% left and 2.15% right. The report recommends a repeat because the right-channel third harmonic changed most during recording.
+The DQX-500 capture averaged 33.33 RPM (−0.01%) with 0.032% DIN-shaped wow and flutter. Average 1 kHz separation was 20.1 dB, with −0.54 dB channel balance; THD was 1.72% left and 2.15% right. The right-channel third harmonic changed most during recording, so the report advises repeating the capture before changing cartridge setup.
 
 ## Record status and identity
 

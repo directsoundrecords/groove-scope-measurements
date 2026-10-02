@@ -4,12 +4,12 @@
   "measurements": [
     {
       "measurement_id": "GS-2026-0005",
-      "title": "Empire 7000/III — Technics SL-1410 MK2 / ART USB Phono Plus — 1 kHz Reference Check",
+      "title": "Technics SL-1410 MK2 / Empire 7000/III — 1 kHz Playback Check",
       "short_title": "Empire 7000/III / Technics SL-1410 MK2 / ART USB Phono Plus",
       "date": "2026-10-01",
       "status": "draft",
       "hero_image": "assets/GS-2026-0005/web/hero-1448.webp",
-      "summary": "The Technics SL-1410 MK2 / Empire 7000/III capture measured 33.33 RPM (−0.01%) with 0.040% DIN-shaped wow and flutter RMS through ART USB Phono Plus. Average separation was 23.8 dB at 1 kHz, with −0.26 dB channel balance. Harmonic levels were steady during recording; THD measured 2.26% left and 1.85% right.",
+      "summary": "The Technics SL-1410 MK2 averaged 33.33 RPM (−0.01%) with 0.040% DIN-shaped wow and flutter. Separation averaged 23.8 dB, but the two crosstalk directions differed by about 2 dB; channel balance was −0.26 dB. Harmonics stayed steady within this recording, while THD was higher on the left (2.26%) than the right (1.85%).",
       "primary_metrics": {
         "playback_rpm": 33.33,
         "speed_error_percent": -0.01,
@@ -26,7 +26,7 @@
       "date": "2026-10-01",
       "status": "draft",
       "hero_image": "assets/GS-2026-0007/web/hero-1448.webp",
-      "summary": "The 22:17 Micro Seiki DQX-500 capture measured 33.33 RPM (−0.01%) with 0.032% DIN-shaped wow and flutter RMS. Average separation was 20.1 dB at 1 kHz and channel balance was −0.54 dB. THD was 1.72% left and 2.15% right. The report recommends a repeat because the right-channel third harmonic changed most during recording.",
+      "summary": "The DQX-500 capture averaged 33.33 RPM (−0.01%) with 0.032% DIN-shaped wow and flutter. Average 1 kHz separation was 20.1 dB and channel balance was −0.54 dB. The right-channel third harmonic changed most during recording, so the report advises repeating the capture before adjusting the cartridge setup.",
       "primary_metrics": {
         "playback_rpm": 33.33,
         "speed_error_percent": -0.01,
@@ -43,7 +43,7 @@
       "date": "2026-09-05",
       "status": "draft",
       "hero_image": "assets/GS-2026-0003/web/hero-2400.webp",
-      "summary": "Excellent in-system AT-OC9XML separation and channel balance with near-nominal Rega P3 speed and four L/R rotation-fingerprint views.",
+      "summary": "In this Rega P3 / RB330 capture, playback settled at 33.34 RPM (+0.02%) with 0.030% DIN-shaped wow and flutter. Average 1 kHz separation was 31.8 dB and channel balance was −0.24 dB; the left-channel third harmonic changed most during the recording, so a repeat is advisable before changing setup.",
       "primary_metrics": {
         "playback_rpm": 33.34,
         "speed_error_percent": 0.02,
