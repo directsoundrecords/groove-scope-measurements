@@ -1,0 +1,218 @@
+{
+  "$schema": "../../data/schema/measurement.schema.json",
+  "schema_version": "1.0.0",
+  "language": "en",
+  "creator": {
+    "name": "Michelangelo Canonico",
+    "role": "Creator and lead measurer",
+    "affiliation": "Direct Sound Records"
+  },
+  "publisher": {
+    "name": "Direct Sound Records",
+    "url": "https://directsoundrecords.com/",
+    "location_label": "London–Rome"
+  },
+  "software": {
+    "name": "Groove Scope",
+    "report_generator_label": "Groove Scope Reference",
+    "application_version": "not_recorded",
+    "analysis_method_version": "not_recorded",
+    "platform": "not_recorded",
+    "developer": "Michelangelo Canonico / Direct Sound Records"
+  },
+  "related_applications": [
+    {
+      "name": "Resonance Lab",
+      "relationship": "Companion application for tonearm and cartridge resonance planning",
+      "url": "https://directsoundrecords.com/resonance-lab/"
+    }
+  ],
+  "measurement_type": "1 kHz Reference Check",
+  "measurement_scope": [
+    "playback speed",
+    "rotational stability",
+    "DIN-shaped wow and flutter",
+    "channel balance",
+    "electrical crosstalk",
+    "distortion diagnostics",
+    "harmonic profile",
+    "rotation fingerprints"
+  ],
+  "license": "CC-BY-4.0",
+  "measurement_id": "GS-2026-0008",
+  "record_version": "0.9.0",
+  "publication_status": "draft",
+  "title": "Ortofon 2M Bronze — Rega P3 / Audio Research SP20 / EVO4 — 1 kHz Reference Check",
+  "source_report_title": "Ortofon 2M Bronze - Rega P3 - Audio Research SP20 - EVO4",
+  "slug": "gs-2026-0008-ortofon-2m-bronze-rega-p3-1-khz-reference-check",
+  "measurement_datetime_local": "2026-10-02T09:44:00",
+  "measurement_timezone": "not_recorded",
+  "date_published": "2026-10-02",
+  "sample_id": "not_recorded",
+  "setup": {
+    "turntable": "Rega P3",
+    "tonearm": "not_recorded",
+    "cartridge": "Ortofon 2M Bronze",
+    "stylus": "not_recorded",
+    "cartridge_hours": "not_recorded",
+    "vertical_tracking_force_g": "not_recorded",
+    "anti_skate_setting": "not_recorded",
+    "alignment_geometry": "not_recorded",
+    "azimuth_setting": "not_recorded",
+    "vta_or_sra_setting": "not_recorded",
+    "phono_stage": "Audio Research SP20",
+    "phono_gain_db": "not_recorded",
+    "cartridge_loading": "not_recorded",
+    "test_record": "not_recorded",
+    "test_record_track": "not_recorded",
+    "test_record_condition": "not_recorded",
+    "nominal_test_tone_hz": 1000,
+    "audio_interface_reported_label": "EVO4",
+    "audio_interface_full_model": "EVO4",
+    "interface_gain_settings": "not_recorded",
+    "sample_rate_hz": "not_recorded",
+    "bit_depth": "not_recorded",
+    "capture_device": "not_recorded",
+    "channel_routing": "not_recorded",
+    "measurement_location": "not_recorded"
+  },
+  "results": {
+    "playback_rpm": {
+      "value": 33.34,
+      "classification": "primary",
+      "condition": "under_stylus_load"
+    },
+    "playback_speed_error_percent": {
+      "value": 0.01,
+      "classification": "primary",
+      "direction": "fast"
+    },
+    "settled_rpm": {
+      "minimum": 33.26,
+      "maximum": 33.41,
+      "span": 0.15,
+      "classification": "primary"
+    },
+    "din_shaped_wow_flutter_percent": {
+      "value": 0.027,
+      "classification": "primary"
+    },
+    "raw_speed_variation_percent": {
+      "rms_plus_minus": 0.125,
+      "two_sigma_plus_minus": 0.249,
+      "classification": "unweighted_diagnostic"
+    },
+    "raw_wow_flutter_percent": {
+      "wow_rms": 0.12,
+      "flutter_rms": 0.032,
+      "classification": "unweighted_diagnostic"
+    },
+    "channel_balance_db": {
+      "value": 0.53,
+      "classification": "diagnostic_only"
+    },
+    "crosstalk_1khz_db": {
+      "average_separation": 32.8,
+      "left_to_right": -33.2,
+      "right_to_left": -32.4,
+      "directional_difference": 0.78,
+      "classification": "supporting"
+    },
+    "thd_percent": {
+      "left": 0.98,
+      "right": 1.13,
+      "left_minus_right_percentage_points": -0.15,
+      "classification": "diagnostic"
+    },
+    "harmonic_profile_db": {
+      "h2": {
+        "left": -40.3,
+        "right": -39.1
+      },
+      "h3": {
+        "left": -59.5,
+        "right": -57.1
+      },
+      "h4": {
+        "left": -63.2,
+        "right": -58.9
+      },
+      "h5": {
+        "left": -74.5,
+        "right": -66.6
+      },
+      "classification": "diagnostic"
+    },
+    "harmonic_difference_summary_db": {
+      "h2_right_higher": 1.2,
+      "h3_right_higher": 2.4,
+      "classification": "source_report_summary"
+    },
+    "harmonic_reliability": {
+      "classification": "repeat_before_setup_change",
+      "quality_note": "The right channel's third harmonic changed most during recording. Repeat before changing the cartridge setup."
+    }
+  },
+  "interpretation": {
+    "summary": "The Ortofon 2M Bronze delivers strong 1 kHz separation in this Rega P3 / Audio Research SP20 / EVO4 capture: 32.8 dB on average, with +0.53 dB channel balance. Playback averaged 33.34 RPM (+0.01%) with 0.027% DIN-shaped wow and flutter. THD was 0.98% left and 1.13% right; repeat the right-channel third-harmonic check before changing setup.",
+    "recommendation": "Retain this promising channel-performance baseline and repeat the capture before changing cartridge setup, as the report advises. Document loading, tracking force, test-record and capture settings for reproducible comparisons.",
+    "repeat_required": true
+  },
+  "provenance": {
+    "source_type": "Groove Scope generated PDF report",
+    "source_file": "report.pdf",
+    "data_entry_method": "Values transcribed verbatim from the original PDF report; rounded differences are preserved rather than recalculated.",
+    "raw_audio_published": false,
+    "raw_audio_note": "No raw test-record audio is included.",
+    "sample_ownership": "not_recorded",
+    "setup_metadata_source": "The source report title identifies Ortofon 2M Bronze, Rega P3, Audio Research SP20 and EVO4. The input field reports EVO4.",
+    "known_limitations": [
+      "Tonearm, stylus, loading, tracking force, alignment, anti-skate, test-record identity and track, capture settings, software versions, timezone and repeat count were not supplied.",
+      "The right-channel third harmonic varied during this recording; repeat before changing cartridge setup, as the source report states.",
+      "Reported differences retain source precision and may differ from subtraction of rounded channel values.",
+      "Manufacturer figures provide context; this complete playback-chain capture is not a controlled certification of the cartridge alone."
+    ],
+    "fingerprint_channel_assignment": "L/R labels follow the order of the two screenshots supplied for each metric; the screenshots themselves do not display channel labels.",
+    "photo_treatment": "Supplied photograph cosmetically retouched with AI for background, lighting, colour and dust removal. Original HEIC preserved. Fingerprint PNGs are unedited and web copies use lossless WebP."
+  },
+  "files": {
+    "human_readable_record": "README.md",
+    "source_report": "report.pdf",
+    "checksums": "checksums.sha256",
+    "source_hero": "assets/source/hero-original.heic",
+    "rotation_fingerprints": [
+      "assets/source/speed-deviation-left.png",
+      "assets/source/speed-deviation-right.png",
+      "assets/source/level-modulation-left.png",
+      "assets/source/level-modulation-right.png",
+      "assets/source/opposite-channel-leakage-left.png",
+      "assets/source/opposite-channel-leakage-right.png",
+      "assets/source/harmonic-distortion-left.png",
+      "assets/source/harmonic-distortion-right.png"
+    ],
+    "retouched_hero": "assets/hero-retouched.png",
+    "image_edit_prompt": "assets/image-edit-prompt.txt"
+  },
+  "keywords": [
+    "Groove Scope",
+    "Direct Sound Records",
+    "Michelangelo Canonico",
+    "Ortofon 2M Bronze",
+    "Rega P3",
+    "Audio Research SP20",
+    "EVO4",
+    "vinyl measurement",
+    "rotation fingerprint",
+    "wow and flutter",
+    "cartridge crosstalk"
+  ],
+  "external_references": [
+    {
+      "title": "Ortofon 2M Bronze manufacturer specifications",
+      "url": "https://ortofon.com/products/2m-bronze",
+      "accessed": "2026-10-02",
+      "channel_separation_1khz_db": 26,
+      "channel_balance_1khz_db": 1
+    }
+  ]
+}

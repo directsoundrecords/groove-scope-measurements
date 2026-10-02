@@ -3,6 +3,23 @@
   "updated": "2026-10-02",
   "measurements": [
     {
+      "measurement_id": "GS-2026-0008",
+      "title": "Ortofon 2M Bronze — Rega P3 / Audio Research SP20 / EVO4 — 1 kHz Reference Check",
+      "short_title": "Ortofon 2M Bronze / Rega P3 / SP20 / EVO4",
+      "date": "2026-10-02",
+      "status": "draft",
+      "hero_image": "assets/GS-2026-0008/web/hero-1448.webp",
+      "summary": "The Ortofon 2M Bronze delivers strong 1 kHz separation in this Rega P3 / Audio Research SP20 / EVO4 capture: 32.8 dB on average, with +0.53 dB channel balance. Playback averaged 33.34 RPM (+0.01%) with 0.027% DIN-shaped wow and flutter. THD was 0.98% left and 1.13% right; repeat the right-channel third-harmonic check before changing setup.",
+      "primary_metrics": {
+        "playback_rpm": 33.34,
+        "speed_error_percent": 0.01,
+        "din_shaped_wow_flutter_percent": 0.027,
+        "average_separation_db": 32.8
+      },
+      "measurement_url": "measurements/GS-2026-0008.html",
+      "provenance_label": "DSR measurement session; setup metadata incomplete"
+    },
+    {
       "measurement_id": "GS-2026-0005",
       "title": "Technics SL-1410 MK2 / Empire 7000/III — 1 kHz Playback Check",
       "short_title": "Empire 7000/III / Technics SL-1410 MK2 / ART USB Phono Plus",
