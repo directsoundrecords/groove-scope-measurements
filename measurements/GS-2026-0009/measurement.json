@@ -1,0 +1,211 @@
+{
+  "$schema": "../../data/schema/measurement.schema.json",
+  "schema_version": "1.0.0",
+  "language": "en",
+  "creator": {
+    "name": "Michelangelo Canonico",
+    "role": "Creator and lead measurer",
+    "affiliation": "Direct Sound Records"
+  },
+  "publisher": {
+    "name": "Direct Sound Records",
+    "url": "https://directsoundrecords.com/",
+    "location_label": "London–Rome"
+  },
+  "software": {
+    "name": "Groove Scope",
+    "report_generator_label": "Groove Scope Reference",
+    "application_version": "not_recorded",
+    "analysis_method_version": "not_recorded",
+    "platform": "not_recorded",
+    "developer": "Michelangelo Canonico / Direct Sound Records"
+  },
+  "related_applications": [
+    {
+      "name": "Resonance Lab",
+      "relationship": "Companion application for tonearm and cartridge resonance planning",
+      "url": "https://directsoundrecords.com/resonance-lab/"
+    }
+  ],
+  "measurement_type": "1 kHz Reference Check",
+  "measurement_scope": [
+    "playback speed",
+    "rotational stability",
+    "DIN-shaped wow and flutter",
+    "channel balance",
+    "electrical crosstalk",
+    "distortion diagnostics",
+    "harmonic profile"
+  ],
+  "license": "CC-BY-4.0",
+  "measurement_id": "GS-2026-0009",
+  "record_version": "0.9.0",
+  "publication_status": "draft",
+  "title": "BENZ SPJ — VYGER Atlantis / ART USB Phono Plus — Hi Fidelity Milan",
+  "source_report_title": "Benz SPJ VYGER Atlantis",
+  "slug": "gs-2026-0009-benz-spj-vyger-atlantis-hi-fidelity-milan",
+  "measurement_datetime_local": "2026-10-04T13:40:00",
+  "measurement_timezone": "not_recorded",
+  "date_published": "2026-10-06",
+  "sample_id": "not_recorded",
+  "setup": {
+    "turntable": "VYGER Atlantis",
+    "tonearm": "not_recorded",
+    "cartridge": "BENZ SPJ",
+    "stylus": "not_recorded",
+    "cartridge_hours": "not_recorded",
+    "vertical_tracking_force_g": "not_recorded",
+    "anti_skate_setting": "not_recorded",
+    "alignment_geometry": "not_recorded",
+    "azimuth_setting": "not_recorded",
+    "vta_or_sra_setting": "not_recorded",
+    "phono_stage": "not_recorded",
+    "phono_gain_db": "not_recorded",
+    "cartridge_loading": "not_recorded",
+    "test_record": "not_recorded",
+    "test_record_track": "not_recorded",
+    "test_record_condition": "not_recorded",
+    "nominal_test_tone_hz": 1000,
+    "audio_interface_reported_label": "USB Audio CODEC",
+    "audio_interface_full_model": "ART USB Phono Plus",
+    "interface_gain_settings": "not_recorded",
+    "sample_rate_hz": "not_recorded",
+    "bit_depth": "not_recorded",
+    "capture_device": "not_recorded",
+    "channel_routing": "not_recorded",
+    "measurement_location": "Hi Fidelity Milan — CHARIO Academy room",
+    "adjustments_for_measurement": "none; setup measured as found, per measurer"
+  },
+  "results": {
+    "playback_rpm": {
+      "value": 33.33,
+      "classification": "primary",
+      "condition": "under_stylus_load"
+    },
+    "playback_speed_error_percent": {
+      "value": -0.01,
+      "classification": "primary",
+      "direction": "slow"
+    },
+    "settled_rpm": {
+      "minimum": 33.21,
+      "maximum": 33.44,
+      "span": 0.23,
+      "classification": "primary"
+    },
+    "din_shaped_wow_flutter_percent": {
+      "value": 0.032,
+      "classification": "primary"
+    },
+    "raw_speed_variation_percent": {
+      "rms_plus_minus": 0.197,
+      "two_sigma_plus_minus": 0.393,
+      "classification": "unweighted_diagnostic"
+    },
+    "raw_wow_flutter_percent": {
+      "wow_rms": 0.189,
+      "flutter_rms": 0.049,
+      "classification": "unweighted_diagnostic"
+    },
+    "channel_balance_db": {
+      "value": 0.49,
+      "classification": "diagnostic_only"
+    },
+    "crosstalk_1khz_db": {
+      "average_separation": 27.4,
+      "left_to_right": -25.9,
+      "right_to_left": -28.9,
+      "directional_difference": 3.03,
+      "classification": "supporting"
+    },
+    "thd_percent": {
+      "left": 0.96,
+      "right": 1.06,
+      "left_minus_right_percentage_points": -0.11,
+      "classification": "diagnostic"
+    },
+    "harmonic_profile_db": {
+      "h2": {
+        "left": -40.7,
+        "right": -39.5
+      },
+      "h3": {
+        "left": -51.4,
+        "right": -58.8
+      },
+      "h4": {
+        "left": -60.7,
+        "right": -65.2
+      },
+      "h5": {
+        "left": -65.2,
+        "right": -68.3
+      },
+      "classification": "diagnostic"
+    },
+    "harmonic_difference_summary_db": {
+      "h2_right_higher": 1.2,
+      "h3_left_higher": 7.4,
+      "classification": "source_report_summary"
+    },
+    "harmonic_reliability": {
+      "classification": "steady_during_recording",
+      "quality_note": "Steady during recording. Suitable for setup guidance."
+    }
+  },
+  "interpretation": {
+    "summary": "Measured as found in the CHARIO Academy room at Hi Fidelity Milan, with no setup adjustments: the VYGER Atlantis / BENZ SPJ chain averaged 33.33 RPM (−0.01%), with 0.032% DIN-shaped wow and flutter, 27.4 dB average separation and +0.49 dB channel balance. Harmonics were steady during recording. The measurer also reports a successful 100 µm tracking-ladder pass.",
+    "recommendation": "Preserve this unchanged show-room setup as a baseline. A longer documented repeat could explore the 3.03 dB directional separation difference and extend the tracking-ladder observation.",
+    "repeat_required": false
+  },
+  "provenance": {
+    "source_type": "Groove Scope generated PDF report",
+    "source_file": "report.pdf",
+    "data_entry_method": "Values transcribed verbatim from the original PDF report; rounded differences are preserved rather than recalculated.",
+    "raw_audio_published": false,
+    "raw_audio_note": "No raw test-record audio is included.",
+    "sample_ownership": "not_recorded",
+    "setup_metadata_source": "The PDF title identifies BENZ SPJ and VYGER Atlantis and the input field reports USB Audio CODEC. The measurer supplied the ART USB Phono Plus identity, show and room, no-adjustment context, 100 µm ladder pass and acknowledgement.",
+    "known_limitations": [
+      "A quick show-room capture with no setup adjustments, according to the measurer; not an optimised or controlled laboratory comparison.",
+      "Tonearm model, stylus, loading, tracking force, alignment, anti-skate, test-record identity and track, interface routing and gain, capture settings, software versions, timezone and repeat count were not supplied.",
+      "The 100 µm tracking-ladder pass is a measurer-reported session observation outside the source PDF; frequency, record and pass criterion were not supplied.",
+      "Reported differences retain source precision and may differ from subtraction of rounded channel values."
+    ],
+    "photo_treatment": "Original event photograph preserved. Web image is a resized format conversion with no AI retouching or background replacement."
+  },
+  "files": {
+    "human_readable_record": "README.md",
+    "source_report": "report.pdf",
+    "checksums": "checksums.sha256",
+    "source_hero": "assets/source/hero-original.heic"
+  },
+  "keywords": [
+    "Groove Scope",
+    "Direct Sound Records",
+    "Michelangelo Canonico",
+    "BENZ SPJ",
+    "VYGER Atlantis",
+    "ART USB Phono Plus",
+    "Hi Fidelity Milan",
+    "CHARIO Academy",
+    "Pino Viola",
+    "tracking ladder",
+    "100 µm"
+  ],
+  "session_observations": {
+    "source": "Measurer account supplied with publication request",
+    "event": "Hi Fidelity Milan",
+    "room": "CHARIO Academy",
+    "setup_adjustments_made": false,
+    "tracking_ladder": {
+      "passed_level_um": 100,
+      "test_record": "not_recorded",
+      "test_frequency_hz": "not_recorded",
+      "pass_criterion": "not_recorded",
+      "included_in_source_pdf": false,
+      "interpretation": "Tracking result applies to the complete turntable/tonearm/cartridge setup."
+    },
+    "acknowledgement": "Thank you to Pino Viola for giving Direct Sound Records the opportunity to measure the VYGER Atlantis in the CHARIO Academy room. For us, it was a privilege to spend time with a turntable we regard as one of the world’s finest."
+  }
+}

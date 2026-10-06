@@ -1,7 +1,24 @@
 {
   "schema_version": "1.0.0",
-  "updated": "2026-10-02",
+  "updated": "2026-10-06",
   "measurements": [
+    {
+      "measurement_id": "GS-2026-0009",
+      "title": "BENZ SPJ — VYGER Atlantis / ART USB Phono Plus — Hi Fidelity Milan",
+      "short_title": "BENZ SPJ / VYGER Atlantis / ART USB Phono Plus",
+      "date": "2026-10-04",
+      "status": "draft",
+      "hero_image": "assets/GS-2026-0009/web/hero-2400.webp",
+      "summary": "Measured as found in the CHARIO Academy room at Hi Fidelity Milan, with no setup adjustments: the VYGER Atlantis / BENZ SPJ chain averaged 33.33 RPM (−0.01%), with 0.032% DIN-shaped wow and flutter, 27.4 dB average separation and +0.49 dB channel balance. Harmonics were steady during recording. The measurer also reports a successful 100 µm tracking-ladder pass.",
+      "primary_metrics": {
+        "playback_rpm": 33.33,
+        "speed_error_percent": -0.01,
+        "din_shaped_wow_flutter_percent": 0.032,
+        "average_separation_db": 27.4
+      },
+      "measurement_url": "measurements/GS-2026-0009.html",
+      "provenance_label": "Hi Fidelity Milan — CHARIO Academy room; no setup adjustments"
+    },
     {
       "measurement_id": "GS-2026-0008",
       "title": "Ortofon 2M Bronze — Rega P3 / Audio Research SP20 / EVO4 — 1 kHz Reference Check",

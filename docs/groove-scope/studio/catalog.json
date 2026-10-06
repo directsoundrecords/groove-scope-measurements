@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
-  "catalogue_version": "d615e1e323241d12",
-  "generated_at": "2026-10-02T09:11:08Z",
+  "catalogue_version": "5a491194abe5e005",
+  "generated_at": "2026-10-06T11:08:00Z",
   "catalogue_url": "https://measurements.directsoundrecords.com/groove-scope/studio/catalog.json",
   "status_policy": {
     "included_statuses": [
@@ -13,9 +13,182 @@
       "withdrawn"
     ]
   },
-  "measurement_count": 5,
-  "latest_measurement_id": "GS-2026-0008",
+  "measurement_count": 6,
+  "latest_measurement_id": "GS-2026-0009",
   "measurements": [
+    {
+      "measurement_id": "GS-2026-0009",
+      "publication_status": "draft",
+      "status_label": "Draft",
+      "measurement_date": "2026-10-04",
+      "publication_date": "2026-10-06",
+      "measurement_type": "1 kHz Reference Check",
+      "title": "BENZ SPJ — VYGER Atlantis / ART USB Phono Plus — Hi Fidelity Milan",
+      "short_display_title": "VYGER Atlantis / BENZ SPJ",
+      "system_title": "VYGER Atlantis / BENZ SPJ",
+      "summary": "Measured as found in the CHARIO Academy room at Hi Fidelity Milan, with no setup adjustments: the VYGER Atlantis / BENZ SPJ chain averaged 33.33 RPM (−0.01%), with 0.032% DIN-shaped wow and flutter, 27.4 dB average separation and +0.49 dB channel balance. Harmonics were steady during recording. The measurer also reports a successful 100 µm tracking-ladder pass.",
+      "hero_image_url": "https://measurements.directsoundrecords.com/groove-scope/assets/GS-2026-0009/web/hero-2400.webp",
+      "card_image_url": "https://measurements.directsoundrecords.com/groove-scope/studio/images/GS-2026-0009-card-1200.jpg",
+      "images": {
+        "card": {
+          "url": "https://measurements.directsoundrecords.com/groove-scope/studio/images/GS-2026-0009-card-1200.jpg",
+          "width": 1200,
+          "height": 675
+        },
+        "hero": {
+          "url": "https://measurements.directsoundrecords.com/groove-scope/assets/GS-2026-0009/web/hero-2400.webp",
+          "width": 2400,
+          "height": 1800
+        }
+      },
+      "measurement_url": "https://measurements.directsoundrecords.com/groove-scope/measurements/GS-2026-0009.html",
+      "technical_record_url": "https://github.com/directsoundrecords/groove-scope-measurements/tree/main/measurements/GS-2026-0009",
+      "canonical_json_url": "https://raw.githubusercontent.com/directsoundrecords/groove-scope-measurements/main/measurements/GS-2026-0009/measurement.json",
+      "components": {
+        "turntable": {
+          "kind": "turntable",
+          "state": "recorded",
+          "display_name": "VYGER Atlantis",
+          "manufacturer": null,
+          "model": null
+        },
+        "tonearm": {
+          "kind": "tonearm",
+          "state": "not_recorded",
+          "display_name": null,
+          "manufacturer": null,
+          "model": null
+        },
+        "cartridge": {
+          "kind": "cartridge",
+          "state": "recorded",
+          "display_name": "BENZ SPJ",
+          "manufacturer": null,
+          "model": null
+        },
+        "stylus": {
+          "kind": "stylus",
+          "state": "not_recorded",
+          "display_name": null,
+          "manufacturer": null,
+          "model": null
+        },
+        "phono_stage": {
+          "kind": "phono_stage",
+          "state": "not_recorded",
+          "display_name": null,
+          "manufacturer": null,
+          "model": null
+        },
+        "audio_interface": {
+          "kind": "audio_interface",
+          "state": "recorded",
+          "display_name": "ART USB Phono Plus",
+          "reported_label": "USB Audio CODEC",
+          "confirmed_model": "ART USB Phono Plus"
+        },
+        "tracking_force": {
+          "state": "not_recorded",
+          "value": null,
+          "unit": "g"
+        },
+        "cartridge_loading": {
+          "state": "not_recorded",
+          "value": null
+        },
+        "phono_gain": {
+          "state": "not_recorded",
+          "value": null,
+          "unit": "dB"
+        },
+        "test_record": {
+          "kind": "test_record",
+          "state": "not_recorded",
+          "display_name": null,
+          "manufacturer": null,
+          "model": null
+        },
+        "test_record_track": {
+          "state": "not_recorded",
+          "value": null
+        },
+        "nominal_test_tone": {
+          "state": "recorded",
+          "value": 1000,
+          "unit": "Hz"
+        },
+        "turntable_support": {
+          "state": "not_recorded",
+          "value": null
+        }
+      },
+      "headline_metrics": [
+        {
+          "identifier": "playback_rpm",
+          "display_label": "Playback speed",
+          "value": 33.33,
+          "unit": "RPM",
+          "classification": "primary"
+        },
+        {
+          "identifier": "playback_speed_error_percent",
+          "display_label": "Speed error",
+          "value": -0.01,
+          "unit": "%",
+          "classification": "primary"
+        },
+        {
+          "identifier": "din_shaped_wow_flutter_percent",
+          "display_label": "DIN W&F",
+          "value": 0.032,
+          "unit": "%",
+          "classification": "primary"
+        },
+        {
+          "identifier": "channel_balance_db",
+          "display_label": "Channel balance",
+          "value": 0.49,
+          "unit": "dB",
+          "classification": "diagnostic_only"
+        },
+        {
+          "identifier": "average_channel_separation_db",
+          "display_label": "Average separation",
+          "value": 27.4,
+          "unit": "dB",
+          "classification": "supporting"
+        },
+        {
+          "identifier": "crosstalk_left_to_right_db",
+          "display_label": "L→R crosstalk",
+          "value": -25.9,
+          "unit": "dB",
+          "classification": "supporting"
+        },
+        {
+          "identifier": "crosstalk_right_to_left_db",
+          "display_label": "R→L crosstalk",
+          "value": -28.9,
+          "unit": "dB",
+          "classification": "supporting"
+        },
+        {
+          "identifier": "thd_left_percent",
+          "display_label": "THD left",
+          "value": 0.96,
+          "unit": "%",
+          "classification": "diagnostic"
+        },
+        {
+          "identifier": "thd_right_percent",
+          "display_label": "THD right",
+          "value": 1.06,
+          "unit": "%",
+          "classification": "diagnostic"
+        }
+      ],
+      "search_text": "GS-2026-0009 1 kHz Reference Check VYGER Atlantis BENZ SPJ ART USB Phono Plus"
+    },
     {
       "measurement_id": "GS-2026-0008",
       "publication_status": "draft",
@@ -895,6 +1068,16 @@
         ]
       },
       {
+        "identifier": "benz-spj",
+        "display_name": "BENZ SPJ",
+        "manufacturer": null,
+        "model": null,
+        "measurement_count": 1,
+        "measurement_ids": [
+          "GS-2026-0009"
+        ]
+      },
+      {
         "identifier": "empire-7000-iii",
         "display_name": "Empire 7000/III",
         "manufacturer": null,
@@ -975,6 +1158,16 @@
         "measurement_count": 1,
         "measurement_ids": [
           "GS-2026-0005"
+        ]
+      },
+      {
+        "identifier": "vyger-atlantis",
+        "display_name": "VYGER Atlantis",
+        "manufacturer": null,
+        "model": null,
+        "measurement_count": 1,
+        "measurement_ids": [
+          "GS-2026-0009"
         ]
       }
     ],
