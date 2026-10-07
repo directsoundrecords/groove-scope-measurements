@@ -39,9 +39,9 @@
   ],
   "license": "CC-BY-4.0",
   "measurement_id": "GS-2026-0009",
-  "record_version": "0.9.0",
+  "record_version": "0.9.1",
   "publication_status": "draft",
-  "title": "BENZ SPJ — VYGER Atlantis / ART USB Phono Plus — Hi Fidelity Milan",
+  "title": "BENZ SPJ — VYGER Atlantis / VYGER INERTIAL / ART USB Phono Plus — Hi Fidelity Milan",
   "source_report_title": "Benz SPJ VYGER Atlantis",
   "slug": "gs-2026-0009-benz-spj-vyger-atlantis-hi-fidelity-milan",
   "measurement_datetime_local": "2026-10-04T13:40:00",
@@ -50,7 +50,7 @@
   "sample_id": "not_recorded",
   "setup": {
     "turntable": "VYGER Atlantis",
-    "tonearm": "not_recorded",
+    "tonearm": "VYGER INERTIAL",
     "cartridge": "BENZ SPJ",
     "stylus": "not_recorded",
     "cartridge_hours": "not_recorded",
@@ -154,9 +154,10 @@
     }
   },
   "interpretation": {
-    "summary": "Measured as found in the CHARIO Academy room at Hi Fidelity Milan, with no setup adjustments: the VYGER Atlantis / BENZ SPJ chain averaged 33.33 RPM (−0.01%), with 0.032% DIN-shaped wow and flutter, 27.4 dB average separation and +0.49 dB channel balance. Harmonics were steady during recording. The measurer also reports a successful 100 µm tracking-ladder pass.",
+    "summary": "Measured as found in the CHARIO Academy room at Hi Fidelity Milan, with no setup adjustments: the BENZ SPJ / VYGER Atlantis / VYGER INERTIAL / ART USB Phono Plus chain averaged 33.33 RPM (−0.01%), with 0.032% DIN-shaped wow and flutter, 27.4 dB average separation and +0.49 dB channel balance. Harmonics were steady during recording. The measurer reports a successful 100 µm tracking-ladder pass and credits the new INERTIAL tonearm as a major contributor to that performance.",
     "recommendation": "Preserve this unchanged show-room setup as a baseline. A longer documented repeat could explore the 3.03 dB directional separation difference and extend the tracking-ladder observation.",
-    "repeat_required": false
+    "repeat_required": false,
+    "tonearm_context": "The newly identified VYGER INERTIAL tonearm was central to the tracking demonstration. Michelangelo Canonico attributes much of the successful 100 µm tracking-ladder performance to this new arm, with no setup adjustments made for the session. The supplied INERTIAL manual describes a movable counterweight supported by an air bearing and controlled laterally by magnetic forces. The manufacturer explains that this arrangement allows freer lateral movement when following record eccentricity. It also describes a shorter counterweight-to-pivot distance intended to reduce vertical inertia. These design features provide context for the strong tracking demonstration; this single session did not isolate the arm’s contribution from that of the cartridge and turntable."
   },
   "provenance": {
     "source_type": "Groove Scope generated PDF report",
@@ -165,12 +166,13 @@
     "raw_audio_published": false,
     "raw_audio_note": "No raw test-record audio is included.",
     "sample_ownership": "not_recorded",
-    "setup_metadata_source": "The PDF title identifies BENZ SPJ and VYGER Atlantis and the input field reports USB Audio CODEC. The measurer supplied the ART USB Phono Plus identity, show and room, no-adjustment context, 100 µm ladder pass and acknowledgement.",
+    "setup_metadata_source": "The PDF title identifies BENZ SPJ and VYGER Atlantis and the input field reports USB Audio CODEC. The measurer supplied the ART USB Phono Plus identity, show and room, no-adjustment context, 100 µm ladder pass and acknowledgement. On 7 October 2026, the measurer identified the new tonearm through the supplied INERTIAL manual and attributed much of the tracking performance to it.",
     "known_limitations": [
       "A quick show-room capture with no setup adjustments, according to the measurer; not an optimised or controlled laboratory comparison.",
-      "Tonearm model, stylus, loading, tracking force, alignment, anti-skate, test-record identity and track, interface routing and gain, capture settings, software versions, timezone and repeat count were not supplied.",
+      "Stylus, loading, tracking force, alignment, anti-skate, test-record identity and track, interface routing and gain, capture settings, software versions, timezone and repeat count were not supplied.",
       "The 100 µm tracking-ladder pass is a measurer-reported session observation outside the source PDF; frequency, record and pass criterion were not supplied.",
-      "Reported differences retain source precision and may differ from subtraction of rounded channel values."
+      "Reported differences retain source precision and may differ from subtraction of rounded channel values.",
+      "No before/after tonearm comparison was supplied; the arm’s major contribution is the measurer’s assessment, supported by design context from the manual rather than an isolated causal measurement."
     ],
     "photo_treatment": "Original event photograph preserved. Web image is a resized format conversion with no AI retouching or background replacement."
   },
@@ -191,7 +193,8 @@
     "CHARIO Academy",
     "Pino Viola",
     "tracking ladder",
-    "100 µm"
+    "100 µm",
+    "VYGER INERTIAL"
   ],
   "session_observations": {
     "source": "Measurer account supplied with publication request",
@@ -204,8 +207,17 @@
       "test_frequency_hz": "not_recorded",
       "pass_criterion": "not_recorded",
       "included_in_source_pdf": false,
-      "interpretation": "Tracking result applies to the complete turntable/tonearm/cartridge setup."
+      "interpretation": "Tracking result applies to the complete turntable/tonearm/cartridge setup.",
+      "tonearm_contribution": "The measurer attributes much of the good tracking performance to the new VYGER INERTIAL tonearm."
     },
     "acknowledgement": "Thank you to Pino Viola for giving Direct Sound Records the opportunity to measure the VYGER Atlantis in the CHARIO Academy room. For us, it was a privilege to spend time with a turntable we regard as one of the world’s finest."
-  }
+  },
+  "date_modified": "2026-10-07",
+  "technical_sources": [
+    {
+      "title": "INERTIAL tonearm manual",
+      "source": "MANUAL'S TONEARM  INERTIAL.DOCX, supplied by the measurer on 2026-10-07",
+      "description": "Manufacturer design explanation; not an independent comparative performance test."
+    }
+  ]
 }
