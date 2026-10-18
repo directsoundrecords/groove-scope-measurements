@@ -2,6 +2,12 @@
 
 All notable repository and measurement-record changes are documented here.
 
+## 1.1.4 — 2026-10-18
+
+- Added GS-2026-0010: original Shure V15 V with a new JICO Custom Shop MR stylus, measured on a Micro Seiki DQX500 / MA707 through an Audio Research SP20 and Audient EVO4.
+- Preserved the original PDF, HEIC and eight channel-labelled fingerprint PNGs, with lossless web plots, a cosmetically retouched hero and its edit prompt.
+- Published the full measured results, attributed alignment and listening notes, and the report's right-channel H3 repeat advice; added the entry to both catalogues and discovery indexes.
+
 ## 1.1.3 — 2026-09-05
 
 - Updated GS-2026-0003 to 0.9.3 with measurer-confirmed 2 g tracking force, checked overhang and wall-shelf support.

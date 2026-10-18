@@ -1,0 +1,12 @@
+Mode: built-in image_gen edit; use case: lighting-weather.
+Source: assets/source/hero-original.heic (converted to PNG for the tool).
+
+Use case: lighting-weather
+Asset type: editorial hero photograph for the Groove Scope vinyl measurement archive.
+Input images: Image 1 is the edit target, the user's real photograph of an original Shure V15 V cartridge with a new JICO Custom Shop MR stylus.
+Primary request: Make the photographed cartridge stand out with tasteful coloured backlighting and photographic polish.
+Composition/framing: Preserve the same low three-quarter viewpoint, the complete cartridge, its exact mounting and cantilever position against the vinyl record, and the tonearm receding to the right. Retain a 4:3 landscape composition with some clear space above and to the left for website typography. Make this a close, premium macro photograph.
+Lighting/mood: Replace the pale wall with a softly defocused deep charcoal background. Add restrained cyan/teal and warm amber coloured light from behind, creating a subtle halo around the cartridge and restrained coloured reflections across the record. Use a soft neutral key light on the front so the dark cartridge is clear and tactile.
+Materials/textures: Preserve the actual metal, plastic, screws, wires, stylus, record grooves, reflections and authentic wear. Clean only distracting loose lint/dust.
+Text (verbatim): Preserve the actual raised V emblem and the photographed label VN5MR exactly. Add no new text.
+Constraints: This is cosmetic photographic retouching of the exact photographed hardware. Do not redesign, replace, invent, straighten or alter the cartridge, stylus, cantilever, mounting geometry, wires, screws, tonearm or record. Keep the exact product identity, proportions, placement and perspective. Do not imply a different alignment. No added objects, neon tubes, graphic overlays, borders or logos. Photorealistic, understated studio lighting, no exaggerated glow.

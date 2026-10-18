@@ -1,7 +1,24 @@
 {
   "schema_version": "1.0.0",
-  "updated": "2026-10-07",
+  "updated": "2026-10-18",
   "measurements": [
+    {
+      "measurement_id": "GS-2026-0010",
+      "title": "Shure V15 V / JICO Custom Shop MR — Micro Seiki DQX500 / MA707 — 1 kHz Reference Check",
+      "short_title": "Shure V15 V / JICO Custom Shop MR / Micro Seiki DQX500 / MA707",
+      "date": "2026-10-18",
+      "status": "draft",
+      "hero_image": "assets/GS-2026-0010/web/hero-1448.webp",
+      "summary": "An original Shure V15 V with a new JICO Custom Shop MR stylus gives an encouraging result in this Micro Seiki DQX500 / MA707 / Audio Research SP20 / Audient EVO4 capture: 33.33 RPM (−0.02%), 0.025% DIN-shaped wow and flutter, −0.01 dB channel balance and 27.3 dB average separation. THD measured 0.65% left and 0.49% right. The measurer describes clear, revealing sound before break-in and a surprisingly quiet background; the report calls for a repeat of the right-channel third-harmonic check before setup changes.",
+      "primary_metrics": {
+        "playback_rpm": 33.33,
+        "speed_error_percent": -0.02,
+        "din_shaped_wow_flutter_percent": 0.025,
+        "average_separation_db": 27.3
+      },
+      "measurement_url": "measurements/GS-2026-0010.html",
+      "provenance_label": "DSR measurement session; new JICO MR stylus and measurer-reported azimuth adjustment"
+    },
     {
       "measurement_id": "GS-2026-0009",
       "title": "BENZ SPJ — VYGER Atlantis / VYGER INERTIAL / ART USB Phono Plus — Hi Fidelity Milan",

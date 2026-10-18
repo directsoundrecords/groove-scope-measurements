@@ -10,6 +10,7 @@ This repository is the public measurement archive for **Groove Scope**, a vinyl 
 
 | ID | Date | Measurement | Status | Report | Structured data |
 |---|---:|---|---|---|---|
+| [GS-2026-0010](measurements/GS-2026-0010/README.md) | 2026-10-18 | Shure V15 V / JICO Custom Shop MR / Micro Seiki DQX500 / MA707 / SP20 / Audient EVO4 — 1 kHz Reference Check | Draft — setup metadata incomplete | [PDF](measurements/GS-2026-0010/report.pdf) | [JSON](measurements/GS-2026-0010/measurement.json) |
 | [GS-2026-0006](measurements/GS-2026-0006/README.md) | 2026-09-26 | Transfiguration Orpheus / Micro Seiki RX-5000 / SME V / EVO4 — 1 kHz Reference Check | Draft — setup metadata incomplete | [PDF](measurements/GS-2026-0006/report.pdf) | [JSON](measurements/GS-2026-0006/measurement.json) |
 | [GS-2026-0009](measurements/GS-2026-0009/README.md) | 2026-10-04 | BENZ SPJ / VYGER Atlantis / VYGER INERTIAL / ART USB Phono Plus — Hi Fidelity Milan | Draft — setup metadata incomplete | [PDF](measurements/GS-2026-0009/report.pdf) | [JSON](measurements/GS-2026-0009/measurement.json) |
 | [GS-2026-0008](measurements/GS-2026-0008/README.md) | 2026-10-02 | Ortofon 2M Bronze / Rega P3 / Audio Research SP20 / EVO4 — 1 kHz Reference Check | Draft — setup metadata incomplete | [PDF](measurements/GS-2026-0008/report.pdf) | [JSON](measurements/GS-2026-0008/measurement.json) |

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
-  "catalogue_version": "8a579d37214c72e1",
-  "generated_at": "2026-10-07T14:06:19Z",
+  "catalogue_version": "f6df4b342bb438f5",
+  "generated_at": "2026-10-18T12:31:16Z",
   "catalogue_url": "https://measurements.directsoundrecords.com/groove-scope/studio/catalog.json",
   "status_policy": {
     "included_statuses": [
@@ -13,9 +13,182 @@
       "withdrawn"
     ]
   },
-  "measurement_count": 6,
-  "latest_measurement_id": "GS-2026-0009",
+  "measurement_count": 7,
+  "latest_measurement_id": "GS-2026-0010",
   "measurements": [
+    {
+      "measurement_id": "GS-2026-0010",
+      "publication_status": "draft",
+      "status_label": "Draft",
+      "measurement_date": "2026-10-18",
+      "publication_date": "2026-10-18",
+      "measurement_type": "1 kHz Reference Check",
+      "title": "Shure V15 V / JICO Custom Shop MR — Micro Seiki DQX500 / MA707 — 1 kHz Reference Check",
+      "short_display_title": "Micro Seiki DQX500 / Micro Seiki MA707 / Shure V15 V",
+      "system_title": "Micro Seiki DQX500 / Micro Seiki MA707 / Shure V15 V",
+      "summary": "An original Shure V15 V with a new JICO Custom Shop MR stylus gives an encouraging result in this Micro Seiki DQX500 / MA707 / Audio Research SP20 / Audient EVO4 capture: 33.33 RPM (−0.02%), 0.025% DIN-shaped wow and flutter, −0.01 dB channel balance and 27.3 dB average separation. THD measured 0.65% left and 0.49% right. The measurer describes clear, revealing sound before break-in and a surprisingly quiet background; the report calls for a repeat of the right-channel third-harmonic check before setup changes.",
+      "hero_image_url": "https://measurements.directsoundrecords.com/groove-scope/assets/GS-2026-0010/web/hero-2400.webp",
+      "card_image_url": "https://measurements.directsoundrecords.com/groove-scope/studio/images/GS-2026-0010-card-1200.jpg",
+      "images": {
+        "card": {
+          "url": "https://measurements.directsoundrecords.com/groove-scope/studio/images/GS-2026-0010-card-1200.jpg",
+          "width": 1200,
+          "height": 675
+        },
+        "hero": {
+          "url": "https://measurements.directsoundrecords.com/groove-scope/assets/GS-2026-0010/web/hero-2400.webp",
+          "width": 2400,
+          "height": 1800
+        }
+      },
+      "measurement_url": "https://measurements.directsoundrecords.com/groove-scope/measurements/GS-2026-0010.html",
+      "technical_record_url": "https://github.com/directsoundrecords/groove-scope-measurements/tree/main/measurements/GS-2026-0010",
+      "canonical_json_url": "https://raw.githubusercontent.com/directsoundrecords/groove-scope-measurements/main/measurements/GS-2026-0010/measurement.json",
+      "components": {
+        "turntable": {
+          "kind": "turntable",
+          "state": "recorded",
+          "display_name": "Micro Seiki DQX500",
+          "manufacturer": null,
+          "model": null
+        },
+        "tonearm": {
+          "kind": "tonearm",
+          "state": "recorded",
+          "display_name": "Micro Seiki MA707",
+          "manufacturer": null,
+          "model": null
+        },
+        "cartridge": {
+          "kind": "cartridge",
+          "state": "recorded",
+          "display_name": "Shure V15 V",
+          "manufacturer": null,
+          "model": null
+        },
+        "stylus": {
+          "kind": "stylus",
+          "state": "recorded",
+          "display_name": "JICO Custom Shop MR",
+          "manufacturer": null,
+          "model": null
+        },
+        "phono_stage": {
+          "kind": "phono_stage",
+          "state": "recorded",
+          "display_name": "Audio Research SP20",
+          "manufacturer": null,
+          "model": null
+        },
+        "audio_interface": {
+          "kind": "audio_interface",
+          "state": "recorded",
+          "display_name": "Audient EVO4",
+          "reported_label": null,
+          "confirmed_model": "Audient EVO4"
+        },
+        "tracking_force": {
+          "state": "not_recorded",
+          "value": null,
+          "unit": "g"
+        },
+        "cartridge_loading": {
+          "state": "not_recorded",
+          "value": null
+        },
+        "phono_gain": {
+          "state": "not_recorded",
+          "value": null,
+          "unit": "dB"
+        },
+        "test_record": {
+          "kind": "test_record",
+          "state": "not_recorded",
+          "display_name": null,
+          "manufacturer": null,
+          "model": null
+        },
+        "test_record_track": {
+          "state": "not_recorded",
+          "value": null
+        },
+        "nominal_test_tone": {
+          "state": "recorded",
+          "value": 1000,
+          "unit": "Hz"
+        },
+        "turntable_support": {
+          "state": "not_recorded",
+          "value": null
+        }
+      },
+      "headline_metrics": [
+        {
+          "identifier": "playback_rpm",
+          "display_label": "Playback speed",
+          "value": 33.33,
+          "unit": "RPM",
+          "classification": "primary"
+        },
+        {
+          "identifier": "playback_speed_error_percent",
+          "display_label": "Speed error",
+          "value": -0.02,
+          "unit": "%",
+          "classification": "primary"
+        },
+        {
+          "identifier": "din_shaped_wow_flutter_percent",
+          "display_label": "DIN W&F",
+          "value": 0.025,
+          "unit": "%",
+          "classification": "primary"
+        },
+        {
+          "identifier": "channel_balance_db",
+          "display_label": "Channel balance",
+          "value": -0.01,
+          "unit": "dB",
+          "classification": "diagnostic_only"
+        },
+        {
+          "identifier": "average_channel_separation_db",
+          "display_label": "Average separation",
+          "value": 27.3,
+          "unit": "dB",
+          "classification": "supporting"
+        },
+        {
+          "identifier": "crosstalk_left_to_right_db",
+          "display_label": "L→R crosstalk",
+          "value": -26.5,
+          "unit": "dB",
+          "classification": "supporting"
+        },
+        {
+          "identifier": "crosstalk_right_to_left_db",
+          "display_label": "R→L crosstalk",
+          "value": -28.2,
+          "unit": "dB",
+          "classification": "supporting"
+        },
+        {
+          "identifier": "thd_left_percent",
+          "display_label": "THD left",
+          "value": 0.65,
+          "unit": "%",
+          "classification": "diagnostic"
+        },
+        {
+          "identifier": "thd_right_percent",
+          "display_label": "THD right",
+          "value": 0.49,
+          "unit": "%",
+          "classification": "diagnostic"
+        }
+      ],
+      "search_text": "GS-2026-0010 1 kHz Reference Check Micro Seiki DQX500 Micro Seiki MA707 Shure V15 V JICO Custom Shop MR Audio Research SP20 Audient EVO4"
+    },
     {
       "measurement_id": "GS-2026-0009",
       "publication_status": "draft",
@@ -1108,6 +1281,16 @@
         ]
       },
       {
+        "identifier": "shure-v15-v",
+        "display_name": "Shure V15 V",
+        "manufacturer": null,
+        "model": null,
+        "measurement_count": 1,
+        "measurement_ids": [
+          "GS-2026-0010"
+        ]
+      },
+      {
         "identifier": "transfiguration-orpheus",
         "display_name": "Transfiguration Orpheus",
         "manufacturer": null,
@@ -1127,6 +1310,16 @@
         "measurement_count": 1,
         "measurement_ids": [
           "GS-2026-0007"
+        ]
+      },
+      {
+        "identifier": "micro-seiki-dqx500",
+        "display_name": "Micro Seiki DQX500",
+        "manufacturer": null,
+        "model": null,
+        "measurement_count": 1,
+        "measurement_ids": [
+          "GS-2026-0010"
         ]
       },
       {
@@ -1172,6 +1365,16 @@
       }
     ],
     "tonearms": [
+      {
+        "identifier": "micro-seiki-ma707",
+        "display_name": "Micro Seiki MA707",
+        "manufacturer": null,
+        "model": null,
+        "measurement_count": 1,
+        "measurement_ids": [
+          "GS-2026-0010"
+        ]
+      },
       {
         "identifier": "rega-rb330",
         "display_name": "Rega RB330",
@@ -1219,8 +1422,9 @@
         "display_name": "Audio Research SP20",
         "manufacturer": null,
         "model": null,
-        "measurement_count": 3,
+        "measurement_count": 4,
         "measurement_ids": [
+          "GS-2026-0010",
           "GS-2026-0008",
           "GS-2026-0007",
           "GS-2026-0003"
