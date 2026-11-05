@@ -1,7 +1,24 @@
 {
   "schema_version": "1.0.0",
-  "updated": "2026-10-18",
+  "updated": "2026-11-05",
   "measurements": [
+    {
+      "measurement_id": "GS-2026-0011",
+      "title": "Audio-Technica VM95SH / Thorens TD 160 Super / SME III — 1 kHz Reference Check",
+      "short_title": "Audio-Technica VM95SH / Thorens TD 160 Super / SME III",
+      "date": "2026-11-05",
+      "status": "draft",
+      "hero_image": "assets/GS-2026-0011/web/hero-1448.webp",
+      "summary": "Groove Scope made azimuth adjustment straightforward from a much worse starting position. The adjusted capture showed 17.7 dB average separation and +2.90 dB channel balance. The bent cantilever limits what those figures tell us about a VM95SH in good condition. The Thorens averaged 33.29 RPM (−0.12%) with 0.030% DIN-shaped wow and flutter. The repeating speed pattern warrants a follow-up check of the turntable.",
+      "primary_metrics": {
+        "playback_rpm": 33.29,
+        "speed_error_percent": -0.12,
+        "din_shaped_wow_flutter_percent": 0.030,
+        "average_separation_db": 17.7
+      },
+      "measurement_url": "measurements/GS-2026-0011.html",
+      "provenance_label": "DSR measurement session with measurer-reported azimuth adjustment and bent cantilever"
+    },
     {
       "measurement_id": "GS-2026-0010",
       "title": "Shure V15 V / JICO Custom Shop MR — Micro Seiki DQX500 / MA707 — 1 kHz Reference Check",

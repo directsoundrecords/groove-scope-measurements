@@ -2,6 +2,12 @@
 
 All notable repository and measurement-record changes are documented here.
 
+## 1.1.5 — 2026-11-05
+
+- Added GS-2026-0011, a 1 kHz reference check of an Audio-Technica VM95SH on a Thorens TD 160 Super with an SME III tonearm.
+- Documented the Groove Scope-assisted azimuth adjustment, the bent cantilever that limits the cartridge findings, and the speed results that warrant follow-up on the Thorens.
+- Archived the source report and eight fingerprint plots, and added the setup photograph with subtle tonal adjustments to the web presentation.
+
 ## 1.1.4 — 2026-10-18
 
 - Added GS-2026-0010: original Shure V15 V with a new JICO Custom Shop MR stylus, measured on a Micro Seiki DQX500 / MA707 through an Audio Research SP20 and Audient EVO4.
