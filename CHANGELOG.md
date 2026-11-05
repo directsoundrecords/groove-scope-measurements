@@ -2,6 +2,11 @@
 
 All notable repository and measurement-record changes are documented here.
 
+## 1.1.6 — 2026-11-05
+
+- Added GS-2026-0012, a 1 kHz reference check of an Ortofon 2M Bronze on a New Horizon turntable with an ART preamp.
+- Archived the source report and eight rotation fingerprints. The record documents the setup as measured, the reported 70 µm tracking result and the changing speed pattern across consecutive rotations.
+
 ## 1.1.5 — 2026-11-05
 
 - Added GS-2026-0011, a 1 kHz reference check of an Audio-Technica VM95SH on a Thorens TD 160 Super with an SME III tonearm.

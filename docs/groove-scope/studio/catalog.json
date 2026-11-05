@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
-  "catalogue_version": "c014a4db44534008",
-  "generated_at": "2026-11-05T20:23:06Z",
+  "catalogue_version": "db613f2fe82d4a29",
+  "generated_at": "2026-11-05T21:05:18Z",
   "catalogue_url": "https://measurements.directsoundrecords.com/groove-scope/studio/catalog.json",
   "status_policy": {
     "included_statuses": [
@@ -13,9 +13,182 @@
       "withdrawn"
     ]
   },
-  "measurement_count": 8,
-  "latest_measurement_id": "GS-2026-0011",
+  "measurement_count": 9,
+  "latest_measurement_id": "GS-2026-0012",
   "measurements": [
+    {
+      "measurement_id": "GS-2026-0012",
+      "publication_status": "draft",
+      "status_label": "Draft",
+      "measurement_date": "2026-11-05",
+      "publication_date": "2026-11-05",
+      "measurement_type": "1 kHz Reference Check",
+      "title": "Ortofon 2M Bronze / New Horizon — 1 kHz Reference Check",
+      "short_display_title": "New Horizon / Ortofon 2M Bronze",
+      "system_title": "New Horizon / Ortofon 2M Bronze",
+      "summary": "Measured as fitted, the New Horizon with an Ortofon 2M Bronze averaged 33.41 RPM and 0.053% DIN-shaped wow and flutter RMS. The Groove Scope Studio speed fingerprints show a recurring pattern whose angular position and shape change across eight revolutions.",
+      "hero_image_url": "https://measurements.directsoundrecords.com/groove-scope/assets/GS-2026-0012/web/hero-2400.webp",
+      "card_image_url": "https://measurements.directsoundrecords.com/groove-scope/studio/images/GS-2026-0012-card-1200.jpg",
+      "images": {
+        "card": {
+          "url": "https://measurements.directsoundrecords.com/groove-scope/studio/images/GS-2026-0012-card-1200.jpg",
+          "width": 1200,
+          "height": 675
+        },
+        "hero": {
+          "url": "https://measurements.directsoundrecords.com/groove-scope/assets/GS-2026-0012/web/hero-2400.webp",
+          "width": 2400,
+          "height": 1800
+        }
+      },
+      "measurement_url": "https://measurements.directsoundrecords.com/groove-scope/measurements/GS-2026-0012.html",
+      "technical_record_url": "https://github.com/directsoundrecords/groove-scope-measurements/tree/main/measurements/GS-2026-0012",
+      "canonical_json_url": "https://raw.githubusercontent.com/directsoundrecords/groove-scope-measurements/main/measurements/GS-2026-0012/measurement.json",
+      "components": {
+        "turntable": {
+          "kind": "turntable",
+          "state": "recorded",
+          "display_name": "New Horizon",
+          "manufacturer": null,
+          "model": null
+        },
+        "tonearm": {
+          "kind": "tonearm",
+          "state": "not_recorded",
+          "display_name": null,
+          "manufacturer": null,
+          "model": null
+        },
+        "cartridge": {
+          "kind": "cartridge",
+          "state": "recorded",
+          "display_name": "Ortofon 2M Bronze",
+          "manufacturer": null,
+          "model": null
+        },
+        "stylus": {
+          "kind": "stylus",
+          "state": "not_recorded",
+          "display_name": null,
+          "manufacturer": null,
+          "model": null
+        },
+        "phono_stage": {
+          "kind": "phono_stage",
+          "state": "recorded",
+          "display_name": "ART preamp",
+          "manufacturer": null,
+          "model": null
+        },
+        "audio_interface": {
+          "kind": "audio_interface",
+          "state": "not_recorded",
+          "display_name": null,
+          "reported_label": null,
+          "confirmed_model": null
+        },
+        "tracking_force": {
+          "state": "not_recorded",
+          "value": null,
+          "unit": "g"
+        },
+        "cartridge_loading": {
+          "state": "not_recorded",
+          "value": null
+        },
+        "phono_gain": {
+          "state": "not_recorded",
+          "value": null,
+          "unit": "dB"
+        },
+        "test_record": {
+          "kind": "test_record",
+          "state": "not_recorded",
+          "display_name": null,
+          "manufacturer": null,
+          "model": null
+        },
+        "test_record_track": {
+          "state": "not_recorded",
+          "value": null
+        },
+        "nominal_test_tone": {
+          "state": "recorded",
+          "value": 1000,
+          "unit": "Hz"
+        },
+        "turntable_support": {
+          "state": "not_recorded",
+          "value": null
+        }
+      },
+      "headline_metrics": [
+        {
+          "identifier": "playback_rpm",
+          "display_label": "Playback speed",
+          "value": 33.41,
+          "unit": "RPM",
+          "classification": "primary"
+        },
+        {
+          "identifier": "playback_speed_error_percent",
+          "display_label": "Speed error",
+          "value": 0.23,
+          "unit": "%",
+          "classification": "primary"
+        },
+        {
+          "identifier": "din_shaped_wow_flutter_percent",
+          "display_label": "DIN W&F",
+          "value": 0.053,
+          "unit": "%",
+          "classification": "primary"
+        },
+        {
+          "identifier": "channel_balance_db",
+          "display_label": "Channel balance",
+          "value": -0.47,
+          "unit": "dB",
+          "classification": "diagnostic_only"
+        },
+        {
+          "identifier": "average_channel_separation_db",
+          "display_label": "Average separation",
+          "value": 23.6,
+          "unit": "dB",
+          "classification": "supporting"
+        },
+        {
+          "identifier": "crosstalk_left_to_right_db",
+          "display_label": "L→R crosstalk",
+          "value": -22.2,
+          "unit": "dB",
+          "classification": "supporting"
+        },
+        {
+          "identifier": "crosstalk_right_to_left_db",
+          "display_label": "R→L crosstalk",
+          "value": -24.9,
+          "unit": "dB",
+          "classification": "supporting"
+        },
+        {
+          "identifier": "thd_left_percent",
+          "display_label": "THD left",
+          "value": 1.13,
+          "unit": "%",
+          "classification": "diagnostic"
+        },
+        {
+          "identifier": "thd_right_percent",
+          "display_label": "THD right",
+          "value": 0.8,
+          "unit": "%",
+          "classification": "diagnostic"
+        }
+      ],
+      "search_text": "GS-2026-0012 1 kHz Reference Check New Horizon Ortofon 2M Bronze ART preamp"
+    },
     {
       "measurement_id": "GS-2026-0011",
       "publication_status": "draft",
@@ -1458,8 +1631,9 @@
         "display_name": "Ortofon 2M Bronze",
         "manufacturer": null,
         "model": null,
-        "measurement_count": 1,
+        "measurement_count": 2,
         "measurement_ids": [
+          "GS-2026-0012",
           "GS-2026-0008"
         ]
       },
@@ -1513,6 +1687,16 @@
         "measurement_count": 1,
         "measurement_ids": [
           "GS-2026-0006"
+        ]
+      },
+      {
+        "identifier": "new-horizon",
+        "display_name": "New Horizon",
+        "manufacturer": null,
+        "model": null,
+        "measurement_count": 1,
+        "measurement_ids": [
+          "GS-2026-0012"
         ]
       },
       {
@@ -1615,8 +1799,9 @@
         "display_name": "ART preamp",
         "manufacturer": null,
         "model": null,
-        "measurement_count": 1,
+        "measurement_count": 2,
         "measurement_ids": [
+          "GS-2026-0012",
           "GS-2026-0011"
         ]
       },

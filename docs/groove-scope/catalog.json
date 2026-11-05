@@ -3,6 +3,23 @@
   "updated": "2026-11-05",
   "measurements": [
     {
+      "measurement_id": "GS-2026-0012",
+      "title": "Ortofon 2M Bronze / New Horizon — 1 kHz Reference Check",
+      "short_title": "Ortofon 2M Bronze / New Horizon",
+      "date": "2026-11-05",
+      "status": "draft",
+      "hero_image": "assets/GS-2026-0012/web/hero-1448.webp",
+      "summary": "Measured as found, the New Horizon setup averaged 33.41 RPM (+0.23%) with 0.053% DIN-shaped wow and flutter and 23.6 dB average 1 kHz separation. The speed fingerprints show a recurring slowdown and changes in the faster portions over eight rotations. The measurer reports no azimuth adjustment and an unsuccessful 70 µm tracking test.",
+      "primary_metrics": {
+        "playback_rpm": 33.41,
+        "speed_error_percent": 0.23,
+        "din_shaped_wow_flutter_percent": 0.053,
+        "average_separation_db": 23.6
+      },
+      "measurement_url": "measurements/GS-2026-0012.html",
+      "provenance_label": "DSR measurement session with no azimuth adjustment and a measurer-reported 70 µm tracking result"
+    },
+    {
       "measurement_id": "GS-2026-0011",
       "title": "Audio-Technica VM95SH / Thorens TD 160 Super / SME III — 1 kHz Reference Check",
       "short_title": "Audio-Technica VM95SH / Thorens TD 160 Super / SME III",

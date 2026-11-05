@@ -10,6 +10,7 @@ This repository is the public measurement archive for **Groove Scope**, a vinyl 
 
 | ID | Date | Measurement | Status | Report | Structured data |
 |---|---:|---|---|---|---|
+| [GS-2026-0012](measurements/GS-2026-0012/README.md) | 2026-11-05 | Ortofon 2M Bronze / New Horizon — 1 kHz Reference Check | Draft — setup metadata incomplete | [PDF](measurements/GS-2026-0012/report.pdf) | [JSON](measurements/GS-2026-0012/measurement.json) |
 | [GS-2026-0011](measurements/GS-2026-0011/README.md) | 2026-11-05 | Audio-Technica VM95SH / Thorens TD 160 Super / SME III — 1 kHz Reference Check | Draft — setup metadata incomplete | [PDF](measurements/GS-2026-0011/report.pdf) | [JSON](measurements/GS-2026-0011/measurement.json) |
 | [GS-2026-0010](measurements/GS-2026-0010/README.md) | 2026-10-18 | Shure V15 V / JICO Custom Shop MR / Micro Seiki DQX500 / MA707 / SP20 / Audient EVO4 — 1 kHz Reference Check | Draft — setup metadata incomplete | [PDF](measurements/GS-2026-0010/report.pdf) | [JSON](measurements/GS-2026-0010/measurement.json) |
 | [GS-2026-0006](measurements/GS-2026-0006/README.md) | 2026-09-26 | Transfiguration Orpheus / Micro Seiki RX-5000 / SME V / EVO4 — 1 kHz Reference Check | Draft — setup metadata incomplete | [PDF](measurements/GS-2026-0006/report.pdf) | [JSON](measurements/GS-2026-0006/measurement.json) |

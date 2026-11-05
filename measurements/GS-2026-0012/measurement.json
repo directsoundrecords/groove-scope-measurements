@@ -1,0 +1,224 @@
+{
+  "$schema": "../../data/schema/measurement.schema.json",
+  "schema_version": "1.0.0",
+  "language": "en",
+  "creator": {
+    "name": "Michelangelo Canonico",
+    "role": "Creator and lead measurer",
+    "affiliation": "Direct Sound Records"
+  },
+  "publisher": {
+    "name": "Direct Sound Records",
+    "url": "https://directsoundrecords.com/",
+    "location_label": "London–Rome"
+  },
+  "software": {
+    "name": "Groove Scope Studio",
+    "report_generator_label": "Groove Scope Reference",
+    "application_version": "not_recorded",
+    "analysis_method_version": "not_recorded",
+    "platform": "not_recorded",
+    "developer": "Michelangelo Canonico / Direct Sound Records"
+  },
+  "measurement_type": "1 kHz Reference Check",
+  "measurement_scope": [
+    "playback speed",
+    "rotational stability",
+    "DIN-shaped wow and flutter",
+    "channel balance",
+    "electrical crosstalk",
+    "distortion diagnostics",
+    "harmonic profile",
+    "rotation fingerprints"
+  ],
+  "license": "CC-BY-4.0",
+  "measurement_id": "GS-2026-0012",
+  "record_version": "0.9.0",
+  "publication_status": "draft",
+  "title": "Ortofon 2M Bronze / New Horizon — 1 kHz Reference Check",
+  "source_report_title": "Ortofon 2M Bronze - New horizon - Art",
+  "slug": "gs-2026-0012-ortofon-2m-bronze-new-horizon",
+  "measurement_datetime_local": "2026-11-05T16:30:00",
+  "measurement_timezone": "not_recorded",
+  "date_published": "2026-11-05",
+  "sample_id": "not_recorded",
+  "setup": {
+    "turntable": "New Horizon",
+    "tonearm": "not_recorded",
+    "cartridge": "Ortofon 2M Bronze",
+    "stylus": "not_recorded",
+    "cartridge_hours": "not_recorded",
+    "stylus_hours": "not_recorded",
+    "vertical_tracking_force_g": "not_recorded",
+    "anti_skate_setting": "not_recorded",
+    "alignment_geometry": "not_recorded",
+    "azimuth_setting": "not_recorded",
+    "vta_or_sra_setting": "not_recorded",
+    "phono_stage": "ART preamp",
+    "phono_gain_db": "not_recorded",
+    "cartridge_loading": "not_recorded",
+    "test_record": "not_recorded",
+    "test_record_track": "not_recorded",
+    "test_record_condition": "not_recorded",
+    "nominal_test_tone_hz": 1000,
+    "audio_interface_reported_label": "not_recorded",
+    "audio_interface_full_model": "not_recorded",
+    "interface_gain_settings": "not_recorded",
+    "sample_rate_hz": "not_recorded",
+    "bit_depth": "not_recorded",
+    "capture_device": "not_recorded",
+    "channel_routing": "not_recorded",
+    "measurement_location": "not_recorded"
+  },
+  "results": {
+    "playback_rpm": {
+      "value": 33.41,
+      "classification": "primary",
+      "condition": "under_stylus_load"
+    },
+    "playback_speed_error_percent": {
+      "value": 0.23,
+      "classification": "primary",
+      "direction": "fast"
+    },
+    "settled_rpm": {
+      "minimum": 33.28,
+      "maximum": 33.54,
+      "span": 0.26,
+      "classification": "primary"
+    },
+    "din_shaped_wow_flutter_percent": {
+      "value": 0.053,
+      "classification": "primary"
+    },
+    "raw_speed_variation_percent": {
+      "rms_plus_minus": 0.209,
+      "two_sigma_plus_minus": 0.417,
+      "classification": "unweighted_diagnostic"
+    },
+    "raw_wow_flutter_percent": {
+      "wow_rms": 0.201,
+      "flutter_rms": 0.054,
+      "classification": "unweighted_diagnostic"
+    },
+    "channel_balance_db": {
+      "value": -0.47,
+      "classification": "diagnostic_only"
+    },
+    "crosstalk_1khz_db": {
+      "average_separation": 23.6,
+      "left_to_right": -22.2,
+      "right_to_left": -24.9,
+      "directional_difference": 2.64,
+      "classification": "supporting"
+    },
+    "thd_percent": {
+      "left": 1.13,
+      "right": 0.80,
+      "left_minus_right_percentage_points": 0.33,
+      "classification": "diagnostic"
+    },
+    "harmonic_profile_db": {
+      "h2": {
+        "left": -39.0,
+        "right": -42.0
+      },
+      "h3": {
+        "left": -61.6,
+        "right": -64.3
+      },
+      "h4": {
+        "left": -66.9,
+        "right": -67.1
+      },
+      "h5": {
+        "left": -73.7,
+        "right": -72.4
+      },
+      "classification": "diagnostic"
+    },
+    "harmonic_difference_summary_db": {
+      "h2_left_higher": 3.0,
+      "h3_left_higher": 2.7,
+      "classification": "source_report_summary"
+    },
+    "harmonic_reliability": {
+      "classification": "repeat_before_setup_change",
+      "quality_note": "The left channel's third harmonic changed most during recording. Repeat before changing the cartridge setup."
+    }
+  },
+  "interpretation": {
+    "summary": "Measured as fitted, the New Horizon with an Ortofon 2M Bronze averaged 33.41 RPM and 0.053% DIN-shaped wow and flutter RMS. The Groove Scope Studio speed fingerprints show a recurring pattern whose angular position and shape change across eight revolutions.",
+    "recommendation": "Repeat the reference capture before changing the cartridge setup, as the source report advises.",
+    "repeat_required": true,
+    "alignment_context": "The measurer reports that the cartridge body appeared tilted and that no azimuth adjustment or setup tuning was performed. The reported treble mismatch and 70 µm tracking failure describe the as-tested setup. A cartridge or stylus issue remains possible.",
+    "rotation_context": "Both speed fingerprints show a recurring slower portion and faster portion with changes in their angular position and shape over eight revolutions. The pattern describes pitch variation in this capture. A trend in mean platter speed, the contribution of the test record, and audibility in music were not established."
+  },
+  "session_observations": {
+    "source": "Measurer account supplied with publication request",
+    "included_in_source_pdf": false,
+    "setup_tuning_performed": false,
+    "azimuth_adjustment": {
+      "performed": false,
+      "observation": "The cartridge body appeared tilted.",
+      "physical_azimuth_angle": "not_recorded"
+    },
+    "frequency_response": {
+      "observation": "Left and right frequency responses differed in the upper frequencies.",
+      "sweep_supplied": false
+    },
+    "tracking_ability": {
+      "test_level_um": 70,
+      "result": "failed",
+      "test_record": "not_recorded",
+      "test_frequency_hz": "not_recorded",
+      "criterion": "not_recorded",
+      "trace_supplied": false
+    }
+  },
+  "provenance": {
+    "source_type": "Groove Scope generated PDF report",
+    "source_file": "report.pdf",
+    "data_entry_method": "Numerical results were transcribed from the original PDF report and checked against the rendered page. Reported differences preserve source precision.",
+    "raw_audio_published": false,
+    "raw_audio_note": "No raw test-record audio is included.",
+    "sample_ownership": "not_recorded",
+    "setup_metadata_source": "The PDF title identifies the Ortofon 2M Bronze, New Horizon and ART. The input field is blank. The measurer supplied the setup, visual tilt, upper-frequency and trackability observations.",
+    "known_limitations": [
+      "The New Horizon turntable model, tonearm and ART preamp model are unspecified.",
+      "The physical azimuth angle, tracking force, anti-skate, loading, alignment geometry, test-record identity and track, capture settings and software versions were not recorded.",
+      "A frequency sweep and the 70 µm tracking-test trace were not supplied.",
+      "The results describe the playback chain as captured. The individual contributions of the cartridge, tonearm, turntable, test record and electronics were not isolated."
+    ],
+    "fingerprint_channel_assignment": "Channel assignments follow the supplied filenames. Both channels show eight rotations. The angular reference between captures is unspecified."
+  },
+  "files": {
+    "human_readable_record": "README.md",
+    "source_report": "report.pdf",
+    "checksums": "checksums.sha256",
+    "rotation_fingerprints": [
+      "assets/source/speed-deviation-left.png",
+      "assets/source/speed-deviation-right.png",
+      "assets/source/level-modulation-left.png",
+      "assets/source/level-modulation-right.png",
+      "assets/source/opposite-channel-leakage-left.png",
+      "assets/source/opposite-channel-leakage-right.png",
+      "assets/source/harmonic-distortion-left.png",
+      "assets/source/harmonic-distortion-right.png"
+    ]
+  },
+  "keywords": [
+    "Groove Scope Studio",
+    "Direct Sound Records",
+    "Michelangelo Canonico",
+    "Ortofon 2M Bronze",
+    "New Horizon",
+    "ART preamp",
+    "vinyl measurement",
+    "azimuth",
+    "tracking ability",
+    "rotation fingerprint",
+    "wow and flutter",
+    "cartridge crosstalk"
+  ]
+}
