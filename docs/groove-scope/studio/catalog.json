@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
-  "catalogue_version": "db613f2fe82d4a29",
-  "generated_at": "2026-11-05T21:05:18Z",
+  "catalogue_version": "a922a1fd6e531cf5",
+  "generated_at": "2026-11-05T21:15:09Z",
   "catalogue_url": "https://measurements.directsoundrecords.com/groove-scope/studio/catalog.json",
   "status_policy": {
     "included_statuses": [

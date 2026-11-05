@@ -2,6 +2,10 @@
 
 All notable repository and measurement-record changes are documented here.
 
+## 1.1.7 — 2026-11-05
+
+- Added the setup photograph to GS-2026-0012 and advanced the record to 0.9.1. The archive uses a metadata-stripped JPEG and the public page uses resized WebP copies.
+
 ## 1.1.6 — 2026-11-05
 
 - Added GS-2026-0012, a 1 kHz reference check of an Ortofon 2M Bronze on a New Horizon turntable with an ART preamp.

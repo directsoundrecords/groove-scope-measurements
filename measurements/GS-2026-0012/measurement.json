@@ -33,7 +33,7 @@
   ],
   "license": "CC-BY-4.0",
   "measurement_id": "GS-2026-0012",
-  "record_version": "0.9.0",
+  "record_version": "0.9.1",
   "publication_status": "draft",
   "title": "Ortofon 2M Bronze / New Horizon — 1 kHz Reference Check",
   "source_report_title": "Ortofon 2M Bronze - New horizon - Art",
@@ -190,12 +190,14 @@
       "A frequency sweep and the 70 µm tracking-test trace were not supplied.",
       "The results describe the playback chain as captured. The individual contributions of the cartridge, tonearm, turntable, test record and electronics were not isolated."
     ],
-    "fingerprint_channel_assignment": "Channel assignments follow the supplied filenames. Both channels show eight rotations. The angular reference between captures is unspecified."
+    "fingerprint_channel_assignment": "Channel assignments follow the supplied filenames. Both channels show eight rotations. The angular reference between captures is unspecified.",
+    "photo_treatment": "The archived setup photograph is a full-resolution JPEG from the supplied HEIC, with original framing and embedded metadata stripped. The public page uses resized WebP copies."
   },
   "files": {
     "human_readable_record": "README.md",
     "source_report": "report.pdf",
     "checksums": "checksums.sha256",
+    "source_hero": "assets/source/hero-original.jpg",
     "rotation_fingerprints": [
       "assets/source/speed-deviation-left.png",
       "assets/source/speed-deviation-right.png",
