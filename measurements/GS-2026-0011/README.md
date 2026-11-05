@@ -6,7 +6,7 @@ Groove Scope made it easy to improve the azimuth from a much poorer starting poi
 
 ## Record status
 
-Public archive draft. Measured 5 November 2026 at 12:08 local time. The report does not record a timezone. Published 5 November 2026. Record version 0.9.0.
+Public archive draft. Measured 5 November 2026 at 12:08 local time. The report does not record a timezone. Published 5 November 2026. Record version 0.9.1.
 
 ## Playback chain
 
@@ -88,4 +88,5 @@ Canonico, Michelangelo. “GS-2026-0011 — Audio-Technica VM95SH / Thorens TD 1
 
 ## Changelog
 
+- 0.9.1 — Replaced the left-channel speed fingerprint with the supplied cropped image.
 - 0.9.0 — Initial public entry with the source report, eight Rotation Fingerprints, the setup photograph and the measurer’s account.
