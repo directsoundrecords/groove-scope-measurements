@@ -1,7 +1,24 @@
 {
   "schema_version": "1.0.0",
-  "updated": "2026-11-05",
+  "updated": "2026-11-06",
   "measurements": [
+    {
+      "measurement_id": "GS-2026-0013",
+      "title": "Rega P1 / Rega Carbon — 1 kHz Reference Check",
+      "short_title": "Rega P1 / Rega Carbon",
+      "date": "2026-11-06",
+      "status": "draft",
+      "hero_image": "assets/GS-2026-0013/web/hero-1448.webp",
+      "summary": "At the AudioReview laboratory, Groove Scope revealed a 10.27 dB crosstalk imbalance on a Rega Carbon that looked square. The imbalance fell to 1.16 dB after azimuth adjustment. In a separate Groove Scope Studio test, the cartridge tracked 60 µm at 2.0 g and 80 µm at 2.5 g.",
+      "primary_metrics": {
+        "playback_rpm": 33.22,
+        "speed_error_percent": -0.35,
+        "din_shaped_wow_flutter_percent": 0.036,
+        "average_separation_db": 31.8
+      },
+      "measurement_url": "measurements/GS-2026-0013.html",
+      "provenance_label": "DSR session at the AudioReview laboratory with Groove Scope-assisted azimuth adjustment and measurer-reported tracking trials"
+    },
     {
       "measurement_id": "GS-2026-0012",
       "title": "Ortofon 2M Bronze / New Horizon — 1 kHz Reference Check",

@@ -2,6 +2,11 @@
 
 All notable repository and measurement-record changes are documented here.
 
+## 1.1.8 — 2026-11-06
+
+- Added GS-2026-0013, a 1 kHz reference check of the Rega P1 and Rega Carbon at the AudioReview laboratory.
+- Documented the Groove Scope-assisted azimuth adjustment and the 60 µm and 80 µm tracking results observed with Groove Scope Studio at 2.0 g and 2.5 g, respectively. Archived the source report and eight rotation plots.
+
 ## 1.1.7 — 2026-11-05
 
 - Added the setup photograph to GS-2026-0012 and advanced the record to 0.9.1. The archive uses a metadata-stripped JPEG and the public page uses resized WebP copies.

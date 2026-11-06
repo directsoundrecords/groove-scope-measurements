@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
-  "catalogue_version": "a922a1fd6e531cf5",
-  "generated_at": "2026-11-05T21:15:09Z",
+  "catalogue_version": "98e77de1787ff732",
+  "generated_at": "2026-11-06T18:08:54Z",
   "catalogue_url": "https://measurements.directsoundrecords.com/groove-scope/studio/catalog.json",
   "status_policy": {
     "included_statuses": [
@@ -13,9 +13,182 @@
       "withdrawn"
     ]
   },
-  "measurement_count": 9,
-  "latest_measurement_id": "GS-2026-0012",
+  "measurement_count": 10,
+  "latest_measurement_id": "GS-2026-0013",
   "measurements": [
+    {
+      "measurement_id": "GS-2026-0013",
+      "publication_status": "draft",
+      "status_label": "Draft",
+      "measurement_date": "2026-11-06",
+      "publication_date": "2026-11-06",
+      "measurement_type": "1 kHz Reference Check",
+      "title": "Rega P1 / Rega Carbon — 1 kHz Reference Check",
+      "short_display_title": "Rega P1 / Rega Carbon",
+      "system_title": "Rega P1 / Rega Carbon",
+      "summary": "At the AudioReview laboratory, Groove Scope guided an azimuth adjustment that narrowed the Rega Carbon’s directional crosstalk gap from 10.27 dB to 1.16 dB and brought average separation to 31.8 dB. In a separate Groove Scope Studio tracking trial, the Rega P1 and Carbon reached 80 µm at 2.5 g after stopping at 60 µm at 2.0 g.",
+      "hero_image_url": "https://measurements.directsoundrecords.com/groove-scope/assets/GS-2026-0013/web/hero-2400.webp",
+      "card_image_url": "https://measurements.directsoundrecords.com/groove-scope/studio/images/GS-2026-0013-card-1200.jpg",
+      "images": {
+        "card": {
+          "url": "https://measurements.directsoundrecords.com/groove-scope/studio/images/GS-2026-0013-card-1200.jpg",
+          "width": 1200,
+          "height": 675
+        },
+        "hero": {
+          "url": "https://measurements.directsoundrecords.com/groove-scope/assets/GS-2026-0013/web/hero-2400.webp",
+          "width": 2400,
+          "height": 1800
+        }
+      },
+      "measurement_url": "https://measurements.directsoundrecords.com/groove-scope/measurements/GS-2026-0013.html",
+      "technical_record_url": "https://github.com/directsoundrecords/groove-scope-measurements/tree/main/measurements/GS-2026-0013",
+      "canonical_json_url": "https://raw.githubusercontent.com/directsoundrecords/groove-scope-measurements/main/measurements/GS-2026-0013/measurement.json",
+      "components": {
+        "turntable": {
+          "kind": "turntable",
+          "state": "recorded",
+          "display_name": "Rega P1",
+          "manufacturer": null,
+          "model": null
+        },
+        "tonearm": {
+          "kind": "tonearm",
+          "state": "not_recorded",
+          "display_name": null,
+          "manufacturer": null,
+          "model": null
+        },
+        "cartridge": {
+          "kind": "cartridge",
+          "state": "recorded",
+          "display_name": "Rega Carbon",
+          "manufacturer": null,
+          "model": null
+        },
+        "stylus": {
+          "kind": "stylus",
+          "state": "not_recorded",
+          "display_name": null,
+          "manufacturer": null,
+          "model": null
+        },
+        "phono_stage": {
+          "kind": "phono_stage",
+          "state": "recorded",
+          "display_name": "ART preamp",
+          "manufacturer": null,
+          "model": null
+        },
+        "audio_interface": {
+          "kind": "audio_interface",
+          "state": "not_recorded",
+          "display_name": "USB Audio CODEC",
+          "reported_label": "USB Audio CODEC",
+          "confirmed_model": null
+        },
+        "tracking_force": {
+          "state": "not_recorded",
+          "value": null,
+          "unit": "g"
+        },
+        "cartridge_loading": {
+          "state": "not_recorded",
+          "value": null
+        },
+        "phono_gain": {
+          "state": "not_recorded",
+          "value": null,
+          "unit": "dB"
+        },
+        "test_record": {
+          "kind": "test_record",
+          "state": "not_recorded",
+          "display_name": null,
+          "manufacturer": null,
+          "model": null
+        },
+        "test_record_track": {
+          "state": "not_recorded",
+          "value": null
+        },
+        "nominal_test_tone": {
+          "state": "recorded",
+          "value": 1000,
+          "unit": "Hz"
+        },
+        "turntable_support": {
+          "state": "not_recorded",
+          "value": null
+        }
+      },
+      "headline_metrics": [
+        {
+          "identifier": "playback_rpm",
+          "display_label": "Playback speed",
+          "value": 33.22,
+          "unit": "RPM",
+          "classification": "primary"
+        },
+        {
+          "identifier": "playback_speed_error_percent",
+          "display_label": "Speed error",
+          "value": -0.35,
+          "unit": "%",
+          "classification": "primary"
+        },
+        {
+          "identifier": "din_shaped_wow_flutter_percent",
+          "display_label": "DIN W&F",
+          "value": 0.036,
+          "unit": "%",
+          "classification": "primary"
+        },
+        {
+          "identifier": "channel_balance_db",
+          "display_label": "Channel balance",
+          "value": 1.04,
+          "unit": "dB",
+          "classification": "diagnostic_only"
+        },
+        {
+          "identifier": "average_channel_separation_db",
+          "display_label": "Average separation",
+          "value": 31.8,
+          "unit": "dB",
+          "classification": "supporting"
+        },
+        {
+          "identifier": "crosstalk_left_to_right_db",
+          "display_label": "L→R crosstalk",
+          "value": -32.4,
+          "unit": "dB",
+          "classification": "supporting"
+        },
+        {
+          "identifier": "crosstalk_right_to_left_db",
+          "display_label": "R→L crosstalk",
+          "value": -31.2,
+          "unit": "dB",
+          "classification": "supporting"
+        },
+        {
+          "identifier": "thd_left_percent",
+          "display_label": "THD left",
+          "value": 1.36,
+          "unit": "%",
+          "classification": "diagnostic"
+        },
+        {
+          "identifier": "thd_right_percent",
+          "display_label": "THD right",
+          "value": 1.95,
+          "unit": "%",
+          "classification": "diagnostic"
+        }
+      ],
+      "search_text": "GS-2026-0013 1 kHz Reference Check Rega P1 Rega Carbon ART preamp USB Audio CODEC"
+    },
     {
       "measurement_id": "GS-2026-0012",
       "publication_status": "draft",
@@ -1638,6 +1811,16 @@
         ]
       },
       {
+        "identifier": "rega-carbon",
+        "display_name": "Rega Carbon",
+        "manufacturer": null,
+        "model": null,
+        "measurement_count": 1,
+        "measurement_ids": [
+          "GS-2026-0013"
+        ]
+      },
+      {
         "identifier": "shure-v15-v",
         "display_name": "Shure V15 V",
         "manufacturer": null,
@@ -1697,6 +1880,16 @@
         "measurement_count": 1,
         "measurement_ids": [
           "GS-2026-0012"
+        ]
+      },
+      {
+        "identifier": "rega-p1",
+        "display_name": "Rega P1",
+        "manufacturer": null,
+        "model": null,
+        "measurement_count": 1,
+        "measurement_ids": [
+          "GS-2026-0013"
         ]
       },
       {
@@ -1799,8 +1992,9 @@
         "display_name": "ART preamp",
         "manufacturer": null,
         "model": null,
-        "measurement_count": 2,
+        "measurement_count": 3,
         "measurement_ids": [
+          "GS-2026-0013",
           "GS-2026-0012",
           "GS-2026-0011"
         ]
