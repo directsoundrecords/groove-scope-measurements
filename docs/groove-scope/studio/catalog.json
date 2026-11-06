@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
-  "catalogue_version": "bc7e0949306431e7",
-  "generated_at": "2026-11-06T18:41:16Z",
+  "catalogue_version": "177acad72cc06893",
+  "generated_at": "2026-11-06T23:34:33Z",
   "catalogue_url": "https://measurements.directsoundrecords.com/groove-scope/studio/catalog.json",
   "status_policy": {
     "included_statuses": [
@@ -13,9 +13,182 @@
       "withdrawn"
     ]
   },
-  "measurement_count": 10,
-  "latest_measurement_id": "GS-2026-0013",
+  "measurement_count": 11,
+  "latest_measurement_id": "GS-2026-0014",
   "measurements": [
+    {
+      "measurement_id": "GS-2026-0014",
+      "publication_status": "published",
+      "status_label": "Published",
+      "measurement_date": "2026-11-06",
+      "publication_date": "2026-11-07",
+      "measurement_type": "1 kHz Reference Check",
+      "title": "SME Model 12 MkII / Series V / Charisma Audio MC-1 Alpha — 1 kHz Reference Check",
+      "short_display_title": "SME Model 12 MkII / SME Series V / Charisma Audio MC-1 Alpha",
+      "system_title": "SME Model 12 MkII / SME Series V / Charisma Audio MC-1 Alpha",
+      "summary": "At Entertainment Machine in Rome, the SME Model 12 MkII averaged 33.32 RPM under stylus load and measured 0.038% DIN-shaped wow and flutter. With the SME Series V and Charisma Audio MC-1 Alpha fitted, the chain measured less than 1% THD in each channel and a 5.57 dB gap between crosstalk directions.",
+      "hero_image_url": "https://measurements.directsoundrecords.com/groove-scope/assets/GS-2026-0014/web/hero-2400.webp",
+      "card_image_url": "https://measurements.directsoundrecords.com/groove-scope/studio/images/GS-2026-0014-card-1200.jpg",
+      "images": {
+        "card": {
+          "url": "https://measurements.directsoundrecords.com/groove-scope/studio/images/GS-2026-0014-card-1200.jpg",
+          "width": 1200,
+          "height": 675
+        },
+        "hero": {
+          "url": "https://measurements.directsoundrecords.com/groove-scope/assets/GS-2026-0014/web/hero-2400.webp",
+          "width": 2400,
+          "height": 1800
+        }
+      },
+      "measurement_url": "https://measurements.directsoundrecords.com/groove-scope/measurements/GS-2026-0014.html",
+      "technical_record_url": "https://github.com/directsoundrecords/groove-scope-measurements/tree/main/measurements/GS-2026-0014",
+      "canonical_json_url": "https://raw.githubusercontent.com/directsoundrecords/groove-scope-measurements/main/measurements/GS-2026-0014/measurement.json",
+      "components": {
+        "turntable": {
+          "kind": "turntable",
+          "state": "recorded",
+          "display_name": "SME Model 12 MkII",
+          "manufacturer": null,
+          "model": null
+        },
+        "tonearm": {
+          "kind": "tonearm",
+          "state": "recorded",
+          "display_name": "SME Series V",
+          "manufacturer": null,
+          "model": null
+        },
+        "cartridge": {
+          "kind": "cartridge",
+          "state": "recorded",
+          "display_name": "Charisma Audio MC-1 Alpha",
+          "manufacturer": null,
+          "model": null
+        },
+        "stylus": {
+          "kind": "stylus",
+          "state": "not_recorded",
+          "display_name": null,
+          "manufacturer": null,
+          "model": null
+        },
+        "phono_stage": {
+          "kind": "phono_stage",
+          "state": "not_recorded",
+          "display_name": null,
+          "manufacturer": null,
+          "model": null
+        },
+        "audio_interface": {
+          "kind": "audio_interface",
+          "state": "not_recorded",
+          "display_name": "EVO4",
+          "reported_label": "EVO4",
+          "confirmed_model": null
+        },
+        "tracking_force": {
+          "state": "not_recorded",
+          "value": null,
+          "unit": "g"
+        },
+        "cartridge_loading": {
+          "state": "not_recorded",
+          "value": null
+        },
+        "phono_gain": {
+          "state": "not_recorded",
+          "value": null,
+          "unit": "dB"
+        },
+        "test_record": {
+          "kind": "test_record",
+          "state": "not_recorded",
+          "display_name": null,
+          "manufacturer": null,
+          "model": null
+        },
+        "test_record_track": {
+          "state": "not_recorded",
+          "value": null
+        },
+        "nominal_test_tone": {
+          "state": "recorded",
+          "value": 1000,
+          "unit": "Hz"
+        },
+        "turntable_support": {
+          "state": "not_recorded",
+          "value": null
+        }
+      },
+      "headline_metrics": [
+        {
+          "identifier": "playback_rpm",
+          "display_label": "Playback speed",
+          "value": 33.32,
+          "unit": "RPM",
+          "classification": "primary"
+        },
+        {
+          "identifier": "playback_speed_error_percent",
+          "display_label": "Speed error",
+          "value": -0.04,
+          "unit": "%",
+          "classification": "primary"
+        },
+        {
+          "identifier": "din_shaped_wow_flutter_percent",
+          "display_label": "DIN W&F",
+          "value": 0.038,
+          "unit": "%",
+          "classification": "primary"
+        },
+        {
+          "identifier": "channel_balance_db",
+          "display_label": "Channel balance",
+          "value": 1.28,
+          "unit": "dB",
+          "classification": "diagnostic_only"
+        },
+        {
+          "identifier": "average_channel_separation_db",
+          "display_label": "Average separation",
+          "value": 22.0,
+          "unit": "dB",
+          "classification": "supporting"
+        },
+        {
+          "identifier": "crosstalk_left_to_right_db",
+          "display_label": "L→R crosstalk",
+          "value": -24.8,
+          "unit": "dB",
+          "classification": "supporting"
+        },
+        {
+          "identifier": "crosstalk_right_to_left_db",
+          "display_label": "R→L crosstalk",
+          "value": -19.2,
+          "unit": "dB",
+          "classification": "supporting"
+        },
+        {
+          "identifier": "thd_left_percent",
+          "display_label": "THD left",
+          "value": 0.76,
+          "unit": "%",
+          "classification": "diagnostic"
+        },
+        {
+          "identifier": "thd_right_percent",
+          "display_label": "THD right",
+          "value": 0.89,
+          "unit": "%",
+          "classification": "diagnostic"
+        }
+      ],
+      "search_text": "GS-2026-0014 1 kHz Reference Check SME Model 12 MkII SME Series V Charisma Audio MC-1 Alpha EVO4"
+    },
     {
       "measurement_id": "GS-2026-0013",
       "publication_status": "published",
@@ -1780,6 +1953,16 @@
         ]
       },
       {
+        "identifier": "charisma-audio-mc-1-alpha",
+        "display_name": "Charisma Audio MC-1 Alpha",
+        "manufacturer": null,
+        "model": null,
+        "measurement_count": 1,
+        "measurement_ids": [
+          "GS-2026-0014"
+        ]
+      },
+      {
         "identifier": "empire-7000-iii",
         "display_name": "Empire 7000/III",
         "manufacturer": null,
@@ -1904,6 +2087,16 @@
         ]
       },
       {
+        "identifier": "sme-model-12-mkii",
+        "display_name": "SME Model 12 MkII",
+        "manufacturer": null,
+        "model": null,
+        "measurement_count": 1,
+        "measurement_ids": [
+          "GS-2026-0014"
+        ]
+      },
+      {
         "identifier": "technics-sl-1410-mk2",
         "display_name": "Technics SL-1410 MK2",
         "manufacturer": null,
@@ -1963,6 +2156,16 @@
         "measurement_count": 1,
         "measurement_ids": [
           "GS-2026-0011"
+        ]
+      },
+      {
+        "identifier": "sme-series-v",
+        "display_name": "SME Series V",
+        "manufacturer": null,
+        "model": null,
+        "measurement_count": 1,
+        "measurement_ids": [
+          "GS-2026-0014"
         ]
       },
       {

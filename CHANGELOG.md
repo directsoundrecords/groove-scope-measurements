@@ -2,6 +2,11 @@
 
 All notable repository and measurement-record changes are documented here.
 
+## 1.1.11 — 2026-11-07
+
+- Published GS-2026-0014, a 1 kHz reference check of the SME Model 12 MkII with a Series V tonearm and Charisma Audio MC-1 Alpha cartridge at Entertainment Machine in Rome.
+- Archived the source report and eight rotation plots. The report measured 33.32 RPM (−0.04%) and found a 5.57 dB difference between crosstalk directions.
+
 ## 1.1.10 — 2026-11-06
 
 - Corrected the release status of all ten public Groove Scope measurements and synchronized the website, technical archive and Studio catalogue.

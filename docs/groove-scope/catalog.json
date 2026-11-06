@@ -1,7 +1,24 @@
 {
   "schema_version": "1.0.0",
-  "updated": "2026-11-06",
+  "updated": "2026-11-07",
   "measurements": [
+    {
+      "measurement_id": "GS-2026-0014",
+      "title": "SME Model 12 MkII / Series V / Charisma Audio MC-1 Alpha — 1 kHz Reference Check",
+      "short_title": "SME Model 12 MkII / Series V / Charisma Audio MC-1 Alpha",
+      "date": "2026-11-06",
+      "status": "published",
+      "hero_image": "assets/GS-2026-0014/web/hero-1448.webp",
+      "summary": "This SME averaged 33.32 RPM (−0.04%) with 0.038% DIN-shaped wow and flutter. The report recommends repeating the 1 kHz capture to check the 5.57 dB gap between crosstalk directions. The session took place at Entertainment Machine, DSR’s first specialised Groove Scope Studio testing point and first certified reseller in Rome.",
+      "primary_metrics": {
+        "playback_rpm": 33.32,
+        "speed_error_percent": -0.04,
+        "din_shaped_wow_flutter_percent": 0.038,
+        "average_separation_db": 22.0
+      },
+      "measurement_url": "measurements/GS-2026-0014.html",
+      "provenance_label": "DSR measurement at Entertainment Machine in Rome"
+    },
     {
       "measurement_id": "GS-2026-0013",
       "title": "Rega P1 / Rega Carbon — 1 kHz Reference Check",

@@ -10,6 +10,7 @@ This repository is the public measurement archive for **Groove Scope**, a vinyl 
 
 | ID | Date | Measurement | Status | Report | Structured data |
 |---|---:|---|---|---|---|
+| [GS-2026-0014](measurements/GS-2026-0014/README.md) | 2026-11-06 | SME Model 12 MkII / Series V / Charisma Audio MC-1 Alpha — 1 kHz Reference Check | Published | [PDF](measurements/GS-2026-0014/report.pdf) | [JSON](measurements/GS-2026-0014/measurement.json) |
 | [GS-2026-0013](measurements/GS-2026-0013/README.md) | 2026-11-06 | Rega P1 / Rega Carbon — 1 kHz Reference Check | Published | [PDF](measurements/GS-2026-0013/report.pdf) | [JSON](measurements/GS-2026-0013/measurement.json) |
 | [GS-2026-0012](measurements/GS-2026-0012/README.md) | 2026-11-05 | Ortofon 2M Bronze / New Horizon — 1 kHz Reference Check | Published | [PDF](measurements/GS-2026-0012/report.pdf) | [JSON](measurements/GS-2026-0012/measurement.json) |
 | [GS-2026-0011](measurements/GS-2026-0011/README.md) | 2026-11-05 | Audio-Technica VM95SH / Thorens TD 160 Super / SME III — 1 kHz Reference Check | Published | [PDF](measurements/GS-2026-0011/report.pdf) | [JSON](measurements/GS-2026-0011/measurement.json) |
