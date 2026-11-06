@@ -6,7 +6,7 @@ An original Shure V15 V with a new JICO Custom Shop MR stylus gives an encouragi
 
 ## Record status
 
-Public archive entry, status **draft**: setup and software metadata remain incomplete. Measured 18 October 2026 at 12:04 local time; timezone not recorded. Published 18 October 2026. Record version 0.9.0.
+Measured 18 October 2026 at 12:04 local time; timezone not recorded. Published 18 October 2026. Record version 0.9.1.
 
 ## Playback chain
 
@@ -90,4 +90,5 @@ Canonico, Michelangelo. “GS-2026-0010 — Shure V15 V / JICO Custom Shop MR �
 
 ## Changelog
 
+- 0.9.1 — Corrected the publication status to published.
 - 0.9.0 — Initial public entry with the full source report, eight fingerprints, equipment photograph, measurer-supplied setup and listening notes, and reliability context.

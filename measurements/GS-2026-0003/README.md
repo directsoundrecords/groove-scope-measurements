@@ -4,7 +4,7 @@
 
 This record documents a 1 kHz vinyl playback reference check of a Rega P3, Rega RB330 tonearm, Audio-Technica AT-OC9XML cartridge, Audio Research SP20 preamplifier, and EVO4 input. It preserves the source report, the supplied measurement photograph, and eight app-generated rotation-fingerprint images.
 
-> **Publication status:** Draft — the primary report is preserved and transcribed, but setup, capture, sample, location, and software-version metadata remain incomplete. The report recommends repeating the measurement before using harmonic differences to justify cartridge adjustment.
+> **Published 5 September 2026.** Record version 0.9.4. The report recommends repeating the measurement before using harmonic differences to justify cartridge adjustment.
 
 ## Identity and provenance
 
@@ -81,11 +81,11 @@ In this Rega P3 / RB330 capture, playback averaged 33.34 RPM (+0.02%) with 0.030
 
 The exact supplied originals are preserved under [`assets/source/`](assets/source/): one HEIC measurement photograph and eight PNG rotation fingerprints covering harmonic distortion, opposite-channel leakage, 1 kHz level modulation, and speed deviation for both channels. Web presentation derivatives are separate from these source files.
 
-## Missing metadata required before final publication
+## Unrecorded metadata
 
 - Sample ID and sample ownership or loan status
 - Phono-stage gain and cartridge loading
-- Tracking force, anti-skate, alignment, azimuth, and VTA/SRA settings
+- Anti-skate, alignment geometry and overhang distance, azimuth, and VTA/SRA settings
 - Test record, edition, track, and condition
 - Audio interface model confirmation and gain settings
 - Capture device, sample rate, bit depth, and channel routing
@@ -107,3 +107,7 @@ Canonico, Michelangelo. “GS-2026-0003 — Audio-Technica AT-OC9XML / Rega P3 /
 ### Setup and presentation update (record 0.9.3)
 
 The measurer confirmed 2 g tracking force, correctly aligned overhang and a wall shelf for this session. Alignment geometry and overhang distance remain unrecorded. The website omits the left THD resolution-label strip through an SVG viewport layout; the archived source screenshot and all plot pixels are preserved. The results table now includes every numeric result in the structured record.
+
+## Changelog
+
+- 0.9.4 — Corrected the publication status and date. The recorded 2 g tracking force is reflected in the metadata notes.

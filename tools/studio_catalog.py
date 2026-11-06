@@ -345,7 +345,9 @@ def build_catalog(*, generate_images: bool = True) -> dict[str, Any]:
         "status_policy": {
             "included_statuses": included_statuses,
             "excluded_statuses": [
-                status for status in ("superseded", "withdrawn") if status not in included_statuses
+                status
+                for status in ("draft", "published", "superseded", "withdrawn")
+                if status not in included_statuses
             ],
         },
         "measurement_count": len(measurements),

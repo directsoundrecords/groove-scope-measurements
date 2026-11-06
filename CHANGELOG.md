@@ -2,6 +2,11 @@
 
 All notable repository and measurement-record changes are documented here.
 
+## 1.1.10 — 2026-11-06
+
+- Corrected the release status of all ten public Groove Scope measurements and synchronized the website, technical archive and Studio catalogue.
+- Separated editorial release status from the availability of setup metadata.
+
 ## 1.1.9 — 2026-11-06
 
 - Published the ImageGen retouch for the Rega P1 measurement and advanced GS-2026-0013 to 0.9.1.

@@ -20,6 +20,15 @@ class StudioCatalogTests(unittest.TestCase):
     def test_catalog_is_valid(self) -> None:
         self.assertEqual(validate_catalog(self.catalog), [])
 
+    def test_public_catalogue_lists_only_published_status(self) -> None:
+        self.assertEqual(
+            self.catalog["status_policy"],
+            {
+                "included_statuses": ["published"],
+                "excluded_statuses": ["draft", "superseded", "withdrawn"],
+            },
+        )
+
     def test_unknown_setup_values_remain_explicit(self) -> None:
         measurement = next(
             item for item in self.catalog["measurements"]

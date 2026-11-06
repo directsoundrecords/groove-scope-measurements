@@ -10,8 +10,8 @@ Every session receives an immutable identifier in the form `GS-YYYY-NNNN`. The i
 
 ## Publication status
 
-- `draft`: data preserved, but required metadata or verification is incomplete.
-- `published`: required metadata and provenance checks are complete.
+- `draft`: the record is awaiting editorial release.
+- `published`: Direct Sound Records has released the record, with available setup details and documented limitations.
 - `superseded`: a later analysis or corrected record replaces the interpretation; the old record remains available.
 - `withdrawn`: retained for transparency but excluded from normal comparison because of a documented validity problem.
 
@@ -24,9 +24,9 @@ Groove Scope may change its calculations, filters, confidence rules, labels, rep
 
 A later application version must not silently rewrite a historical result. Reanalysis should create a new analysis record or a new record version while preserving the original PDF and values.
 
-## Minimum metadata for a published record
+## Measurement metadata
 
-A final public record should identify the turntable, tonearm, cartridge/stylus, tracking force, anti-skate, alignment, phono stage, cartridge loading, test record and track, interface and gain, sample rate, Groove Scope version, analysis-method version, measurement date, and repeat count.
+Record the turntable, tonearm, cartridge and stylus, tracking force, anti-skate, alignment, phono stage, cartridge loading, test record and track, interface and gain, sample rate, Groove Scope version, analysis-method version, measurement date, and repeat count when available.
 
 When information is genuinely unavailable, use `not_recorded`. Never infer a model or setting merely because it seems likely.
 

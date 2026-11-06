@@ -8,7 +8,7 @@ Thanks to Mauro Neri, director of *AudioReview*, for making the laboratory sessi
 
 ## Record status
 
-Public archive draft. Measured 6 November 2026 at 16:58 local time. The report does not record a timezone. Published 6 November 2026. Record version 0.9.1.
+Measured 6 November 2026 at 16:58 local time. The report does not record a timezone. Published 6 November 2026. Record version 0.9.2.
 
 ## Playback chain
 
@@ -100,5 +100,6 @@ Canonico, Michelangelo. “GS-2026-0013 — Rega P1 / Rega Carbon — 1 kHz Refe
 
 ## Changelog
 
+- 0.9.2 — Corrected the publication status to published.
 - 0.9.1 — Published the ImageGen retouch as the editorial photograph.
 - 0.9.0 — Initial public entry with the reference report, eight Rotation Fingerprints, setup photograph and the measurer’s account of the azimuth and tracking trials.

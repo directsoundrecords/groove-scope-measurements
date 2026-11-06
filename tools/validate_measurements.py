@@ -44,9 +44,14 @@ def validate(path: Path) -> list[str]:
         )
 
     if data.get("publication_status") == "published":
-        for field in ("application_version", "analysis_method_version"):
-            if data.get("software", {}).get(field) in (None, "", "not_recorded"):
-                errors.append(f"Published record is missing software.{field}")
+        software = data.get("software")
+        if not isinstance(software, dict):
+            errors.append("Published record requires a software object")
+        else:
+            for field in ("application_version", "analysis_method_version"):
+                value = software.get(field)
+                if not isinstance(value, str) or not value.strip():
+                    errors.append(f"Published record requires a value for software.{field}")
 
     return errors
 

@@ -56,7 +56,7 @@ Near-nominal average speed, closely matched output levels and steady harmonics p
 
 ## Provenance and status
 
-Public archive entry, status **draft**; setup and software metadata remain incomplete. Published 6 October 2026, version 0.9.1 (updated 7 October 2026).
+Published 6 October 2026. Equipment details were updated 7 October 2026. Record version 0.9.2.
 
 The PDF title identifies BENZ SPJ and VYGER Atlantis and the input field reports USB Audio CODEC. The measurer supplied the ART USB Phono Plus identity, show and room, no-adjustment context, 100 µm ladder pass and acknowledgement.
 
@@ -82,5 +82,6 @@ Canonico, Michelangelo. “GS-2026-0009 — BENZ SPJ / VYGER Atlantis — Hi Fid
 
 ## Changelog
 
+- 0.9.2 — Corrected the publication status to published.
 - 0.9.1 — Added VYGER INERTIAL to the equipment identity and explained its design and measurer-attributed contribution to the 100 µm tracking result; original PDF values unchanged.
 - 0.9.0 — Initial public record of the unchanged show-room setup, source report, event photograph and measurer-reported 100 µm tracking-ladder pass.

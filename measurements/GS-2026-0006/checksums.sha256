@@ -8,7 +8,7 @@ dacad765aa11391194540dddb101fcd38f20820733f79ee1f8eec825bf57bca5  ../../docs/gro
 dc3d1a69e47a25649e6d0023e4ad8c95ee0bfba7f687580c359839ca8494070d  ../../docs/groove-scope/assets/GS-2026-0006/web/opposite-channel-leakage-right.webp
 33390547a895a47c837ee7c5887695ded60da45ba59fdaa72bbe95f32fa14161  ../../docs/groove-scope/assets/GS-2026-0006/web/speed-deviation-left.webp
 6ef4afef12f6534cc601049b791d546d93e5b958f427a0b4e29ec6d5a7e68041  ../../docs/groove-scope/assets/GS-2026-0006/web/speed-deviation-right.webp
-b7e68d38921d632f461a3b64c6919167f70dbfb1008b6f2b99b34ceefdf7b8d6  README.md
+24bd2c174b9c89344c794862da754fc73ca8818ea67e83af951346974648899c  README.md
 5a5d517fa36fbb31253314ab9f07e403e21e2af2aab092d2b48d23e578634376  assets/hero-retouched.png
 b4c66a949f4d8b3a96a1c236003ff4e70be168dac6899186ca4d0ed9826b1356  assets/image-edit-prompt.txt
 9480b041257254725f486c30457ccff2b4c2c8889ff66cc5685ee501519735bf  assets/source/harmonic-distortion-left.png
@@ -20,5 +20,5 @@ e1707f6e1c327362973c7152503b8c9b4b99e19e428b70b30ae5a6fc308de64f  assets/source/
 5dad4e9b94ccfe5414a6815a98fa7426e167954dd125afb337e44264750d7e31  assets/source/opposite-channel-leakage-right.png
 cacb30793a576337cb87711c105e384e6e3c7418113b79934f4b57ba66d76f48  assets/source/speed-deviation-left.png
 5130c63489c37ff51bbde5de148ef3367d11da22631bdfcc55e2fc6add24b6d4  assets/source/speed-deviation-right.png
-d5e79d564a195fec39cbc0887766da99133677e3318c3ddf4afe0bc91767577c  measurement.json
+81b2b55bc21fda607316eb004c41c9800eaf9b54b7fc5784638df5fbf9ddf0db  measurement.json
 6e13a7f9ebccf96405f70a7e8a3add840e4db4beb3136e5682e0141b060bad08  report.pdf

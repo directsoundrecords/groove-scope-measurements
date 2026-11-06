@@ -6,7 +6,7 @@ The RX-5000 averaged 33.51 RPM (+0.52%) with 0.031% DIN-shaped wow and flutter. 
 
 ## Record status and identity
 
-Public archive entry, status **draft**: some setup and software metadata remain incomplete. Measured 26 September 2026 at 16:24 local time; timezone not recorded. Record version 0.9.0. The PDF title is “Transfiguration Orpheus”; the measurer identified the turntable, tonearm, cartridge and EVO4 interface. The original PDF does not record an input name.
+Published measurement. Measured 26 September 2026 at 16:24 local time; timezone not recorded. Record version 0.9.1. The PDF title is “Transfiguration Orpheus”; the measurer identified the turntable, tonearm, cartridge and EVO4 interface. The original PDF does not record an input name.
 
 | Component | Identification |
 |---|---|
@@ -72,4 +72,5 @@ Canonico, Michelangelo. “GS-2026-0006 — Transfiguration Orpheus / Micro Seik
 
 ## Changelog
 
+- 0.9.1 — Corrected the publication status to published.
 - 0.9.0 — Initial public archive entry with report transcription, supplied setup identities, eight rotation fingerprints and original assets.

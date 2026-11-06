@@ -6,7 +6,7 @@ The New Horizon averaged 33.41 RPM with the Ortofon 2M Bronze fitted. Groove Sco
 
 ## Record status
 
-Public archive draft. Measured 5 November 2026 at 16:30 local time. The report does not record a timezone. Published 5 November 2026. Record version 0.9.1.
+Measured 5 November 2026 at 16:30 local time. The report does not record a timezone. Published 5 November 2026. Record version 0.9.2.
 
 ## Playback chain
 
@@ -81,5 +81,6 @@ Canonico, Michelangelo. “GS-2026-0012 — Ortofon 2M Bronze / New Horizon — 
 
 ## Changelog
 
+- 0.9.2 — Corrected the publication status to published.
 - 0.9.1 — Added the setup photograph as a metadata-stripped JPEG and resized WebP copies.
 - 0.9.0 — Initial public entry with the original report, eight Rotation Fingerprints and the measurer’s session observations.

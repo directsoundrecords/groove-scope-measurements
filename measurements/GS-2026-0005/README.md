@@ -6,7 +6,7 @@ The Technics SL-1410 MK2 averaged 33.33 RPM (−0.01%) with 0.040% DIN-shaped wo
 
 ## Record status and setup
 
-Public archive entry, status **draft**: setup and software metadata remain incomplete. Measured 1 October 2026 at 12:18 local time; timezone not recorded. Record version 0.9.1.
+Published measurement. Measured 1 October 2026 at 12:18 local time; timezone not recorded. Record version 0.9.2.
 
 | Component | Identification |
 |---|---|
@@ -74,5 +74,6 @@ Canonico, Michelangelo. “GS-2026-0005 — Empire 7000/III / Technics SL-1410 M
 
 ## Changelog
 
+- 0.9.2 — Corrected the publication status to published.
 - 0.9.1 — Added eight supplied L/R rotation-fingerprint screenshots and web views.
 - 0.9.0 — Initial public entry with report transcription, original sources, labelled fingerprint placeholders and retouched hero.

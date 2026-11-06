@@ -32,7 +32,7 @@ Unknown canonical values remain explicit component states such as `not_recorded`
 
 ## Status policy
 
-Visibility is configured in `data/studio/reference-library-policy.json`. The initial policy includes `draft` and `published` records because the existing public Groove Scope catalogue already exposes the current draft. `superseded` and `withdrawn` records are excluded. The canonical `publication_status` is always retained in the feed and is never silently promoted.
+Visibility is configured in `data/studio/reference-library-policy.json`. The feed includes records whose canonical `publication_status` is `published`. It excludes `draft`, `superseded`, and `withdrawn` records.
 
 ## Images
 

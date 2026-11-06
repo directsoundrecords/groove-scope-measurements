@@ -6,7 +6,7 @@ The Ortofon 2M Bronze delivers strong 1 kHz separation in this Rega P3 / Audio R
 
 ## Record status
 
-Public archive entry, status **draft**: setup and software metadata remain incomplete. Measured 2 October 2026 at 09:44 local time; timezone not recorded. Record version 0.9.0.
+Published measurement. Measured 2 October 2026 at 09:44 local time; timezone not recorded. Record version 0.9.1.
 
 ## Complete results
 
@@ -70,4 +70,5 @@ Canonico, Michelangelo. “GS-2026-0008 — Ortofon 2M Bronze / Rega P3 — 1 kH
 
 ## Changelog
 
+- 0.9.1 — Corrected the publication status to published.
 - 0.9.0 — Initial public entry with full source report, eight fingerprints, equipment photograph and evidence-based review.

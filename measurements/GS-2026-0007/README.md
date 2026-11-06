@@ -6,7 +6,7 @@ The DQX-500 capture averaged 33.33 RPM (−0.01%) with 0.032% DIN-shaped wow and
 
 ## Record status and identity
 
-Public archive entry, status **draft**: setup and software metadata remain incomplete. Measured 1 October 2026 at 22:17 local time; timezone not recorded. Record version 0.9.2.
+Published measurement. Measured 1 October 2026 at 22:17 local time; timezone not recorded. Record version 0.9.3.
 
 The measurer confirmed this later capture used the Micro Seiki DQX-500, Goldring 2100, Audio Research SP20 and EVO4. These setup identities were supplied after publication; the source PDF itself does not name the turntable or cartridge and leaves the input field blank. The equipment photograph predates this capture, so it remains illustrative rather than capture-specific evidence.
 
@@ -67,6 +67,7 @@ Canonico, Michelangelo. “GS-2026-0007 — Goldring 2100 / Micro Seiki DQX-500 
 
 ## Changelog
 
+- 0.9.3 — Corrected the publication status to published.
 - 0.9.2 — Removed the redundant earlier public entry; retained this capture as the canonical DQX-500 page.
 - 0.9.1 — Added measurer-confirmed Goldring 2100, Audio Research SP20 and EVO4 setup identities.
 - 0.9.0 — Initial public entry for the 22:17 capture with source PDF, eight supplied fingerprints and an illustrative DQX-500 hero.

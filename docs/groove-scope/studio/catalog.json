@@ -1,14 +1,14 @@
 {
   "schema_version": "1.0.0",
-  "catalogue_version": "0491539a59c108ee",
-  "generated_at": "2026-11-06T18:32:31Z",
+  "catalogue_version": "bc7e0949306431e7",
+  "generated_at": "2026-11-06T18:41:16Z",
   "catalogue_url": "https://measurements.directsoundrecords.com/groove-scope/studio/catalog.json",
   "status_policy": {
     "included_statuses": [
-      "draft",
       "published"
     ],
     "excluded_statuses": [
+      "draft",
       "superseded",
       "withdrawn"
     ]
@@ -18,8 +18,8 @@
   "measurements": [
     {
       "measurement_id": "GS-2026-0013",
-      "publication_status": "draft",
-      "status_label": "Draft",
+      "publication_status": "published",
+      "status_label": "Published",
       "measurement_date": "2026-11-06",
       "publication_date": "2026-11-06",
       "measurement_type": "1 kHz Reference Check",
@@ -191,8 +191,8 @@
     },
     {
       "measurement_id": "GS-2026-0012",
-      "publication_status": "draft",
-      "status_label": "Draft",
+      "publication_status": "published",
+      "status_label": "Published",
       "measurement_date": "2026-11-05",
       "publication_date": "2026-11-05",
       "measurement_type": "1 kHz Reference Check",
@@ -364,8 +364,8 @@
     },
     {
       "measurement_id": "GS-2026-0011",
-      "publication_status": "draft",
-      "status_label": "Draft",
+      "publication_status": "published",
+      "status_label": "Published",
       "measurement_date": "2026-11-05",
       "publication_date": "2026-11-05",
       "measurement_type": "1 kHz Reference Check",
@@ -537,8 +537,8 @@
     },
     {
       "measurement_id": "GS-2026-0010",
-      "publication_status": "draft",
-      "status_label": "Draft",
+      "publication_status": "published",
+      "status_label": "Published",
       "measurement_date": "2026-10-18",
       "publication_date": "2026-10-18",
       "measurement_type": "1 kHz Reference Check",
@@ -710,8 +710,8 @@
     },
     {
       "measurement_id": "GS-2026-0009",
-      "publication_status": "draft",
-      "status_label": "Draft",
+      "publication_status": "published",
+      "status_label": "Published",
       "measurement_date": "2026-10-04",
       "publication_date": "2026-10-06",
       "measurement_type": "1 kHz Reference Check",
@@ -883,8 +883,8 @@
     },
     {
       "measurement_id": "GS-2026-0008",
-      "publication_status": "draft",
-      "status_label": "Draft",
+      "publication_status": "published",
+      "status_label": "Published",
       "measurement_date": "2026-10-02",
       "publication_date": "2026-10-02",
       "measurement_type": "1 kHz Reference Check",
@@ -1056,8 +1056,8 @@
     },
     {
       "measurement_id": "GS-2026-0007",
-      "publication_status": "draft",
-      "status_label": "Draft",
+      "publication_status": "published",
+      "status_label": "Published",
       "measurement_date": "2026-10-01",
       "publication_date": "2026-10-02",
       "measurement_type": "1 kHz Reference Check",
@@ -1229,8 +1229,8 @@
     },
     {
       "measurement_id": "GS-2026-0005",
-      "publication_status": "draft",
-      "status_label": "Draft",
+      "publication_status": "published",
+      "status_label": "Published",
       "measurement_date": "2026-10-01",
       "publication_date": "2026-10-01",
       "measurement_type": "1 kHz Reference Check",
@@ -1402,8 +1402,8 @@
     },
     {
       "measurement_id": "GS-2026-0006",
-      "publication_status": "draft",
-      "status_label": "Draft",
+      "publication_status": "published",
+      "status_label": "Published",
       "measurement_date": "2026-09-26",
       "publication_date": "2026-10-02",
       "measurement_type": "1 kHz Reference Check",
@@ -1575,10 +1575,10 @@
     },
     {
       "measurement_id": "GS-2026-0003",
-      "publication_status": "draft",
-      "status_label": "Draft",
+      "publication_status": "published",
+      "status_label": "Published",
       "measurement_date": "2026-09-05",
-      "publication_date": null,
+      "publication_date": "2026-09-05",
       "measurement_type": "1 kHz Reference Check",
       "title": "Audio-Technica AT-OC9XML — Rega P3 / Rega RB330 / Audio Research SP20 — 1 kHz Reference Check",
       "short_display_title": "Rega P3 / Rega RB330 / Audio-Technica AT-OC9XML",

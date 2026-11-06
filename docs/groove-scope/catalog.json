@@ -7,7 +7,7 @@
       "title": "Rega P1 / Rega Carbon — 1 kHz Reference Check",
       "short_title": "Rega P1 / Rega Carbon",
       "date": "2026-11-06",
-      "status": "draft",
+      "status": "published",
       "hero_image": "assets/GS-2026-0013/web/hero-1448.webp?v=2",
       "summary": "At the AudioReview laboratory, Groove Scope revealed a 10.27 dB crosstalk imbalance on a Rega Carbon that looked square. The imbalance fell to 1.16 dB after azimuth adjustment. In a separate Groove Scope Studio test, the cartridge tracked 60 µm at 2.0 g and 80 µm at 2.5 g.",
       "primary_metrics": {
@@ -24,7 +24,7 @@
       "title": "Ortofon 2M Bronze / New Horizon — 1 kHz Reference Check",
       "short_title": "Ortofon 2M Bronze / New Horizon",
       "date": "2026-11-05",
-      "status": "draft",
+      "status": "published",
       "hero_image": "assets/GS-2026-0012/web/hero-1448.webp",
       "summary": "Measured as found, the New Horizon setup averaged 33.41 RPM (+0.23%) with 0.053% DIN-shaped wow and flutter and 23.6 dB average 1 kHz separation. The speed fingerprints show a recurring slowdown and changes in the faster portions over eight rotations. The measurer reports no azimuth adjustment and an unsuccessful 70 µm tracking test.",
       "primary_metrics": {
@@ -41,7 +41,7 @@
       "title": "Audio-Technica VM95SH / Thorens TD 160 Super / SME III — 1 kHz Reference Check",
       "short_title": "Audio-Technica VM95SH / Thorens TD 160 Super / SME III",
       "date": "2026-11-05",
-      "status": "draft",
+      "status": "published",
       "hero_image": "assets/GS-2026-0011/web/hero-1448.webp",
       "summary": "Groove Scope made azimuth adjustment straightforward from a much worse starting position. The adjusted capture showed 17.7 dB average separation and +2.90 dB channel balance. The bent cantilever limits what those figures tell us about a VM95SH in good condition. The Thorens averaged 33.29 RPM (−0.12%) with 0.030% DIN-shaped wow and flutter. The repeating speed pattern warrants a follow-up check of the turntable.",
       "primary_metrics": {
@@ -58,7 +58,7 @@
       "title": "Shure V15 V / JICO Custom Shop MR — Micro Seiki DQX500 / MA707 — 1 kHz Reference Check",
       "short_title": "Shure V15 V / JICO Custom Shop MR / Micro Seiki DQX500 / MA707",
       "date": "2026-10-18",
-      "status": "draft",
+      "status": "published",
       "hero_image": "assets/GS-2026-0010/web/hero-1448.webp",
       "summary": "An original Shure V15 V with a new JICO Custom Shop MR stylus gives an encouraging result in this Micro Seiki DQX500 / MA707 / Audio Research SP20 / Audient EVO4 capture: 33.33 RPM (−0.02%), 0.025% DIN-shaped wow and flutter, −0.01 dB channel balance and 27.3 dB average separation. THD measured 0.65% left and 0.49% right. The measurer describes clear, revealing sound before break-in and a surprisingly quiet background; the report calls for a repeat of the right-channel third-harmonic check before setup changes.",
       "primary_metrics": {
@@ -75,7 +75,7 @@
       "title": "BENZ SPJ — VYGER Atlantis / VYGER INERTIAL / ART USB Phono Plus — Hi Fidelity Milan",
       "short_title": "BENZ SPJ / VYGER Atlantis / VYGER INERTIAL / ART USB Phono Plus",
       "date": "2026-10-04",
-      "status": "draft",
+      "status": "published",
       "hero_image": "assets/GS-2026-0009/web/hero-2400.webp",
       "summary": "Measured as found in the CHARIO Academy room at Hi Fidelity Milan, with no setup adjustments: the BENZ SPJ / VYGER Atlantis / VYGER INERTIAL / ART USB Phono Plus chain averaged 33.33 RPM (−0.01%), with 0.032% DIN-shaped wow and flutter, 27.4 dB average separation and +0.49 dB channel balance. Harmonics were steady during recording. The measurer reports a successful 100 µm tracking-ladder pass and credits the new INERTIAL tonearm as a major contributor to that performance.",
       "primary_metrics": {
@@ -92,7 +92,7 @@
       "title": "Ortofon 2M Bronze — Rega P3 / Audio Research SP20 / EVO4 — 1 kHz Reference Check",
       "short_title": "Ortofon 2M Bronze / Rega P3 / SP20 / EVO4",
       "date": "2026-10-02",
-      "status": "draft",
+      "status": "published",
       "hero_image": "assets/GS-2026-0008/web/hero-1448.webp",
       "summary": "The Ortofon 2M Bronze delivers strong 1 kHz separation in this Rega P3 / Audio Research SP20 / EVO4 capture: 32.8 dB on average, with +0.53 dB channel balance. Playback averaged 33.34 RPM (+0.01%) with 0.027% DIN-shaped wow and flutter. THD was 0.98% left and 1.13% right; repeat the right-channel third-harmonic check before changing setup.",
       "primary_metrics": {
@@ -102,14 +102,14 @@
         "average_separation_db": 32.8
       },
       "measurement_url": "measurements/GS-2026-0008.html",
-      "provenance_label": "DSR measurement session; setup metadata incomplete"
+      "provenance_label": "DSR measurement session on the Rega P3 with an Audio Research SP20"
     },
     {
       "measurement_id": "GS-2026-0005",
       "title": "Technics SL-1410 MK2 / Empire 7000/III — 1 kHz Playback Check",
       "short_title": "Empire 7000/III / Technics SL-1410 MK2 / ART USB Phono Plus",
       "date": "2026-10-01",
-      "status": "draft",
+      "status": "published",
       "hero_image": "assets/GS-2026-0005/web/hero-1448.webp",
       "summary": "The Technics SL-1410 MK2 averaged 33.33 RPM (−0.01%) with 0.040% DIN-shaped wow and flutter. Separation averaged 23.8 dB, but the two crosstalk directions differed by about 2 dB; channel balance was −0.26 dB. Harmonics stayed steady within this recording, while THD was higher on the left (2.26%) than the right (1.85%).",
       "primary_metrics": {
@@ -119,14 +119,14 @@
         "average_separation_db": 23.8
       },
       "measurement_url": "measurements/GS-2026-0005.html",
-      "provenance_label": "DSR measurement session; setup metadata incomplete"
+      "provenance_label": "DSR measurement session with the ART USB Phono Plus identified in the source report"
     },
     {
       "measurement_id": "GS-2026-0007",
       "title": "Goldring 2100 — Micro Seiki DQX-500 — 1 kHz Reference Check",
       "short_title": "Goldring 2100 / Micro Seiki DQX-500",
       "date": "2026-10-01",
-      "status": "draft",
+      "status": "published",
       "hero_image": "assets/GS-2026-0007/web/hero-1448.webp",
       "summary": "The DQX-500 capture averaged 33.33 RPM (−0.01%) with 0.032% DIN-shaped wow and flutter. Average 1 kHz separation was 20.1 dB and channel balance was −0.54 dB. The right-channel third harmonic changed most during recording, so the report advises repeating the capture before adjusting the cartridge setup.",
       "primary_metrics": {
@@ -136,14 +136,31 @@
         "average_separation_db": 20.1
       },
       "measurement_url": "measurements/GS-2026-0007.html",
-      "provenance_label": "DSR measurement session; setup metadata incomplete"
+      "provenance_label": "DSR measurement session with playback chain confirmed by the measurer"
+    },
+    {
+      "measurement_id": "GS-2026-0006",
+      "title": "Transfiguration Orpheus — Micro Seiki RX-5000 / SME V / EVO4 — 1 kHz Reference Check",
+      "short_title": "Transfiguration Orpheus / Micro Seiki RX-5000 / SME V",
+      "date": "2026-09-26",
+      "status": "published",
+      "hero_image": "assets/GS-2026-0006/web/hero-1448.webp",
+      "summary": "The Micro Seiki RX-5000 averaged 33.51 RPM (+0.52%) with 0.031% DIN-shaped wow and flutter. Average 1 kHz separation was 19.5 dB, channel balance was −0.35 dB, and harmonic levels were steady during this capture.",
+      "primary_metrics": {
+        "playback_rpm": 33.51,
+        "speed_error_percent": 0.52,
+        "din_shaped_wow_flutter_percent": 0.031,
+        "average_separation_db": 19.5
+      },
+      "measurement_url": "measurements/GS-2026-0006.html",
+      "provenance_label": "DSR measurement session with an EVO4 interface identified by the measurer"
     },
     {
       "measurement_id": "GS-2026-0003",
       "title": "Audio-Technica AT-OC9XML — Rega P3 / Rega RB330 / Audio Research SP20 — 1 kHz Reference Check",
       "short_title": "AT-OC9XML / Rega P3 / SP20",
       "date": "2026-09-05",
-      "status": "draft",
+      "status": "published",
       "hero_image": "assets/GS-2026-0003/web/hero-2400.webp",
       "summary": "In this Rega P3 / RB330 capture, playback settled at 33.34 RPM (+0.02%) with 0.030% DIN-shaped wow and flutter. Average 1 kHz separation was 31.8 dB and channel balance was −0.24 dB; the left-channel third harmonic changed most during the recording, so a repeat is advisable before changing setup.",
       "primary_metrics": {
