@@ -8,7 +8,7 @@ Thanks to Mauro Neri, director of *AudioReview*, for making the laboratory sessi
 
 ## Record status
 
-Public archive draft. Measured 6 November 2026 at 16:58 local time. The report does not record a timezone. Published 6 November 2026. Record version 0.9.0.
+Public archive draft. Measured 6 November 2026 at 16:58 local time. The report does not record a timezone. Published 6 November 2026. Record version 0.9.1.
 
 ## Playback chain
 
@@ -82,7 +82,7 @@ The original screenshots cover speed deviation, 1 kHz level modulation, opposite
 
 The PDF documents the adjusted 1 kHz capture. The laboratory location, initial readings, azimuth adjustment and tracking trial come from the measurer’s session account. The physical azimuth angle, anti-skate, loading, alignment geometry, test record and track, repeat count, capture settings and software versions were not recorded. The results describe the playback chain as a whole.
 
-The archived setup photograph is a full-resolution JPEG from the supplied HEIC with embedded metadata stripped. ImageGen previewed cosmetic cleanup and neutral lighting. The published retouch applies a tonal grade to the original photograph and preserves the geometry of the cartridge, stylus and mounting hardware.
+The archived setup photograph is a full-resolution JPEG from the supplied HEIC with embedded metadata stripped. The editorial image is the ImageGen retouch of that photograph, with adjusted lighting and background cleanup. The archived source photograph documents the setup.
 
 ## Files
 
@@ -100,4 +100,5 @@ Canonico, Michelangelo. “GS-2026-0013 — Rega P1 / Rega Carbon — 1 kHz Refe
 
 ## Changelog
 
+- 0.9.1 — Published the ImageGen retouch as the editorial photograph.
 - 0.9.0 — Initial public entry with the reference report, eight Rotation Fingerprints, setup photograph and the measurer’s account of the azimuth and tracking trials.

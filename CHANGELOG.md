@@ -2,6 +2,11 @@
 
 All notable repository and measurement-record changes are documented here.
 
+## 1.1.9 — 2026-11-06
+
+- Published the ImageGen retouch for the Rega P1 measurement and advanced GS-2026-0013 to 0.9.1.
+- Restored the earlier photographic hero layout on the Rega P1 and New Horizon measurement pages.
+
 ## 1.1.8 — 2026-11-06
 
 - Added GS-2026-0013, a 1 kHz reference check of the Rega P1 and Rega Carbon at the AudioReview laboratory.
