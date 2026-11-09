@@ -44,6 +44,15 @@ def validate(path: Path) -> list[str]:
         )
 
     if data.get("publication_status") == "published":
+        setup = data.get("setup")
+        cartridge = setup.get("cartridge") if isinstance(setup, dict) else None
+        if isinstance(cartridge, str) and cartridge.strip() not in {"", "not_recorded"}:
+            title = data.get("title")
+            if not isinstance(title, str) or (
+                title != cartridge and not title.startswith(f"{cartridge} — ")
+            ):
+                errors.append(f"Published record title must start with its cartridge name ({cartridge})")
+
         software = data.get("software")
         if not isinstance(software, dict):
             errors.append("Published record requires a software object")

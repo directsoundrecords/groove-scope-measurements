@@ -1,4 +1,4 @@
-# GS-2026-0012 — Ortofon 2M Bronze / New Horizon — 1 kHz Reference Check
+# GS-2026-0012 — Ortofon 2M Bronze — 1 kHz Reference Check
 
 **Measured by Michelangelo Canonico for Direct Sound Records using Groove Scope Studio.**
 
@@ -6,7 +6,7 @@ The New Horizon averaged 33.41 RPM with the Ortofon 2M Bronze fitted. Groove Sco
 
 ## Record status
 
-Measured 5 November 2026 at 16:30 local time. The report does not record a timezone. Published 5 November 2026. Record version 0.9.2.
+Measured 5 November 2026 at 16:30 local time. The report does not record a timezone. Published 5 November 2026. Record version 0.9.3.
 
 ## Playback chain
 
@@ -77,10 +77,11 @@ The archived setup photograph is a full-resolution JPEG from the supplied HEIC. 
 
 ## Citation
 
-Canonico, Michelangelo. “GS-2026-0012 — Ortofon 2M Bronze / New Horizon — 1 kHz Reference Check.” *Groove Scope Measurements*. Direct Sound Records, 2026. CC BY 4.0.
+Canonico, Michelangelo. “GS-2026-0012 — Ortofon 2M Bronze — 1 kHz Reference Check.” *Groove Scope Measurements*. Direct Sound Records, 2026. CC BY 4.0.
 
 ## Changelog
 
+- 0.9.3 — Standardised the measurement title around the cartridge name.
 - 0.9.2 — Corrected the publication status to published.
 - 0.9.1 — Added the setup photograph as a metadata-stripped JPEG and resized WebP copies.
 - 0.9.0 — Initial public entry with the original report, eight Rotation Fingerprints and the measurer’s session observations.

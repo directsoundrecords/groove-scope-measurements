@@ -1,4 +1,4 @@
-# GS-2026-0006 — Transfiguration Orpheus / Micro Seiki RX-5000 / SME V
+# GS-2026-0006 — Transfiguration Orpheus — 1 kHz Reference Check
 
 **Measured by Michelangelo Canonico for Direct Sound Records using Groove Scope.**
 
@@ -6,7 +6,7 @@ The RX-5000 averaged 33.51 RPM (+0.52%) with 0.031% DIN-shaped wow and flutter. 
 
 ## Record status and identity
 
-Published measurement. Measured 26 September 2026 at 16:24 local time; timezone not recorded. Record version 0.9.1. The PDF title is “Transfiguration Orpheus”; the measurer identified the turntable, tonearm, cartridge and EVO4 interface. The original PDF does not record an input name.
+Published measurement. Measured 26 September 2026 at 16:24 local time; timezone not recorded. Record version 0.9.2. The PDF title is “Transfiguration Orpheus”; the measurer identified the turntable, tonearm, cartridge and EVO4 interface. The original PDF does not record an input name.
 
 | Component | Identification |
 |---|---|
@@ -68,9 +68,10 @@ Tracking force, anti-skate, alignment, phono stage, cartridge loading, test-reco
 
 ## Citation
 
-Canonico, Michelangelo. “GS-2026-0006 — Transfiguration Orpheus / Micro Seiki RX-5000 / SME V — 1 kHz Reference Check.” *Groove Scope Measurements*. Direct Sound Records, 2026. CC BY 4.0.
+Canonico, Michelangelo. “GS-2026-0006 — Transfiguration Orpheus — 1 kHz Reference Check.” *Groove Scope Measurements*. Direct Sound Records, 2026. CC BY 4.0.
 
 ## Changelog
 
+- 0.9.2 — Standardised the measurement title around the cartridge name.
 - 0.9.1 — Corrected the publication status to published.
 - 0.9.0 — Initial public archive entry with report transcription, supplied setup identities, eight rotation fingerprints and original assets.

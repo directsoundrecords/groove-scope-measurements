@@ -1,4 +1,4 @@
-# GS-2026-0015 — Takumi TT Level 2.1 DC / Takumi Aka MC — 1 kHz Reference Check
+# GS-2026-0015 — Takumi Aka MC — 1 kHz Reference Check
 
 **Measured by Michelangelo Canonico for Direct Sound Records.**
 
@@ -6,7 +6,7 @@ The Takumi TT Level 2.1 DC averaged **33.33 RPM under stylus load** with **0.030
 
 ## Record status
 
-Measured 7 November 2026 at 10:46 local time. The report does not record a timezone. Published 9 November 2026. Record version 1.0.1.
+Measured 7 November 2026 at 10:46 local time. The report does not record a timezone. Published 9 November 2026. Record version 1.0.2.
 
 ## Playback chain
 
@@ -78,9 +78,10 @@ The archived photograph is a full-resolution 5712 × 4284 JPEG from the supplied
 
 ## Citation
 
-Canonico, Michelangelo. “GS-2026-0015 — Takumi TT Level 2.1 DC / Takumi Aka MC — 1 kHz Reference Check.” *Groove Scope Measurements*. Direct Sound Records, 2026. CC BY 4.0.
+Canonico, Michelangelo. “GS-2026-0015 — Takumi Aka MC — 1 kHz Reference Check.” *Groove Scope Measurements*. Direct Sound Records, 2026. CC BY 4.0.
 
 ## Changelog
 
+- 1.0.2 — Standardised the measurement title around the cartridge name.
 - 1.0.1 — Added the post-adjustment azimuth context for the crosstalk capture.
 - 1.0.0 — Initial publication with the reference report, eight Rotation Fingerprints, photograph and the measurer’s session account.

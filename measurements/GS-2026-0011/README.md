@@ -1,4 +1,4 @@
-# GS-2026-0011 — Audio-Technica VM95SH / Thorens TD 160 Super / SME III — 1 kHz Reference Check
+# GS-2026-0011 — Audio-Technica VM95SH — 1 kHz Reference Check
 
 **Measured by Michelangelo Canonico for Direct Sound Records using Groove Scope.**
 
@@ -6,7 +6,7 @@ Groove Scope made it easy to improve the azimuth from a much poorer starting poi
 
 ## Record status
 
-Measured 5 November 2026 at 12:08 local time. The report does not record a timezone. Published 5 November 2026. Record version 0.9.2.
+Measured 5 November 2026 at 12:08 local time. The report does not record a timezone. Published 5 November 2026. Record version 0.9.3.
 
 ## Playback chain
 
@@ -84,10 +84,11 @@ No raw test-record audio is published.
 
 ## Citation
 
-Canonico, Michelangelo. “GS-2026-0011 — Audio-Technica VM95SH / Thorens TD 160 Super / SME III — 1 kHz Reference Check.” *Groove Scope Measurements*. Direct Sound Records, 2026. CC BY 4.0.
+Canonico, Michelangelo. “GS-2026-0011 — Audio-Technica VM95SH — 1 kHz Reference Check.” *Groove Scope Measurements*. Direct Sound Records, 2026. CC BY 4.0.
 
 ## Changelog
 
+- 0.9.3 — Standardised the measurement title around the cartridge name.
 - 0.9.2 — Corrected the publication status to published.
 - 0.9.1 — Replaced the left-channel speed fingerprint with the supplied cropped image.
 - 0.9.0 — Initial public entry with the source report, eight Rotation Fingerprints, the setup photograph and the measurer’s account.

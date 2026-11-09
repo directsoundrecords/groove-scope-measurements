@@ -73,7 +73,7 @@
       </div>
       <div class="latest-copy">
         <div class="latest-title-row"><span class="measurement-id">${escapeHTML(measurement.measurement_id)}</span><span class="status-pill status-${escapeHTML(measurement.publication_status)}">${escapeHTML(measurement.status_label)}</span></div>
-        <h2 id="latest-heading">${escapeHTML(measurement.system_title)}</h2>
+        <h2 id="latest-heading">${escapeHTML(measurement.short_display_title)}</h2>
         <p class="measurement-type">${escapeHTML(measurement.measurement_type)}</p>
         <p class="measured-with">Measured with <strong>${escapeHTML(componentName(measurement, "phono_stage"))}</strong></p>
         <dl class="component-strip">${components}</dl>
@@ -106,13 +106,15 @@
   function systemCard(measurement) {
     const metrics = ["playback_rpm", "din_shaped_wow_flutter_percent", "average_channel_separation_db"]
       .map((id) => metricByID(measurement, id)).filter(Boolean);
+    const setup = ["turntable", "tonearm", "phono_stage"]
+      .map((key) => measurement.components?.[key]?.display_name).filter(Boolean).join(" / ");
     return `
       <article class="system-card">
         <a class="card-image" href="${escapeHTML(measurement.measurement_url)}"><img src="${escapeHTML(measurement.images.card.url)}" width="1200" height="675" alt="${escapeHTML(measurement.system_title)} documented measurement system." loading="lazy" decoding="async"></a>
         <div class="card-copy">
           <div class="card-meta"><span class="measurement-id">${escapeHTML(measurement.measurement_id)}</span><span class="status-dot">${escapeHTML(measurement.status_label)}</span></div>
-          <h3><a href="${escapeHTML(measurement.measurement_url)}">${escapeHTML(measurement.system_title)}</a></h3>
-          <p class="card-phono">${escapeHTML(componentName(measurement, "phono_stage"))}</p>
+          <h3><a href="${escapeHTML(measurement.measurement_url)}">${escapeHTML(measurement.short_display_title)}</a></h3>
+          ${setup ? `<p class="card-setup">${escapeHTML(setup)}</p>` : ""}
           ${metrics.length ? `<dl class="card-metrics">${metrics.map(metricMarkup).join("")}</dl>` : ""}
           <div class="card-footer"><span>Measured · ${escapeHTML(formatDate(measurement.measurement_date))}</span><a href="${escapeHTML(measurement.measurement_url)}" aria-label="View ${escapeHTML(measurement.measurement_id)}">View <span aria-hidden="true">→</span></a></div>
         </div>
@@ -128,7 +130,7 @@
         .filter(Boolean);
       if (!linked.length) return "";
       const lead = linked[0];
-      const links = linked.map((measurement) => `<li><a href="${escapeHTML(measurement.measurement_url)}"><span>${escapeHTML(measurement.measurement_id)}</span><strong>${escapeHTML(measurement.system_title)}</strong><small>Measured ${escapeHTML(formatDate(measurement.measurement_date))}</small></a></li>`).join("");
+      const links = linked.map((measurement) => `<li><a href="${escapeHTML(measurement.measurement_url)}"><span>${escapeHTML(measurement.measurement_id)}</span><strong>${escapeHTML(measurement.short_display_title)}</strong><small>Measured ${escapeHTML(formatDate(measurement.measurement_date))}</small></a></li>`).join("");
       return `
         <article class="component-card">
           <div class="component-card-head"><span class="component-kind">${escapeHTML(labels[state.view])}</span><span>${linked.length} ${linked.length === 1 ? "system" : "systems"}</span></div>

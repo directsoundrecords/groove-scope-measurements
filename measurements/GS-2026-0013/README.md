@@ -1,4 +1,4 @@
-# GS-2026-0013 — Rega P1 / Rega Carbon — 1 kHz Reference Check
+# GS-2026-0013 — Rega Carbon — 1 kHz Reference Check
 
 **Measured by Michelangelo Canonico for Direct Sound Records at the AudioReview laboratory.**
 
@@ -8,7 +8,7 @@ Thanks to Mauro Neri, director of *AudioReview*, for making the laboratory sessi
 
 ## Record status
 
-Measured 6 November 2026 at 16:58 local time. The report does not record a timezone. Published 6 November 2026. Record version 0.9.2.
+Measured 6 November 2026 at 16:58 local time. The report does not record a timezone. Published 6 November 2026. Record version 0.9.3.
 
 ## Playback chain
 
@@ -96,10 +96,11 @@ The archived setup photograph is a full-resolution JPEG from the supplied HEIC w
 
 ## Citation
 
-Canonico, Michelangelo. “GS-2026-0013 — Rega P1 / Rega Carbon — 1 kHz Reference Check.” *Groove Scope Measurements*. Direct Sound Records, 2026. CC BY 4.0.
+Canonico, Michelangelo. “GS-2026-0013 — Rega Carbon — 1 kHz Reference Check.” *Groove Scope Measurements*. Direct Sound Records, 2026. CC BY 4.0.
 
 ## Changelog
 
+- 0.9.3 — Standardised the measurement title around the cartridge name.
 - 0.9.2 — Corrected the publication status to published.
 - 0.9.1 — Published the ImageGen retouch as the editorial photograph.
 - 0.9.0 — Initial public entry with the reference report, eight Rotation Fingerprints, setup photograph and the measurer’s account of the azimuth and tracking trials.

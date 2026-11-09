@@ -34,6 +34,8 @@ When information is genuinely unavailable, use `not_recorded`. Never infer a mod
 
 Publish the verified equipment identity and keep internal editorial decisions private.
 
+Use the cartridge name as the measurement headline and library sort label when the cartridge is known. Start the full record title with the same name, followed by the measurement type or session label. Show the turntable, tonearm and other components in the setup details.
+
 Published pages show verified hardware in signal order on one continuous horizontal line. On narrow screens, the line remains intact and becomes horizontally scrollable rather than wrapping into rows.
 
 Include a preamplifier or phono stage only when its identity is explicitly supplied or present in the source evidence. If a different measurement method bypasses that component, or its identity is not verified, omit the component from the visual chain rather than inventing a placeholder. The same rule applies to every optional stage, so future chains may contain different numbers of elements without changing the presentation pattern.

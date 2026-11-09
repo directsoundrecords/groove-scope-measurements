@@ -1,4 +1,4 @@
-# GS-2026-0007 — Goldring 2100 / Micro Seiki DQX-500 — 1 kHz Reference Check
+# GS-2026-0007 — Goldring 2100 — 1 kHz Reference Check
 
 **Measured by Michelangelo Canonico for Direct Sound Records using Groove Scope.**
 
@@ -6,7 +6,7 @@ The DQX-500 capture averaged 33.33 RPM (−0.01%) with 0.032% DIN-shaped wow and
 
 ## Record status and identity
 
-Published measurement. Measured 1 October 2026 at 22:17 local time; timezone not recorded. Record version 0.9.3.
+Published measurement. Measured 1 October 2026 at 22:17 local time; timezone not recorded. Record version 0.9.4.
 
 The measurer confirmed this later capture used the Micro Seiki DQX-500, Goldring 2100, Audio Research SP20 and EVO4. These setup identities were supplied after publication; the source PDF itself does not name the turntable or cartridge and leaves the input field blank. The equipment photograph predates this capture, so it remains illustrative rather than capture-specific evidence.
 
@@ -63,10 +63,11 @@ The PDF input field is blank. The measurer supplied the cartridge, preamplifier 
 
 ## Citation
 
-Canonico, Michelangelo. “GS-2026-0007 — Goldring 2100 / Micro Seiki DQX-500 — 1 kHz Reference Check.” *Groove Scope Measurements*. Direct Sound Records, 2026. CC BY 4.0.
+Canonico, Michelangelo. “GS-2026-0007 — Goldring 2100 — 1 kHz Reference Check.” *Groove Scope Measurements*. Direct Sound Records, 2026. CC BY 4.0.
 
 ## Changelog
 
+- 0.9.4 — Standardised the measurement title around the cartridge name.
 - 0.9.3 — Corrected the publication status to published.
 - 0.9.2 — Removed the redundant earlier public entry; retained this capture as the canonical DQX-500 page.
 - 0.9.1 — Added measurer-confirmed Goldring 2100, Audio Research SP20 and EVO4 setup identities.

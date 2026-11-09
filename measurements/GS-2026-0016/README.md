@@ -1,4 +1,4 @@
-# GS-2026-0016 — AVID Reference Ruby / AVID Acutus / Nexus — 1 kHz Reference Check
+# GS-2026-0016 — AVID Reference Ruby — 1 kHz Reference Check
 
 **Measured by Michelangelo Canonico for Direct Sound Records using Groove Scope Studio.**
 
@@ -6,7 +6,7 @@ The AVID Reference Ruby, Acutus and Nexus chain delivered **37.6 dB average chan
 
 ## Record status
 
-The 1 kHz reference capture was made on 8 November 2026 at 17:32 local time. The tracking capture was made at 17:26 the same day. The reports do not record a timezone. Published 9 November 2026. Record version 1.0.0.
+The 1 kHz reference capture was made on 8 November 2026 at 17:32 local time. The tracking capture was made at 17:26 the same day. The reports do not record a timezone. Published 9 November 2026. Record version 1.0.1.
 
 ## Playback chain
 
@@ -91,8 +91,9 @@ The archived photograph is a full-resolution 5712 × 4284 JPEG from the supplied
 
 ## Citation
 
-Canonico, Michelangelo. “GS-2026-0016 — AVID Reference Ruby / AVID Acutus / Nexus — 1 kHz Reference Check.” *Groove Scope Measurements*. Direct Sound Records, 2026. CC BY 4.0.
+Canonico, Michelangelo. “GS-2026-0016 — AVID Reference Ruby — 1 kHz Reference Check.” *Groove Scope Measurements*. Direct Sound Records, 2026. CC BY 4.0.
 
 ## Changelog
 
+- 1.0.1 — Standardised the measurement title around the cartridge name.
 - 1.0.0 — Initial publication with the two original reports, eight Rotation Fingerprints, photograph and the measurer’s session account.

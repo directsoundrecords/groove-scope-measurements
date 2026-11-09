@@ -1,4 +1,4 @@
-# GS-2026-0005 — Empire 7000/III / Technics SL-1410 MK2 / ART USB Phono Plus
+# GS-2026-0005 — Empire 7000/III — 1 kHz Reference Check
 
 **Measured by Michelangelo Canonico for Direct Sound Records using Groove Scope.**
 
@@ -6,7 +6,7 @@ The Technics SL-1410 MK2 averaged 33.33 RPM (−0.01%) with 0.040% DIN-shaped wo
 
 ## Record status and setup
 
-Published measurement. Measured 1 October 2026 at 12:18 local time; timezone not recorded. Record version 0.9.2.
+Published measurement. Measured 1 October 2026 at 12:18 local time; timezone not recorded. Record version 0.9.3.
 
 | Component | Identification |
 |---|---|
@@ -70,10 +70,11 @@ The original PDF and HEIC are preserved. The hero is an AI-assisted cosmetic ret
 
 ## Citation
 
-Canonico, Michelangelo. “GS-2026-0005 — Empire 7000/III / Technics SL-1410 MK2 / ART USB Phono Plus — 1 kHz Reference Check.” *Groove Scope Measurements*. Direct Sound Records, 2026. CC BY 4.0.
+Canonico, Michelangelo. “GS-2026-0005 — Empire 7000/III — 1 kHz Reference Check.” *Groove Scope Measurements*. Direct Sound Records, 2026. CC BY 4.0.
 
 ## Changelog
 
+- 0.9.3 — Standardised the measurement title around the cartridge name.
 - 0.9.2 — Corrected the publication status to published.
 - 0.9.1 — Added eight supplied L/R rotation-fingerprint screenshots and web views.
 - 0.9.0 — Initial public entry with report transcription, original sources, labelled fingerprint placeholders and retouched hero.

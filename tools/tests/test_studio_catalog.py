@@ -39,6 +39,13 @@ class StudioCatalogTests(unittest.TestCase):
         self.assertEqual(measurement["components"]["audio_interface"]["state"], "not_confirmed")
         self.assertEqual(measurement["components"]["audio_interface"]["reported_label"], "EVO4")
 
+    def test_short_display_titles_use_recorded_cartridges(self) -> None:
+        for measurement in self.catalog["measurements"]:
+            with self.subTest(measurement_id=measurement["measurement_id"]):
+                cartridge = measurement["components"]["cartridge"]["display_name"]
+                expected_title = cartridge or measurement["measurement_type"] or measurement["measurement_id"]
+                self.assertEqual(measurement["short_display_title"], expected_title)
+
     def test_headline_metrics_are_flexible_numeric_records(self) -> None:
         metrics = self.catalog["measurements"][0]["headline_metrics"]
         identifiers = {metric["identifier"] for metric in metrics}

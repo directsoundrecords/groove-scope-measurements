@@ -1,4 +1,4 @@
-# GS-2026-0014 — SME Model 12 MkII / Series V / Charisma Audio MC-1 Alpha — 1 kHz Reference Check
+# GS-2026-0014 — Charisma Audio MC-1 Alpha — 1 kHz Reference Check
 
 **Measured by Michelangelo Canonico for Direct Sound Records using Groove Scope Studio.**
 
@@ -10,7 +10,7 @@ The session took place at Entertainment Machine, Direct Sound Records’ first s
 
 ## Record status
 
-Measured 6 November 2026 at 12:23 local time. The report does not record a timezone. Published 7 November 2026. Record version 1.0.0.
+Measured 6 November 2026 at 12:23 local time. The report does not record a timezone. Published 7 November 2026. Record version 1.0.1.
 
 ## Playback chain
 
@@ -83,8 +83,9 @@ The archived setup photograph is a full-resolution JPEG from the supplied HEIC w
 
 ## Citation
 
-Canonico, Michelangelo. “GS-2026-0014 — SME Model 12 MkII / Series V / Charisma Audio MC-1 Alpha — 1 kHz Reference Check.” *Groove Scope Measurements*. Direct Sound Records, 2026. CC BY 4.0.
+Canonico, Michelangelo. “GS-2026-0014 — Charisma Audio MC-1 Alpha — 1 kHz Reference Check.” *Groove Scope Measurements*. Direct Sound Records, 2026. CC BY 4.0.
 
 ## Changelog
 
+- 1.0.1 — Standardised the measurement title around the cartridge name.
 - 1.0.0 — Initial publication with the reference report, eight Rotation Fingerprints, setup photograph and the measurer’s session account.

@@ -1,4 +1,4 @@
-# GS-2026-0008 — Ortofon 2M Bronze — Rega P3 / Audio Research SP20 / EVO4 — 1 kHz Reference Check
+# GS-2026-0008 — Ortofon 2M Bronze — 1 kHz Reference Check
 
 **Measured by Michelangelo Canonico for Direct Sound Records using Groove Scope.**
 
@@ -6,7 +6,7 @@ The Ortofon 2M Bronze delivers strong 1 kHz separation in this Rega P3 / Audio R
 
 ## Record status
 
-Published measurement. Measured 2 October 2026 at 09:44 local time; timezone not recorded. Record version 0.9.1.
+Published measurement. Measured 2 October 2026 at 09:44 local time; timezone not recorded. Record version 0.9.2.
 
 ## Complete results
 
@@ -66,9 +66,10 @@ No raw test-record audio is published.
 
 ## Citation
 
-Canonico, Michelangelo. “GS-2026-0008 — Ortofon 2M Bronze / Rega P3 — 1 kHz Reference Check.” *Groove Scope Measurements*. Direct Sound Records, 2026. CC BY 4.0.
+Canonico, Michelangelo. “GS-2026-0008 — Ortofon 2M Bronze — 1 kHz Reference Check.” *Groove Scope Measurements*. Direct Sound Records, 2026. CC BY 4.0.
 
 ## Changelog
 
+- 0.9.2 — Standardised the measurement title around the cartridge name.
 - 0.9.1 — Corrected the publication status to published.
 - 0.9.0 — Initial public entry with full source report, eight fingerprints, equipment photograph and evidence-based review.

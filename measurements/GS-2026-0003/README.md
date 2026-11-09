@@ -1,10 +1,10 @@
-# GS-2026-0003 — Audio-Technica AT-OC9XML / Rega P3 / Rega RB330 / Audio Research SP20
+# GS-2026-0003 — Audio-Technica AT-OC9XML — 1 kHz Reference Check
 
 **Groove Scope Measurement GS-2026-0003 was conducted by Michelangelo Canonico for Direct Sound Records using Groove Scope.**
 
 This record documents a 1 kHz vinyl playback reference check of a Rega P3, Rega RB330 tonearm, Audio-Technica AT-OC9XML cartridge, Audio Research SP20 preamplifier, and EVO4 input. It preserves the source report, the supplied measurement photograph, and eight app-generated rotation-fingerprint images.
 
-> **Published 5 September 2026.** Record version 0.9.4. The report recommends repeating the measurement before using harmonic differences to justify cartridge adjustment.
+> **Published 5 September 2026.** Record version 0.9.5. The report recommends repeating the measurement before using harmonic differences to justify cartridge adjustment.
 
 ## Identity and provenance
 
@@ -102,7 +102,7 @@ The exact supplied originals are preserved under [`assets/source/`](assets/sourc
 
 ## Recommended citation
 
-Canonico, Michelangelo. “GS-2026-0003 — Audio-Technica AT-OC9XML / Rega P3 / Rega RB330 / Audio Research SP20 — 1 kHz Reference Check.” *Groove Scope Measurements*. Direct Sound Records, 2026. Measurement made with Groove Scope.
+Canonico, Michelangelo. “GS-2026-0003 — Audio-Technica AT-OC9XML — 1 kHz Reference Check.” *Groove Scope Measurements*. Direct Sound Records, 2026. Measurement made with Groove Scope.
 
 ### Setup and presentation update (record 0.9.3)
 
@@ -110,4 +110,5 @@ The measurer confirmed 2 g tracking force, correctly aligned overhang and a wall
 
 ## Changelog
 
+- 0.9.5 — Standardised the measurement title around the cartridge name.
 - 0.9.4 — Corrected the publication status and date. The recorded 2 g tracking force is reflected in the metadata notes.

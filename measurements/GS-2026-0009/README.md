@@ -1,4 +1,4 @@
-# GS-2026-0009 — BENZ SPJ — VYGER Atlantis / VYGER INERTIAL / ART USB Phono Plus — Hi Fidelity Milan
+# GS-2026-0009 — BENZ SPJ — Hi Fidelity Milan
 
 **Measured by Michelangelo Canonico for Direct Sound Records using Groove Scope.**
 
@@ -56,7 +56,7 @@ Near-nominal average speed, closely matched output levels and steady harmonics p
 
 ## Provenance and status
 
-Published 6 October 2026. Equipment details were updated 7 October 2026. Record version 0.9.2.
+Published 6 October 2026. Equipment details were updated 7 October 2026. Record version 0.9.3.
 
 The PDF title identifies BENZ SPJ and VYGER Atlantis and the input field reports USB Audio CODEC. The measurer supplied the ART USB Phono Plus identity, show and room, no-adjustment context, 100 µm ladder pass and acknowledgement.
 
@@ -78,10 +78,11 @@ No raw test-record audio or rotation-fingerprint screenshots were supplied.
 
 ## Citation
 
-Canonico, Michelangelo. “GS-2026-0009 — BENZ SPJ / VYGER Atlantis — Hi Fidelity Milan.” *Groove Scope Measurements*. Direct Sound Records, 2026. CC BY 4.0.
+Canonico, Michelangelo. “GS-2026-0009 — BENZ SPJ — Hi Fidelity Milan.” *Groove Scope Measurements*. Direct Sound Records, 2026. CC BY 4.0.
 
 ## Changelog
 
+- 0.9.3 — Standardised the measurement title around the cartridge name.
 - 0.9.2 — Corrected the publication status to published.
 - 0.9.1 — Added VYGER INERTIAL to the equipment identity and explained its design and measurer-attributed contribution to the 100 µm tracking result; original PDF values unchanged.
 - 0.9.0 — Initial public record of the unchanged show-room setup, source report, event photograph and measurer-reported 100 µm tracking-ladder pass.

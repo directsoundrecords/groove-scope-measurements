@@ -1,4 +1,4 @@
-# GS-2026-0010 — Shure V15 V / JICO Custom Shop MR — Micro Seiki DQX500 / MA707 — 1 kHz Reference Check
+# GS-2026-0010 — Shure V15 V — 1 kHz Reference Check
 
 **Measured by Michelangelo Canonico for Direct Sound Records using Groove Scope.**
 
@@ -6,7 +6,7 @@ An original Shure V15 V with a new JICO Custom Shop MR stylus gives an encouragi
 
 ## Record status
 
-Measured 18 October 2026 at 12:04 local time; timezone not recorded. Published 18 October 2026. Record version 0.9.1.
+Measured 18 October 2026 at 12:04 local time; timezone not recorded. Published 18 October 2026. Record version 0.9.2.
 
 ## Playback chain
 
@@ -86,9 +86,10 @@ No raw test-record audio is published.
 
 ## Citation
 
-Canonico, Michelangelo. “GS-2026-0010 — Shure V15 V / JICO Custom Shop MR — Micro Seiki DQX500 / MA707 — 1 kHz Reference Check.” *Groove Scope Measurements*. Direct Sound Records, 2026. CC BY 4.0.
+Canonico, Michelangelo. “GS-2026-0010 — Shure V15 V — 1 kHz Reference Check.” *Groove Scope Measurements*. Direct Sound Records, 2026. CC BY 4.0.
 
 ## Changelog
 
+- 0.9.2 — Standardised the measurement title around the cartridge name.
 - 0.9.1 — Corrected the publication status to published.
 - 0.9.0 — Initial public entry with the full source report, eight fingerprints, equipment photograph, measurer-supplied setup and listening notes, and reliability context.

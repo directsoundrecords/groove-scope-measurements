@@ -249,7 +249,8 @@ def studio_measurement(record: dict[str, Any], base_url: str, *, generate_images
         *(item.get("display_name") for item in components.values() if isinstance(item, dict)),
         components["test_record"].get("display_name"),
     ]
-    title = system_title(setup)
+    cartridge = components["cartridge"]["display_name"]
+    short_display_title = cartridge or record.get("measurement_type") or measurement_id
     images = image_record(measurement_id, base_url, generate_images=generate_images)
     return {
         "measurement_id": measurement_id,
@@ -259,8 +260,8 @@ def studio_measurement(record: dict[str, Any], base_url: str, *, generate_images
         "publication_date": record.get("date_published"),
         "measurement_type": record.get("measurement_type"),
         "title": record.get("title"),
-        "short_display_title": title,
-        "system_title": title,
+        "short_display_title": short_display_title,
+        "system_title": system_title(setup),
         "summary": interpretation.get("summary"),
         "hero_image_url": images["hero"]["url"],
         "card_image_url": images["card"]["url"],

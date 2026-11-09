@@ -2,6 +2,10 @@
 
 All notable repository and measurement-record changes are documented here.
 
+## 1.1.14 — 2026-11-09
+
+- Standardised titles across all 13 Groove Scope records, the public archive and the Studio Reference Library. Titles lead with the documented cartridge, and the turntable and tonearm appear in the playback setup.
+
 ## 1.1.13 — 2026-11-09
 
 - Published GS-2026-0016, a 1 kHz reference check of the AVID Reference Ruby, Acutus and Nexus.
