@@ -2,6 +2,10 @@
 
 All notable repository and measurement-record changes are documented here.
 
+## 1.1.19 — 2026-11-09
+
+- Restored the shared measurement-page photo layout for GS-2026-0017.
+
 ## 1.1.18 — 2026-11-09
 
 - Published GS-2026-0017, a 1 kHz reference check of an Ortofon 2M Bronze on a vintage Thorens TD 160 Super with an SME III tonearm and ART preamp.
