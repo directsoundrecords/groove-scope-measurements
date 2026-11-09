@@ -2,6 +2,10 @@
 
 All notable repository and measurement-record changes are documented here.
 
+## 1.1.17 — 2026-11-09
+
+- Redesigned the public library header with a shorter title, a concise introduction, and a compact app download area.
+
 ## 1.1.16 — 2026-11-09
 
 - Moved the public library’s catalogue summary into the header and added best-first sorting for playback speed, speed error, DIN-shaped wow and flutter, and channel separation.
