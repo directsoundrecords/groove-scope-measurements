@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
-  "catalogue_version": "b94efa6cb10545fa",
-  "generated_at": "2026-11-09T08:54:22Z",
+  "catalogue_version": "db57004dcc7f763f",
+  "generated_at": "2026-11-09T09:23:17Z",
   "catalogue_url": "https://measurements.directsoundrecords.com/groove-scope/studio/catalog.json",
   "status_policy": {
     "included_statuses": [
@@ -13,9 +13,182 @@
       "withdrawn"
     ]
   },
-  "measurement_count": 12,
-  "latest_measurement_id": "GS-2026-0015",
+  "measurement_count": 13,
+  "latest_measurement_id": "GS-2026-0016",
   "measurements": [
+    {
+      "measurement_id": "GS-2026-0016",
+      "publication_status": "published",
+      "status_label": "Published",
+      "measurement_date": "2026-11-08",
+      "publication_date": "2026-11-09",
+      "measurement_type": "1 kHz Reference Check",
+      "title": "AVID Reference Ruby / AVID Acutus / Nexus — 1 kHz Reference Check",
+      "short_display_title": "AVID Acutus / AVID Nexus / AVID Reference Ruby",
+      "system_title": "AVID Acutus / AVID Nexus / AVID Reference Ruby",
+      "summary": "The AVID Reference Ruby, Acutus and Nexus chain averaged 37.6 dB of in-system channel separation at 1 kHz, with +0.43 dB signal balance (L−R). Groove Scope Studio rated 90 µm and 100 µm clean in a separate tracking capture. The intervening 80 µm band was rated severe and had a much weaker fundamental.",
+      "hero_image_url": "https://measurements.directsoundrecords.com/groove-scope/assets/GS-2026-0016/web/hero-2400.webp",
+      "card_image_url": "https://measurements.directsoundrecords.com/groove-scope/studio/images/GS-2026-0016-card-1200.jpg",
+      "images": {
+        "card": {
+          "url": "https://measurements.directsoundrecords.com/groove-scope/studio/images/GS-2026-0016-card-1200.jpg",
+          "width": 1200,
+          "height": 675
+        },
+        "hero": {
+          "url": "https://measurements.directsoundrecords.com/groove-scope/assets/GS-2026-0016/web/hero-2400.webp",
+          "width": 2400,
+          "height": 1800
+        }
+      },
+      "measurement_url": "https://measurements.directsoundrecords.com/groove-scope/measurements/GS-2026-0016.html",
+      "technical_record_url": "https://github.com/directsoundrecords/groove-scope-measurements/tree/main/measurements/GS-2026-0016",
+      "canonical_json_url": "https://raw.githubusercontent.com/directsoundrecords/groove-scope-measurements/main/measurements/GS-2026-0016/measurement.json",
+      "components": {
+        "turntable": {
+          "kind": "turntable",
+          "state": "recorded",
+          "display_name": "AVID Acutus",
+          "manufacturer": null,
+          "model": null
+        },
+        "tonearm": {
+          "kind": "tonearm",
+          "state": "recorded",
+          "display_name": "AVID Nexus",
+          "manufacturer": null,
+          "model": null
+        },
+        "cartridge": {
+          "kind": "cartridge",
+          "state": "recorded",
+          "display_name": "AVID Reference Ruby",
+          "manufacturer": null,
+          "model": null
+        },
+        "stylus": {
+          "kind": "stylus",
+          "state": "not_recorded",
+          "display_name": null,
+          "manufacturer": null,
+          "model": null
+        },
+        "phono_stage": {
+          "kind": "phono_stage",
+          "state": "recorded",
+          "display_name": "ART preamp",
+          "manufacturer": null,
+          "model": null
+        },
+        "audio_interface": {
+          "kind": "audio_interface",
+          "state": "not_recorded",
+          "display_name": "USB Audio CODEC",
+          "reported_label": "USB Audio CODEC",
+          "confirmed_model": null
+        },
+        "tracking_force": {
+          "state": "not_recorded",
+          "value": null,
+          "unit": "g"
+        },
+        "cartridge_loading": {
+          "state": "not_recorded",
+          "value": null
+        },
+        "phono_gain": {
+          "state": "not_recorded",
+          "value": null,
+          "unit": "dB"
+        },
+        "test_record": {
+          "kind": "test_record",
+          "state": "not_recorded",
+          "display_name": null,
+          "manufacturer": null,
+          "model": null
+        },
+        "test_record_track": {
+          "state": "not_recorded",
+          "value": null
+        },
+        "nominal_test_tone": {
+          "state": "recorded",
+          "value": 1000,
+          "unit": "Hz"
+        },
+        "turntable_support": {
+          "state": "not_recorded",
+          "value": null
+        }
+      },
+      "headline_metrics": [
+        {
+          "identifier": "playback_rpm",
+          "display_label": "Playback speed",
+          "value": 33.2,
+          "unit": "RPM",
+          "classification": "primary"
+        },
+        {
+          "identifier": "playback_speed_error_percent",
+          "display_label": "Speed error",
+          "value": -0.39,
+          "unit": "%",
+          "classification": "primary"
+        },
+        {
+          "identifier": "din_shaped_wow_flutter_percent",
+          "display_label": "DIN W&F",
+          "value": 0.059,
+          "unit": "%",
+          "classification": "primary"
+        },
+        {
+          "identifier": "channel_balance_db",
+          "display_label": "Channel balance",
+          "value": 0.43,
+          "unit": "dB",
+          "classification": "diagnostic_only"
+        },
+        {
+          "identifier": "average_channel_separation_db",
+          "display_label": "Average separation",
+          "value": 37.6,
+          "unit": "dB",
+          "classification": "supporting"
+        },
+        {
+          "identifier": "crosstalk_left_to_right_db",
+          "display_label": "L→R crosstalk",
+          "value": -39.7,
+          "unit": "dB",
+          "classification": "supporting"
+        },
+        {
+          "identifier": "crosstalk_right_to_left_db",
+          "display_label": "R→L crosstalk",
+          "value": -35.5,
+          "unit": "dB",
+          "classification": "supporting"
+        },
+        {
+          "identifier": "thd_left_percent",
+          "display_label": "THD left",
+          "value": 0.59,
+          "unit": "%",
+          "classification": "diagnostic"
+        },
+        {
+          "identifier": "thd_right_percent",
+          "display_label": "THD right",
+          "value": 0.64,
+          "unit": "%",
+          "classification": "diagnostic"
+        }
+      ],
+      "search_text": "GS-2026-0016 1 kHz Reference Check AVID Acutus AVID Nexus AVID Reference Ruby ART preamp USB Audio CODEC"
+    },
     {
       "measurement_id": "GS-2026-0015",
       "publication_status": "published",
@@ -2116,6 +2289,16 @@
         ]
       },
       {
+        "identifier": "avid-reference-ruby",
+        "display_name": "AVID Reference Ruby",
+        "manufacturer": null,
+        "model": null,
+        "measurement_count": 1,
+        "measurement_ids": [
+          "GS-2026-0016"
+        ]
+      },
+      {
         "identifier": "benz-spj",
         "display_name": "BENZ SPJ",
         "manufacturer": null,
@@ -2208,6 +2391,16 @@
       }
     ],
     "turntables": [
+      {
+        "identifier": "avid-acutus",
+        "display_name": "AVID Acutus",
+        "manufacturer": null,
+        "model": null,
+        "measurement_count": 1,
+        "measurement_ids": [
+          "GS-2026-0016"
+        ]
+      },
       {
         "identifier": "micro-seiki-dqx-500",
         "display_name": "Micro Seiki DQX-500",
@@ -2322,6 +2515,16 @@
     ],
     "tonearms": [
       {
+        "identifier": "avid-nexus",
+        "display_name": "AVID Nexus",
+        "manufacturer": null,
+        "model": null,
+        "measurement_count": 1,
+        "measurement_ids": [
+          "GS-2026-0016"
+        ]
+      },
+      {
         "identifier": "micro-seiki-ma707",
         "display_name": "Micro Seiki MA707",
         "manufacturer": null,
@@ -2388,8 +2591,9 @@
         "display_name": "ART preamp",
         "manufacturer": null,
         "model": null,
-        "measurement_count": 4,
+        "measurement_count": 5,
         "measurement_ids": [
+          "GS-2026-0016",
           "GS-2026-0015",
           "GS-2026-0013",
           "GS-2026-0012",

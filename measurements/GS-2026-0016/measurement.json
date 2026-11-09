@@ -1,0 +1,301 @@
+{
+  "$schema": "../../data/schema/measurement.schema.json",
+  "schema_version": "1.0.0",
+  "language": "en",
+  "creator": {
+    "name": "Michelangelo Canonico",
+    "role": "Creator and lead measurer",
+    "affiliation": "Direct Sound Records"
+  },
+  "publisher": {
+    "name": "Direct Sound Records",
+    "url": "https://directsoundrecords.com/",
+    "location_label": "London–Rome"
+  },
+  "software": {
+    "name": "Groove Scope Studio",
+    "report_generator_label": "Groove Scope Reference",
+    "application_version": "not_recorded",
+    "analysis_method_version": "not_recorded",
+    "platform": "not_recorded",
+    "developer": "Michelangelo Canonico / Direct Sound Records"
+  },
+  "measurement_type": "1 kHz Reference Check",
+  "measurement_scope": [
+    "playback speed",
+    "rotational stability",
+    "DIN-shaped wow and flutter",
+    "channel balance",
+    "electrical crosstalk",
+    "distortion diagnostics",
+    "harmonic profile",
+    "rotation fingerprints",
+    "tracking ability"
+  ],
+  "license": "CC-BY-4.0",
+  "measurement_id": "GS-2026-0016",
+  "record_version": "1.0.0",
+  "publication_status": "published",
+  "title": "AVID Reference Ruby / AVID Acutus / Nexus — 1 kHz Reference Check",
+  "source_report_title": "Avid",
+  "slug": "gs-2026-0016-avid-reference-ruby-avid-acutus-nexus",
+  "measurement_datetime_local": "2026-11-08T17:32:00",
+  "measurement_timezone": "not_recorded",
+  "date_published": "2026-11-09",
+  "sample_id": "not_recorded",
+  "setup": {
+    "turntable": "AVID Acutus",
+    "tonearm": "AVID Nexus",
+    "cartridge": "AVID Reference Ruby",
+    "stylus": "not_recorded",
+    "cartridge_hours": "not_recorded",
+    "stylus_hours": "not_recorded",
+    "vertical_tracking_force_g": "not_recorded",
+    "anti_skate_setting": "not_recorded",
+    "alignment_geometry": "not_recorded",
+    "azimuth_setting": "not_recorded",
+    "vta_or_sra_setting": "not_recorded",
+    "phono_stage": "ART preamp",
+    "phono_gain_db": "not_recorded",
+    "cartridge_loading": "not_recorded",
+    "test_record": "not_recorded",
+    "test_record_track": "not_recorded",
+    "test_record_condition": "not_recorded",
+    "nominal_test_tone_hz": 1000,
+    "audio_interface_reported_label": "USB Audio CODEC",
+    "audio_interface_full_model": "not_recorded",
+    "interface_gain_settings": "not_recorded",
+    "sample_rate_hz": "not_recorded",
+    "bit_depth": "not_recorded",
+    "capture_device": "not_recorded",
+    "channel_routing": "not_recorded",
+    "measurement_location": "not_recorded"
+  },
+  "results": {
+    "playback_rpm": {
+      "value": 33.20,
+      "classification": "primary",
+      "condition": "under_stylus_load"
+    },
+    "playback_speed_error_percent": {
+      "value": -0.39,
+      "classification": "primary",
+      "direction": "slow"
+    },
+    "settled_rpm": {
+      "minimum": 33.07,
+      "maximum": 33.31,
+      "span": 0.24,
+      "classification": "primary"
+    },
+    "din_shaped_wow_flutter_percent": {
+      "value": 0.059,
+      "classification": "primary"
+    },
+    "raw_speed_variation_percent": {
+      "rms_plus_minus": 0.210,
+      "two_sigma_plus_minus": 0.420,
+      "classification": "unweighted_diagnostic"
+    },
+    "raw_wow_flutter_percent": {
+      "wow_rms": 0.199,
+      "flutter_rms": 0.061,
+      "classification": "unweighted_diagnostic"
+    },
+    "channel_balance_db": {
+      "value": 0.43,
+      "classification": "diagnostic_only"
+    },
+    "crosstalk_1khz_db": {
+      "average_separation": 37.6,
+      "left_to_right": -39.7,
+      "right_to_left": -35.5,
+      "directional_difference": 4.27,
+      "classification": "supporting"
+    },
+    "thd_percent": {
+      "left": 0.59,
+      "right": 0.64,
+      "left_minus_right_percentage_points": -0.05,
+      "classification": "diagnostic"
+    },
+    "harmonic_profile_db": {
+      "h2": {
+        "left": -44.7,
+        "right": -43.9
+      },
+      "h3": {
+        "left": -66.6,
+        "right": -64.0
+      },
+      "h4": {
+        "left": -70.6,
+        "right": -64.9
+      },
+      "h5": {
+        "left": -71.3,
+        "right": -68.7
+      },
+      "classification": "diagnostic"
+    },
+    "harmonic_difference_summary_db": {
+      "h2_right_higher": 0.7,
+      "h3_right_higher": 2.6,
+      "classification": "source_report_summary"
+    },
+    "harmonic_reliability": {
+      "classification": "repeat_before_setup_change",
+      "quality_note": "The right channel's third harmonic changed most during recording. Repeat before changing the cartridge setup."
+    },
+    "tracking_ability": {
+      "classification": "separate_capture",
+      "source_report": "tracking-ability-report.pdf",
+      "measurement_datetime_local": "2026-11-08T17:26:00",
+      "measurement_timezone": "not_recorded",
+      "capture": {
+        "input_reported_label": "USB Audio CODEC",
+        "input_mode": "Direct interface",
+        "sample_rate_hz": 48000,
+        "input_channels": [
+          1,
+          2
+        ],
+        "duration_seconds": 75.50,
+        "input_trim_db": 0.0,
+        "clipped_samples_raw": 0,
+        "clipped_samples_post_trim": 0
+      },
+      "highest_passed_um": 100,
+      "first_failed_um": 80,
+      "ladder": [
+        {
+          "band_um": 50,
+          "stored_thd_percent": 0.402,
+          "left_thd_percent": 0.40169,
+          "right_thd_percent": 0.21493,
+          "channel_balance_left_minus_right_db": 0.392,
+          "evaluation": "CLEAN"
+        },
+        {
+          "band_um": 60,
+          "stored_thd_percent": 0.589,
+          "left_thd_percent": 0.58943,
+          "right_thd_percent": 0.31536,
+          "channel_balance_left_minus_right_db": 0.084,
+          "evaluation": "CLEAN"
+        },
+        {
+          "band_um": 70,
+          "stored_thd_percent": 0.595,
+          "left_thd_percent": 0.59521,
+          "right_thd_percent": 0.38103,
+          "channel_balance_left_minus_right_db": -0.067,
+          "evaluation": "CLEAN"
+        },
+        {
+          "band_um": 80,
+          "stored_thd_percent": 28.526,
+          "left_thd_percent": 24.70041,
+          "right_thd_percent": 28.52627,
+          "channel_balance_left_minus_right_db": -21.304,
+          "evaluation": "SEVERE"
+        },
+        {
+          "band_um": 90,
+          "stored_thd_percent": 0.652,
+          "left_thd_percent": 0.65234,
+          "right_thd_percent": 0.44435,
+          "channel_balance_left_minus_right_db": 0.797,
+          "evaluation": "CLEAN"
+        },
+        {
+          "band_um": 100,
+          "stored_thd_percent": 0.744,
+          "left_thd_percent": 0.74373,
+          "right_thd_percent": 0.44493,
+          "channel_balance_left_minus_right_db": 0.064,
+          "evaluation": "CLEAN"
+        }
+      ],
+      "80_um_evidence": {
+        "extracted_interval_start_seconds": 46.000,
+        "extracted_interval_end_seconds": 46.800,
+        "retained_windows_per_channel": 5,
+        "retained_windows_per_channel_other_bands": 31,
+        "fitted_fundamental_left_dbfs": -106.268,
+        "fitted_fundamental_right_dbfs": -84.955
+      },
+      "analysis_method_version": "3",
+      "breakdown_thresholds_calibrated": false,
+      "affected_channels": "not_established",
+      "anti_skate_adjustment_direction": "not_established",
+      "test_record": "not_recorded",
+      "vertical_tracking_force_g": "not_recorded"
+    }
+  },
+  "interpretation": {
+    "summary": "The AVID Reference Ruby, Acutus and Nexus chain averaged 37.6 dB of in-system channel separation at 1 kHz, with +0.43 dB signal balance (L−R). Groove Scope Studio rated 90 µm and 100 µm clean in a separate tracking capture. The intervening 80 µm band was rated severe and had a much weaker fundamental.",
+    "recommendation": "The 1 kHz report calls for checking routing and gain, then repeating the capture. If the crosstalk difference persists, the report points to General Reference Level and the 1 kHz channel suite in Groove Scope Studio with matching test records. It also advises repeating the capture before changing the cartridge setup because the right channel’s third harmonic varied during recording.",
+    "repeat_required": true
+  },
+  "session_observations": {
+    "source": "Measurer account supplied with publication request",
+    "included_in_source_pdf": false,
+    "tracking_anomaly": {
+      "band_um": 80,
+      "possible_cause": "Local test-record imperfection",
+      "cause_confirmed": false,
+      "observation": "The measurer suspects a local test-record imperfection because the 90 µm and 100 µm bands were clean."
+    }
+  },
+  "provenance": {
+    "source_type": "Groove Scope generated PDF report",
+    "source_file": "report.pdf",
+    "data_entry_method": "The 1 kHz results and tracking-ladder summary were transcribed from the original PDF reports and checked against the rendered pages. Reported differences preserve source precision.",
+    "raw_audio_published": false,
+    "raw_audio_note": "No raw test-record audio is included.",
+    "sample_ownership": "not_recorded",
+    "setup_metadata_source": "The measurer identified the AVID Acutus, AVID Nexus, AVID Reference Ruby and ART preamp. Both reports label the capture input USB Audio CODEC.",
+    "known_limitations": [
+      "The ART preamp model, capture-device model, tracking force, anti-skate, alignment geometry, loading, test record and track, and software version were not recorded.",
+      "The tracking report documents a separate capture. Its 48 kHz sample rate and DSP analysis version 3 apply to that capture.",
+      "The tracking report retains the original pass/fail evaluations. Its breakdown thresholds were uncalibrated and the cause of the 80 µm anomaly was not established.",
+      "The measured results describe the documented playback chain, test media and capture conditions."
+    ],
+    "fingerprint_channel_assignment": "Channel assignments follow the supplied filenames. Both channels show eight rotations. The angular reference between captures is unspecified.",
+    "photo_treatment": "The archived source is a full-resolution 5712 × 4284 JPEG from the supplied IMG_4523.HEIC with embedded metadata stripped. The editorial version uses the built-in ImageGen edit to straighten and brighten the composition, soften glare and simplify the background."
+  },
+  "files": {
+    "human_readable_record": "README.md",
+    "source_report": "report.pdf",
+    "checksums": "checksums.sha256",
+    "source_hero": "assets/source/hero-original.jpg",
+    "rotation_fingerprints": [
+      "assets/source/speed-deviation-left.png",
+      "assets/source/speed-deviation-right.png",
+      "assets/source/level-modulation-left.png",
+      "assets/source/level-modulation-right.png",
+      "assets/source/opposite-channel-leakage-left.png",
+      "assets/source/opposite-channel-leakage-right.png",
+      "assets/source/harmonic-distortion-left.png",
+      "assets/source/harmonic-distortion-right.png"
+    ],
+    "retouched_hero": "assets/hero-retouched.png",
+    "image_edit_prompt": "assets/image-edit-prompt.txt",
+    "tracking_ability_report": "tracking-ability-report.pdf"
+  },
+  "keywords": [
+    "Groove Scope Studio",
+    "Direct Sound Records",
+    "Michelangelo Canonico",
+    "AVID Acutus",
+    "AVID Nexus",
+    "AVID Reference Ruby",
+    "ART preamp",
+    "USB Audio CODEC",
+    "tracking ability",
+    "rotation fingerprint",
+    "wow and flutter",
+    "cartridge crosstalk"
+  ]
+}

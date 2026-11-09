@@ -10,6 +10,7 @@ This repository is the public measurement archive for **Groove Scope**, a vinyl 
 
 | ID | Date | Measurement | Status | Report | Structured data |
 |---|---:|---|---|---|---|
+| [GS-2026-0016](measurements/GS-2026-0016/README.md) | 2026-11-08 | AVID Reference Ruby / AVID Acutus / Nexus — 1 kHz Reference Check | Published | [PDF](measurements/GS-2026-0016/report.pdf) · [Tracking PDF](measurements/GS-2026-0016/tracking-ability-report.pdf) | [JSON](measurements/GS-2026-0016/measurement.json) |
 | [GS-2026-0015](measurements/GS-2026-0015/README.md) | 2026-11-07 | Takumi TT Level 2.1 DC / Takumi Aka MC — 1 kHz Reference Check | Published | [PDF](measurements/GS-2026-0015/report.pdf) | [JSON](measurements/GS-2026-0015/measurement.json) |
 | [GS-2026-0014](measurements/GS-2026-0014/README.md) | 2026-11-06 | SME Model 12 MkII / Series V / Charisma Audio MC-1 Alpha — 1 kHz Reference Check | Published | [PDF](measurements/GS-2026-0014/report.pdf) | [JSON](measurements/GS-2026-0014/measurement.json) |
 | [GS-2026-0013](measurements/GS-2026-0013/README.md) | 2026-11-06 | Rega P1 / Rega Carbon — 1 kHz Reference Check | Published | [PDF](measurements/GS-2026-0013/report.pdf) | [JSON](measurements/GS-2026-0013/measurement.json) |

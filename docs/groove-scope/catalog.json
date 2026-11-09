@@ -3,6 +3,23 @@
   "updated": "2026-11-09",
   "measurements": [
     {
+      "measurement_id": "GS-2026-0016",
+      "title": "AVID Reference Ruby / AVID Acutus / Nexus — 1 kHz Reference Check",
+      "short_title": "AVID Reference Ruby / AVID Acutus / Nexus",
+      "date": "2026-11-08",
+      "status": "published",
+      "hero_image": "assets/GS-2026-0016/web/hero-1448.webp",
+      "summary": "The AVID setup delivered a standout 37.6 dB of average separation at 1 kHz. In a separate Groove Scope Studio tracking test, the 90 and 100 µm steps passed cleanly. The 80 µm step failed, and the measurer observed an isolated spike on that step.",
+      "primary_metrics": {
+        "playback_rpm": 33.20,
+        "speed_error_percent": -0.39,
+        "din_shaped_wow_flutter_percent": 0.059,
+        "average_separation_db": 37.6
+      },
+      "measurement_url": "measurements/GS-2026-0016.html",
+      "provenance_label": "DSR 1 kHz reference check and separate Groove Scope Studio tracking test"
+    },
+    {
       "measurement_id": "GS-2026-0015",
       "title": "Takumi TT Level 2.1 DC / Takumi Aka MC — 1 kHz Reference Check",
       "short_title": "Takumi TT Level 2.1 DC / Takumi Aka MC",

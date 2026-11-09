@@ -2,6 +2,11 @@
 
 All notable repository and measurement-record changes are documented here.
 
+## 1.1.13 — 2026-11-09
+
+- Published GS-2026-0016, a 1 kHz reference check of the AVID Reference Ruby, Acutus and Nexus.
+- Archived the source report showing 37.6 dB average separation, eight rotation plots and the Groove Scope Studio tracking report. The measurer observed clean tracking at 90 and 100 µm and an isolated spike at 80 µm.
+
 ## 1.1.12 — 2026-11-09
 
 - Published GS-2026-0015, a 1 kHz reference check of the Takumi TT Level 2.1 DC and Takumi Aka MC.
