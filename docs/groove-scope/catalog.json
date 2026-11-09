@@ -9,7 +9,7 @@
       "date": "2026-11-07",
       "status": "published",
       "hero_image": "assets/GS-2026-0015/web/hero-1448.webp",
-      "summary": "The Takumi TT Level 2.1 DC averaged 33.33 RPM with 0.030% DIN-shaped wow and flutter. The measurer observed excellent vibration rejection and moderate trackability. Average separation was 27.0 dB for this setup, with a low capture level that may have limited the crosstalk measurement.",
+      "summary": "The Takumi TT Level 2.1 DC averaged 33.33 RPM with 0.030% DIN-shaped RMS wow and flutter. The measurer observed excellent vibration rejection and moderate trackability. After azimuth adjustment, separation averaged 27.0 dB with some misalignment still present. An imperfection in this cartridge sample could also have influenced crosstalk, and the low capture level may have limited the estimate.",
       "primary_metrics": {
         "playback_rpm": 33.33,
         "speed_error_percent": 0.00,
@@ -17,7 +17,7 @@
         "average_separation_db": 27.0
       },
       "measurement_url": "measurements/GS-2026-0015.html",
-      "provenance_label": "The measurer confirmed TT Level 2.1 DC. The source PDF title lists TT Level 1.1."
+      "provenance_label": "DSR measurement after azimuth adjustment with session observations on vibration rejection and trackability"
     },
     {
       "measurement_id": "GS-2026-0014",

@@ -33,10 +33,9 @@
   ],
   "license": "CC-BY-4.0",
   "measurement_id": "GS-2026-0015",
-  "record_version": "1.0.0",
+  "record_version": "1.0.1",
   "publication_status": "published",
   "title": "Takumi TT Level 2.1 DC / Takumi Aka MC — 1 kHz Reference Check",
-  "source_report_title": "Takumi TT Level 1.1 - Takumi Aka Mc - Art",
   "slug": "gs-2026-0015-takumi-tt-level-2-1-dc-takumi-aka-mc",
   "measurement_datetime_local": "2026-11-07T10:46:00",
   "measurement_timezone": "not_recorded",
@@ -153,7 +152,7 @@
     }
   },
   "interpretation": {
-    "summary": "In the session, the Takumi TT Level 2.1 DC showed excellent vibration rejection, and the Aka MC’s tracking ability was moderate. The measured crosstalk may reflect the condition of this particular cartridge sample. Low capture level may also have limited the crosstalk and harmonic readings.",
+    "summary": "The Takumi TT Level 2.1 DC averaged 33.33 RPM under stylus load with 0.030% DIN-shaped wow and flutter RMS. The measurer observed excellent vibration rejection and moderate tracking ability. The crosstalk capture followed azimuth adjustment, with cartridge alignment still imperfect in the measurer’s assessment. The measurer flagged a possible sample defect as a contributor to the crosstalk result. Low capture level may have limited the crosstalk and harmonic readings.",
     "recommendation": "The report advises repeating the capture before changing the cartridge setup because the right channel’s overall distortion varied most during recording.",
     "repeat_required": true
   },
@@ -168,19 +167,23 @@
       "assessment": "moderate",
       "quantitative_result_supplied": false
     },
+    "azimuth_adjustment": {
+      "performed_before_crosstalk_capture": true,
+      "alignment_after_adjustment": "imperfect in the measurer’s assessment"
+    },
     "cartridge_condition": {
       "state": "not_confirmed",
-      "observation": "The measurer considered the condition of this particular cartridge sample a possible contributor to the crosstalk result."
+      "observation": "The measurer identified a potential defect in this particular cartridge sample as one possible contributor to the crosstalk result."
     }
   },
   "provenance": {
     "source_type": "Groove Scope generated PDF report",
     "source_file": "report.pdf",
-    "data_entry_method": "Numerical results were transcribed from the original PDF report and checked against its rendered page. Reported differences preserve source precision. Vibration rejection, tracking ability and the possible influence of cartridge sample condition come from the measurer’s session account.",
+    "data_entry_method": "Numerical results were transcribed from the original PDF report and checked against its rendered page. Reported differences preserve source precision. The vibration rejection, tracking and azimuth observations and the possible influence of cartridge sample condition come from the measurer’s session account.",
     "raw_audio_published": false,
     "raw_audio_note": "No raw test-record audio is included.",
     "sample_ownership": "not_recorded",
-    "setup_metadata_source": "The report title labels the turntable TT Level 1.1. The measurer confirmed the tested turntable was the TT Level 2.1 DC, as identified by its badge in the supplied photograph. The report title also identifies the Takumi Aka MC and ART, and labels the capture input USB Audio CODEC.",
+    "setup_metadata_source": "The report identifies the Takumi Aka MC and ART and labels the capture input USB Audio CODEC.",
     "known_limitations": [
       "The report flags a low raw capture level. Speed remains usable, while crosstalk and harmonic results may be noise-limited.",
       "The tonearm model, ART preamp model, capture-device model, tracking force, anti-skate, alignment geometry, loading, test record and track, capture settings, repeat count and software versions were not recorded.",

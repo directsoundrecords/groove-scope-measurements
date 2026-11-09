@@ -2,11 +2,11 @@
 
 **Measured by Michelangelo Canonico for Direct Sound Records.**
 
-The Takumi TT Level 2.1 DC showed excellent vibration rejection during the session, and the Aka MC’s tracking ability was moderate. The measured crosstalk may reflect the condition of this particular cartridge sample. Vibration rejection and tracking ability are qualitative observations from the measurer’s session account.
+The Takumi TT Level 2.1 DC averaged **33.33 RPM under stylus load** with **0.030% DIN-shaped wow and flutter RMS**. During the session, the measurer observed excellent vibration rejection from the turntable and moderate tracking ability from the Aka MC.
 
 ## Record status
 
-Measured 7 November 2026 at 10:46 local time. The report does not record a timezone. Published 9 November 2026. Record version 1.0.0.
+Measured 7 November 2026 at 10:46 local time. The report does not record a timezone. Published 9 November 2026. Record version 1.0.1.
 
 ## Playback chain
 
@@ -17,7 +17,7 @@ Measured 7 November 2026 at 10:46 local time. The report does not record a timez
 | Phono preamplifier | ART preamp, model unspecified |
 | Capture input | USB Audio CODEC, as labelled in the report |
 
-The report title labels the turntable TT Level 1.1. The measurer confirmed the tested turntable was the TT Level 2.1 DC, as identified by its badge in the supplied photograph. The report title also identifies the cartridge and ART. The tonearm, tracking force, anti-skate, loading, alignment geometry, test-record identity and track, capture settings, repeat count and software versions were not recorded.
+The tonearm, tracking force, anti-skate, loading, alignment geometry, test-record identity and track, capture settings, repeat count and software versions were not recorded.
 
 ## Complete reference results
 
@@ -48,6 +48,10 @@ The report title labels the turntable TT Level 1.1. The measurer confirmed the t
 
 The table preserves the reported precision of the individual readings and their differences.
 
+## Azimuth and crosstalk
+
+The crosstalk capture followed an azimuth adjustment, though the cartridge alignment remained imperfect in the measurer’s assessment. The measurer also considered a possible defect in this particular cartridge sample as a contributor to the crosstalk result. The sample’s condition remains unconfirmed.
+
 ## Capture reliability
 
 The report flags a low raw capture level. It regards the speed measurements as usable and identifies noise as a possible limitation on crosstalk and harmonic readings. The right channel’s overall distortion varied most during recording. The report advises repeating the capture before changing the cartridge setup.
@@ -58,7 +62,7 @@ The original screenshots cover speed deviation, 1 kHz level modulation, opposite
 
 ## Provenance
 
-The PDF documents the 1 kHz capture. The vibration rejection and tracking observations, and the possible effect of cartridge sample condition, come from the measurer’s session account. The condition of the sample was not confirmed. The reference results describe the playback chain as a whole.
+The PDF documents the 1 kHz capture. The vibration rejection, tracking and azimuth observations come from the measurer’s session account. The reference results describe the playback chain as a whole.
 
 The archived photograph is a full-resolution 5712 × 4284 JPEG from the supplied HEIC with embedded metadata stripped. The editorial version uses the built-in ImageGen edit to straighten the composition, reduce background clutter and brighten the scene.
 
@@ -78,4 +82,5 @@ Canonico, Michelangelo. “GS-2026-0015 — Takumi TT Level 2.1 DC / Takumi Aka 
 
 ## Changelog
 
+- 1.0.1 — Added the post-adjustment azimuth context for the crosstalk capture.
 - 1.0.0 — Initial publication with the reference report, eight Rotation Fingerprints, photograph and the measurer’s session account.

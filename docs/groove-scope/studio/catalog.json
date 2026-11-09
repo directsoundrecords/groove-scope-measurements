@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
-  "catalogue_version": "6b97afcc3d5dc9b8",
-  "generated_at": "2026-11-09T08:42:05Z",
+  "catalogue_version": "b94efa6cb10545fa",
+  "generated_at": "2026-11-09T08:54:22Z",
   "catalogue_url": "https://measurements.directsoundrecords.com/groove-scope/studio/catalog.json",
   "status_policy": {
     "included_statuses": [
@@ -26,7 +26,7 @@
       "title": "Takumi TT Level 2.1 DC / Takumi Aka MC — 1 kHz Reference Check",
       "short_display_title": "Takumi TT Level 2.1 DC / Takumi Aka MC",
       "system_title": "Takumi TT Level 2.1 DC / Takumi Aka MC",
-      "summary": "In the session, the Takumi TT Level 2.1 DC showed excellent vibration rejection, and the Aka MC’s tracking ability was moderate. The measured crosstalk may reflect the condition of this particular cartridge sample. Low capture level may also have limited the crosstalk and harmonic readings.",
+      "summary": "The Takumi TT Level 2.1 DC averaged 33.33 RPM under stylus load with 0.030% DIN-shaped wow and flutter RMS. The measurer observed excellent vibration rejection and moderate tracking ability. The crosstalk capture followed azimuth adjustment, with cartridge alignment still imperfect in the measurer’s assessment. The measurer flagged a possible sample defect as a contributor to the crosstalk result. Low capture level may have limited the crosstalk and harmonic readings.",
       "hero_image_url": "https://measurements.directsoundrecords.com/groove-scope/assets/GS-2026-0015/web/hero-2400.webp",
       "card_image_url": "https://measurements.directsoundrecords.com/groove-scope/studio/images/GS-2026-0015-card-1200.jpg",
       "images": {

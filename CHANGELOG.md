@@ -4,8 +4,8 @@ All notable repository and measurement-record changes are documented here.
 
 ## 1.1.12 — 2026-11-09
 
-- Published GS-2026-0015, a 1 kHz reference check of the Takumi TT Level 2.1 DC and Takumi Aka MC. The measurer confirmed the turntable model after the source report listed TT Level 1.1 in its title.
-- Archived the source report and eight rotation plots. The record documents the measured crosstalk alongside session observations of excellent vibration rejection and moderate trackability.
+- Published GS-2026-0015, a 1 kHz reference check of the Takumi TT Level 2.1 DC and Takumi Aka MC.
+- Archived the source report and eight rotation plots. The record documents accurate average rotation at 33.33 RPM, crosstalk after azimuth adjustment, and session observations of excellent vibration rejection and moderate trackability.
 
 ## 1.1.11 — 2026-11-07
 
