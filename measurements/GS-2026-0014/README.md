@@ -2,7 +2,7 @@
 
 **Measured by Michelangelo Canonico for Direct Sound Records using Groove Scope Studio.**
 
-The SME Model 12 MkII averaged **33.32 RPM under stylus load**, just 0.04% below nominal, with **0.038% DIN-shaped wow and flutter**. With the Series V arm and Charisma Audio MC-1 Alpha fitted, both channels measured below 1% THD. The stereo measurements leave a clear question for a repeat session. The right channel leaked more strongly into the left, with a 5.57 dB gap between the two directions.
+The SME Model 12 MkII averaged **33.32 RPM under stylus load**, just 0.04% below nominal, with **0.038% DIN-shaped wow and flutter**. With the SME 309 tonearm and Charisma Audio MC-1 Alpha fitted, both channels measured below 1% THD. The stereo measurements leave a clear question for a repeat session. The right channel leaked more strongly into the left, with a 5.57 dB gap between the two directions.
 
 ## Entertainment Machine, Rome
 
@@ -10,14 +10,14 @@ The session took place at Entertainment Machine, Direct Sound Records’ first s
 
 ## Record status
 
-Measured 6 November 2026 at 12:23 local time. The report does not record a timezone. Published 7 November 2026. Record version 1.0.1.
+Measured 6 November 2026 at 12:23 local time. The report does not record a timezone. Published 7 November 2026. Record version 1.0.2.
 
 ## Playback chain
 
 | Component | Identity |
 |---|---|
 | Turntable | SME Model 12 MkII |
-| Tonearm | SME Series V |
+| Tonearm | SME 309 |
 | Cartridge | Charisma Audio MC-1 Alpha |
 | Capture input | EVO4, as labelled in the report |
 
@@ -67,7 +67,7 @@ The opposite-channel leakage plots show the directional difference across all ei
 
 ## Provenance
 
-The PDF documents the 1 kHz capture. The venue and the question about the condition of this cartridge sample come from the measurer’s session account. The results describe the playback chain as a whole.
+The PDF documents the 1 kHz capture and carries the original “Series V” session label. The measurer confirmed the fitted tonearm was an SME 309. The venue and the question about the condition of this cartridge sample come from the measurer’s session account. The results describe the playback chain as a whole.
 
 The archived setup photograph is a full-resolution JPEG from the supplied HEIC with embedded metadata stripped. The editorial photograph uses a light ImageGen retouch.
 
@@ -87,5 +87,6 @@ Canonico, Michelangelo. “GS-2026-0014 — Charisma Audio MC-1 Alpha — 1 kHz 
 
 ## Changelog
 
+- 1.0.2 — Corrected the fitted tonearm to SME 309 based on the measurer’s confirmation.
 - 1.0.1 — Standardised the measurement title around the cartridge name.
 - 1.0.0 — Initial publication with the reference report, eight Rotation Fingerprints, setup photograph and the measurer’s session account.

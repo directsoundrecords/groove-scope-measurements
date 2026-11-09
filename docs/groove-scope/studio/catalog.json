@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
-  "catalogue_version": "ebd9f16d1dab6dd7",
-  "generated_at": "2026-11-09T09:51:05Z",
+  "catalogue_version": "c1778c368ec23800",
+  "generated_at": "2026-11-09T10:08:56Z",
   "catalogue_url": "https://measurements.directsoundrecords.com/groove-scope/studio/catalog.json",
   "status_policy": {
     "included_statuses": [
@@ -371,8 +371,8 @@
       "measurement_type": "1 kHz Reference Check",
       "title": "Charisma Audio MC-1 Alpha — 1 kHz Reference Check",
       "short_display_title": "Charisma Audio MC-1 Alpha",
-      "system_title": "SME Model 12 MkII / SME Series V / Charisma Audio MC-1 Alpha",
-      "summary": "At Entertainment Machine in Rome, the SME Model 12 MkII averaged 33.32 RPM under stylus load and measured 0.038% DIN-shaped wow and flutter. With the SME Series V and Charisma Audio MC-1 Alpha fitted, the chain measured less than 1% THD in each channel and a 5.57 dB gap between crosstalk directions.",
+      "system_title": "SME Model 12 MkII / SME 309 / Charisma Audio MC-1 Alpha",
+      "summary": "At Entertainment Machine in Rome, the SME Model 12 MkII averaged 33.32 RPM under stylus load and measured 0.038% DIN-shaped wow and flutter. With the SME 309 and Charisma Audio MC-1 Alpha fitted, the chain measured less than 1% THD in each channel and a 5.57 dB gap between crosstalk directions.",
       "hero_image_url": "https://measurements.directsoundrecords.com/groove-scope/assets/GS-2026-0014/web/hero-2400.webp",
       "card_image_url": "https://measurements.directsoundrecords.com/groove-scope/studio/images/GS-2026-0014-card-1200.jpg",
       "images": {
@@ -401,7 +401,7 @@
         "tonearm": {
           "kind": "tonearm",
           "state": "recorded",
-          "display_name": "SME Series V",
+          "display_name": "SME 309",
           "manufacturer": null,
           "model": null
         },
@@ -533,7 +533,7 @@
           "classification": "diagnostic"
         }
       ],
-      "search_text": "GS-2026-0014 1 kHz Reference Check SME Model 12 MkII SME Series V Charisma Audio MC-1 Alpha EVO4"
+      "search_text": "GS-2026-0014 1 kHz Reference Check SME Model 12 MkII SME 309 Charisma Audio MC-1 Alpha EVO4"
     },
     {
       "measurement_id": "GS-2026-0013",
@@ -2545,6 +2545,16 @@
         ]
       },
       {
+        "identifier": "sme-309",
+        "display_name": "SME 309",
+        "manufacturer": null,
+        "model": null,
+        "measurement_count": 1,
+        "measurement_ids": [
+          "GS-2026-0014"
+        ]
+      },
+      {
         "identifier": "sme-iii",
         "display_name": "SME III",
         "manufacturer": null,
@@ -2552,16 +2562,6 @@
         "measurement_count": 1,
         "measurement_ids": [
           "GS-2026-0011"
-        ]
-      },
-      {
-        "identifier": "sme-series-v",
-        "display_name": "SME Series V",
-        "manufacturer": null,
-        "model": null,
-        "measurement_count": 1,
-        "measurement_ids": [
-          "GS-2026-0014"
         ]
       },
       {

@@ -33,7 +33,7 @@
   ],
   "license": "CC-BY-4.0",
   "measurement_id": "GS-2026-0014",
-  "record_version": "1.0.1",
+  "record_version": "1.0.2",
   "publication_status": "published",
   "title": "Charisma Audio MC-1 Alpha — 1 kHz Reference Check",
   "source_report_title": "SME Model 12 MkII Series V Charisma Audio Mc1a",
@@ -41,10 +41,11 @@
   "measurement_datetime_local": "2026-11-06T12:23:00",
   "measurement_timezone": "not_recorded",
   "date_published": "2026-11-07",
+  "date_modified": "2026-11-09",
   "sample_id": "not_recorded",
   "setup": {
     "turntable": "SME Model 12 MkII",
-    "tonearm": "SME Series V",
+    "tonearm": "SME 309",
     "cartridge": "Charisma Audio MC-1 Alpha",
     "stylus": "not_recorded",
     "cartridge_hours": "not_recorded",
@@ -148,7 +149,7 @@
     }
   },
   "interpretation": {
-    "summary": "At Entertainment Machine in Rome, the SME Model 12 MkII averaged 33.32 RPM under stylus load and measured 0.038% DIN-shaped wow and flutter. With the SME Series V and Charisma Audio MC-1 Alpha fitted, the chain measured less than 1% THD in each channel and a 5.57 dB gap between crosstalk directions.",
+    "summary": "At Entertainment Machine in Rome, the SME Model 12 MkII averaged 33.32 RPM under stylus load and measured 0.038% DIN-shaped wow and flutter. With the SME 309 and Charisma Audio MC-1 Alpha fitted, the chain measured less than 1% THD in each channel and a 5.57 dB gap between crosstalk directions.",
     "recommendation": "The report calls for a routing and gain check followed by a repeat capture. If the crosstalk difference persists, run the General Reference Level and 1 kHz channel suite in Groove Scope Studio with matching test records.",
     "repeat_required": true,
     "channel_context": "Average 1 kHz separation was 22.0 dB. Right-to-left leakage was higher than left-to-right leakage throughout the captured rotations. Signal channel balance was +1.28 dB left minus right.",
@@ -179,7 +180,7 @@
     "raw_audio_published": false,
     "raw_audio_note": "No raw test-record audio is included.",
     "sample_ownership": "not_recorded",
-    "setup_metadata_source": "The report title identifies the SME Model 12 MkII, Series V and Charisma Audio cartridge. The manufacturer identifies the cartridge as the MC-1 Alpha. The report labels the capture input EVO4. The measurer supplied the venue and session context.",
+    "setup_metadata_source": "The report title identifies the SME Model 12 MkII and Charisma Audio cartridge and labels the tonearm “Series V”. The measurer confirmed the fitted tonearm was an SME 309 and supplied the venue and session context. The manufacturer identifies the cartridge as the MC-1 Alpha. The report labels the capture input EVO4.",
     "known_limitations": [
       "The phono stage, tracking force, physical azimuth angle, anti-skate, loading, alignment geometry, test-record identity and track, capture settings, repeat count and software versions were not recorded.",
       "The condition of the cartridge sample was not confirmed. The cause of the crosstalk asymmetry remains open.",
@@ -213,7 +214,7 @@
     "Entertainment Machine",
     "Rome",
     "SME Model 12 MkII",
-    "SME Series V",
+    "SME 309",
     "Charisma Audio MC-1 Alpha",
     "EVO4",
     "rotation fingerprint",
