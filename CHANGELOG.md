@@ -2,6 +2,10 @@
 
 All notable repository and measurement-record changes are documented here.
 
+## 1.1.16 — 2026-11-09
+
+- Moved the public library’s catalogue summary into the header and added best-first sorting for playback speed, speed error, DIN-shaped wow and flutter, and channel separation.
+
 ## 1.1.15 — 2026-11-09
 
 - Corrected the tonearm model for GS-2026-0014 to SME 309 across the public archive and Studio Reference Library.
