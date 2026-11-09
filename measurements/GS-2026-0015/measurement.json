@@ -1,0 +1,224 @@
+{
+  "$schema": "../../data/schema/measurement.schema.json",
+  "schema_version": "1.0.0",
+  "language": "en",
+  "creator": {
+    "name": "Michelangelo Canonico",
+    "role": "Creator and lead measurer",
+    "affiliation": "Direct Sound Records"
+  },
+  "publisher": {
+    "name": "Direct Sound Records",
+    "url": "https://directsoundrecords.com/",
+    "location_label": "London–Rome"
+  },
+  "software": {
+    "name": "Groove Scope Studio",
+    "report_generator_label": "Groove Scope Reference",
+    "application_version": "not_recorded",
+    "analysis_method_version": "not_recorded",
+    "platform": "not_recorded",
+    "developer": "Michelangelo Canonico / Direct Sound Records"
+  },
+  "measurement_type": "1 kHz Reference Check",
+  "measurement_scope": [
+    "playback speed",
+    "rotational stability",
+    "DIN-shaped wow and flutter",
+    "channel balance",
+    "electrical crosstalk",
+    "distortion diagnostics",
+    "harmonic profile",
+    "rotation fingerprints"
+  ],
+  "license": "CC-BY-4.0",
+  "measurement_id": "GS-2026-0015",
+  "record_version": "1.0.0",
+  "publication_status": "published",
+  "title": "Takumi TT Level 2.1 DC / Takumi Aka MC — 1 kHz Reference Check",
+  "source_report_title": "Takumi TT Level 1.1 - Takumi Aka Mc - Art",
+  "slug": "gs-2026-0015-takumi-tt-level-2-1-dc-takumi-aka-mc",
+  "measurement_datetime_local": "2026-11-07T10:46:00",
+  "measurement_timezone": "not_recorded",
+  "date_published": "2026-11-09",
+  "sample_id": "not_recorded",
+  "setup": {
+    "turntable": "Takumi TT Level 2.1 DC",
+    "tonearm": "not_recorded",
+    "cartridge": "Takumi Aka MC",
+    "stylus": "not_recorded",
+    "cartridge_hours": "not_recorded",
+    "stylus_hours": "not_recorded",
+    "vertical_tracking_force_g": "not_recorded",
+    "anti_skate_setting": "not_recorded",
+    "alignment_geometry": "not_recorded",
+    "azimuth_setting": "not_recorded",
+    "vta_or_sra_setting": "not_recorded",
+    "phono_stage": "ART preamp",
+    "phono_gain_db": "not_recorded",
+    "cartridge_loading": "not_recorded",
+    "test_record": "not_recorded",
+    "test_record_track": "not_recorded",
+    "test_record_condition": "not_recorded",
+    "nominal_test_tone_hz": 1000,
+    "audio_interface_reported_label": "USB Audio CODEC",
+    "audio_interface_full_model": "not_recorded",
+    "interface_gain_settings": "not_recorded",
+    "sample_rate_hz": "not_recorded",
+    "bit_depth": "not_recorded",
+    "capture_device": "not_recorded",
+    "channel_routing": "not_recorded",
+    "measurement_location": "not_recorded"
+  },
+  "results": {
+    "playback_rpm": {
+      "value": 33.33,
+      "classification": "primary",
+      "condition": "under_stylus_load"
+    },
+    "playback_speed_error_percent": {
+      "value": -0.00,
+      "classification": "primary",
+      "direction": "slow",
+      "reported_display": "−0.00%"
+    },
+    "settled_rpm": {
+      "minimum": 33.17,
+      "maximum": 33.48,
+      "span": 0.31,
+      "classification": "primary"
+    },
+    "din_shaped_wow_flutter_percent": {
+      "value": 0.030,
+      "classification": "primary"
+    },
+    "raw_speed_variation_percent": {
+      "rms_plus_minus": 0.207,
+      "two_sigma_plus_minus": 0.413,
+      "classification": "unweighted_diagnostic"
+    },
+    "raw_wow_flutter_percent": {
+      "wow_rms": 0.129,
+      "flutter_rms": 0.154,
+      "classification": "unweighted_diagnostic"
+    },
+    "channel_balance_db": {
+      "value": 0.07,
+      "classification": "diagnostic_only"
+    },
+    "crosstalk_1khz_db": {
+      "average_separation": 27.0,
+      "left_to_right": -27.6,
+      "right_to_left": -26.4,
+      "directional_difference": 1.22,
+      "classification": "supporting"
+    },
+    "thd_percent": {
+      "left": 1.19,
+      "right": 1.02,
+      "left_minus_right_percentage_points": 0.18,
+      "classification": "diagnostic"
+    },
+    "harmonic_profile_db": {
+      "h2": {
+        "left": -39.0,
+        "right": -41.1
+      },
+      "h3": {
+        "left": -52.0,
+        "right": -51.3
+      },
+      "h4": {
+        "left": -54.9,
+        "right": -52.7
+      },
+      "h5": {
+        "left": -57.4,
+        "right": -55.7
+      },
+      "classification": "diagnostic"
+    },
+    "harmonic_difference_summary_db": {
+      "h2_left_higher": 2.0,
+      "h3_right_higher": 0.8,
+      "classification": "source_report_summary"
+    },
+    "harmonic_reliability": {
+      "classification": "repeat_before_setup_change",
+      "quality_note": "The right channel's overall distortion changed most during recording. Repeat before changing the cartridge setup."
+    },
+    "capture_note": {
+      "classification": "low_raw_capture_level",
+      "quality_note": "Low raw capture level. Speed remains usable; crosstalk and harmonic results may be noise-limited."
+    }
+  },
+  "interpretation": {
+    "summary": "In the session, the Takumi TT Level 2.1 DC showed excellent vibration rejection, and the Aka MC’s tracking ability was moderate. The measured crosstalk may reflect the condition of this particular cartridge sample. Low capture level may also have limited the crosstalk and harmonic readings.",
+    "recommendation": "The report advises repeating the capture before changing the cartridge setup because the right channel’s overall distortion varied most during recording.",
+    "repeat_required": true
+  },
+  "session_observations": {
+    "source": "Measurer account supplied with publication request",
+    "included_in_source_pdf": false,
+    "vibration_rejection": {
+      "assessment": "excellent",
+      "quantitative_result_supplied": false
+    },
+    "tracking_ability": {
+      "assessment": "moderate",
+      "quantitative_result_supplied": false
+    },
+    "cartridge_condition": {
+      "state": "not_confirmed",
+      "observation": "The measurer considered the condition of this particular cartridge sample a possible contributor to the crosstalk result."
+    }
+  },
+  "provenance": {
+    "source_type": "Groove Scope generated PDF report",
+    "source_file": "report.pdf",
+    "data_entry_method": "Numerical results were transcribed from the original PDF report and checked against its rendered page. Reported differences preserve source precision. Vibration rejection, tracking ability and the possible influence of cartridge sample condition come from the measurer’s session account.",
+    "raw_audio_published": false,
+    "raw_audio_note": "No raw test-record audio is included.",
+    "sample_ownership": "not_recorded",
+    "setup_metadata_source": "The report title labels the turntable TT Level 1.1. The measurer confirmed the tested turntable was the TT Level 2.1 DC, as identified by its badge in the supplied photograph. The report title also identifies the Takumi Aka MC and ART, and labels the capture input USB Audio CODEC.",
+    "known_limitations": [
+      "The report flags a low raw capture level. Speed remains usable, while crosstalk and harmonic results may be noise-limited.",
+      "The tonearm model, ART preamp model, capture-device model, tracking force, anti-skate, alignment geometry, loading, test record and track, capture settings, repeat count and software versions were not recorded.",
+      "Vibration rejection and tracking ability were supplied as qualitative session observations. The condition of the particular cartridge sample was not confirmed."
+    ],
+    "fingerprint_channel_assignment": "Channel assignments follow the supplied filenames. Both channels show eight rotations. The angular reference between captures is unspecified.",
+    "photo_treatment": "The archived source is a full-resolution 5712 × 4284 JPEG from the supplied Takumi/IMG_4517.HEIC with embedded metadata stripped. The editorial version uses the built-in ImageGen edit to straighten the composition, reduce background clutter and brighten the scene."
+  },
+  "files": {
+    "human_readable_record": "README.md",
+    "source_report": "report.pdf",
+    "checksums": "checksums.sha256",
+    "source_hero": "assets/source/hero-original.jpg",
+    "rotation_fingerprints": [
+      "assets/source/speed-deviation-left.png",
+      "assets/source/speed-deviation-right.png",
+      "assets/source/level-modulation-left.png",
+      "assets/source/level-modulation-right.png",
+      "assets/source/opposite-channel-leakage-left.png",
+      "assets/source/opposite-channel-leakage-right.png",
+      "assets/source/harmonic-distortion-left.png",
+      "assets/source/harmonic-distortion-right.png"
+    ],
+    "retouched_hero": "assets/hero-retouched.png",
+    "image_edit_prompt": "assets/image-edit-prompt.txt"
+  },
+  "keywords": [
+    "Groove Scope Studio",
+    "Direct Sound Records",
+    "Michelangelo Canonico",
+    "Takumi TT Level 2.1 DC",
+    "Takumi Aka MC",
+    "ART preamp",
+    "USB Audio CODEC",
+    "vibration rejection",
+    "tracking ability",
+    "rotation fingerprint",
+    "wow and flutter",
+    "cartridge crosstalk"
+  ]
+}

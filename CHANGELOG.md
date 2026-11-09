@@ -2,6 +2,11 @@
 
 All notable repository and measurement-record changes are documented here.
 
+## 1.1.12 — 2026-11-09
+
+- Published GS-2026-0015, a 1 kHz reference check of the Takumi TT Level 2.1 DC and Takumi Aka MC. The measurer confirmed the turntable model after the source report listed TT Level 1.1 in its title.
+- Archived the source report and eight rotation plots. The record documents the measured crosstalk alongside session observations of excellent vibration rejection and moderate trackability.
+
 ## 1.1.11 — 2026-11-07
 
 - Published GS-2026-0014, a 1 kHz reference check of the SME Model 12 MkII with a Series V tonearm and Charisma Audio MC-1 Alpha cartridge at Entertainment Machine in Rome.

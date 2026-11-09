@@ -25,6 +25,7 @@ Measurements describe documented physical setups and sessions, not universal man
 
 - [Groove Scope archive](https://measurements.directsoundrecords.com/groove-scope/): Human-readable Groove Scope measurement index.
 - [Groove Scope GitHub repository](https://github.com/directsoundrecords/groove-scope-measurements): Versioned technical archive, schema, reports and structured data.
+- [GS-2026-0015](https://measurements.directsoundrecords.com/groove-scope/measurements/GS-2026-0015.html) documents the Takumi TT Level 2.1 DC and Takumi Aka MC, with session observations on vibration rejection and trackability alongside measured crosstalk.
 - [GS-2026-0014](https://measurements.directsoundrecords.com/groove-scope/measurements/GS-2026-0014.html) documents the SME Model 12 MkII, SME Series V and Charisma Audio MC-1 Alpha at Entertainment Machine, DSR’s first specialised Groove Scope Studio testing point and first certified reseller in Rome.
 - [GS-2026-0013](https://measurements.directsoundrecords.com/groove-scope/measurements/GS-2026-0013.html) documents a Rega P1 and Rega Carbon at the AudioReview laboratory, including a measured azimuth adjustment and tracking from 60 µm at 2.0 g to 80 µm at 2.5 g.
 - [GS-2026-0012](https://measurements.directsoundrecords.com/groove-scope/measurements/GS-2026-0012.html) documents a New Horizon turntable with an Ortofon 2M Bronze in a 1 kHz reference check, including speed fingerprints across eight rotations.

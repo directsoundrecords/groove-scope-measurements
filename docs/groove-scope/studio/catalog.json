@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
-  "catalogue_version": "177acad72cc06893",
-  "generated_at": "2026-11-06T23:34:33Z",
+  "catalogue_version": "6b97afcc3d5dc9b8",
+  "generated_at": "2026-11-09T08:42:05Z",
   "catalogue_url": "https://measurements.directsoundrecords.com/groove-scope/studio/catalog.json",
   "status_policy": {
     "included_statuses": [
@@ -13,9 +13,182 @@
       "withdrawn"
     ]
   },
-  "measurement_count": 11,
-  "latest_measurement_id": "GS-2026-0014",
+  "measurement_count": 12,
+  "latest_measurement_id": "GS-2026-0015",
   "measurements": [
+    {
+      "measurement_id": "GS-2026-0015",
+      "publication_status": "published",
+      "status_label": "Published",
+      "measurement_date": "2026-11-07",
+      "publication_date": "2026-11-09",
+      "measurement_type": "1 kHz Reference Check",
+      "title": "Takumi TT Level 2.1 DC / Takumi Aka MC — 1 kHz Reference Check",
+      "short_display_title": "Takumi TT Level 2.1 DC / Takumi Aka MC",
+      "system_title": "Takumi TT Level 2.1 DC / Takumi Aka MC",
+      "summary": "In the session, the Takumi TT Level 2.1 DC showed excellent vibration rejection, and the Aka MC’s tracking ability was moderate. The measured crosstalk may reflect the condition of this particular cartridge sample. Low capture level may also have limited the crosstalk and harmonic readings.",
+      "hero_image_url": "https://measurements.directsoundrecords.com/groove-scope/assets/GS-2026-0015/web/hero-2400.webp",
+      "card_image_url": "https://measurements.directsoundrecords.com/groove-scope/studio/images/GS-2026-0015-card-1200.jpg",
+      "images": {
+        "card": {
+          "url": "https://measurements.directsoundrecords.com/groove-scope/studio/images/GS-2026-0015-card-1200.jpg",
+          "width": 1200,
+          "height": 675
+        },
+        "hero": {
+          "url": "https://measurements.directsoundrecords.com/groove-scope/assets/GS-2026-0015/web/hero-2400.webp",
+          "width": 2400,
+          "height": 1800
+        }
+      },
+      "measurement_url": "https://measurements.directsoundrecords.com/groove-scope/measurements/GS-2026-0015.html",
+      "technical_record_url": "https://github.com/directsoundrecords/groove-scope-measurements/tree/main/measurements/GS-2026-0015",
+      "canonical_json_url": "https://raw.githubusercontent.com/directsoundrecords/groove-scope-measurements/main/measurements/GS-2026-0015/measurement.json",
+      "components": {
+        "turntable": {
+          "kind": "turntable",
+          "state": "recorded",
+          "display_name": "Takumi TT Level 2.1 DC",
+          "manufacturer": null,
+          "model": null
+        },
+        "tonearm": {
+          "kind": "tonearm",
+          "state": "not_recorded",
+          "display_name": null,
+          "manufacturer": null,
+          "model": null
+        },
+        "cartridge": {
+          "kind": "cartridge",
+          "state": "recorded",
+          "display_name": "Takumi Aka MC",
+          "manufacturer": null,
+          "model": null
+        },
+        "stylus": {
+          "kind": "stylus",
+          "state": "not_recorded",
+          "display_name": null,
+          "manufacturer": null,
+          "model": null
+        },
+        "phono_stage": {
+          "kind": "phono_stage",
+          "state": "recorded",
+          "display_name": "ART preamp",
+          "manufacturer": null,
+          "model": null
+        },
+        "audio_interface": {
+          "kind": "audio_interface",
+          "state": "not_recorded",
+          "display_name": "USB Audio CODEC",
+          "reported_label": "USB Audio CODEC",
+          "confirmed_model": null
+        },
+        "tracking_force": {
+          "state": "not_recorded",
+          "value": null,
+          "unit": "g"
+        },
+        "cartridge_loading": {
+          "state": "not_recorded",
+          "value": null
+        },
+        "phono_gain": {
+          "state": "not_recorded",
+          "value": null,
+          "unit": "dB"
+        },
+        "test_record": {
+          "kind": "test_record",
+          "state": "not_recorded",
+          "display_name": null,
+          "manufacturer": null,
+          "model": null
+        },
+        "test_record_track": {
+          "state": "not_recorded",
+          "value": null
+        },
+        "nominal_test_tone": {
+          "state": "recorded",
+          "value": 1000,
+          "unit": "Hz"
+        },
+        "turntable_support": {
+          "state": "not_recorded",
+          "value": null
+        }
+      },
+      "headline_metrics": [
+        {
+          "identifier": "playback_rpm",
+          "display_label": "Playback speed",
+          "value": 33.33,
+          "unit": "RPM",
+          "classification": "primary"
+        },
+        {
+          "identifier": "playback_speed_error_percent",
+          "display_label": "Speed error",
+          "value": -0.0,
+          "unit": "%",
+          "classification": "primary"
+        },
+        {
+          "identifier": "din_shaped_wow_flutter_percent",
+          "display_label": "DIN W&F",
+          "value": 0.03,
+          "unit": "%",
+          "classification": "primary"
+        },
+        {
+          "identifier": "channel_balance_db",
+          "display_label": "Channel balance",
+          "value": 0.07,
+          "unit": "dB",
+          "classification": "diagnostic_only"
+        },
+        {
+          "identifier": "average_channel_separation_db",
+          "display_label": "Average separation",
+          "value": 27.0,
+          "unit": "dB",
+          "classification": "supporting"
+        },
+        {
+          "identifier": "crosstalk_left_to_right_db",
+          "display_label": "L→R crosstalk",
+          "value": -27.6,
+          "unit": "dB",
+          "classification": "supporting"
+        },
+        {
+          "identifier": "crosstalk_right_to_left_db",
+          "display_label": "R→L crosstalk",
+          "value": -26.4,
+          "unit": "dB",
+          "classification": "supporting"
+        },
+        {
+          "identifier": "thd_left_percent",
+          "display_label": "THD left",
+          "value": 1.19,
+          "unit": "%",
+          "classification": "diagnostic"
+        },
+        {
+          "identifier": "thd_right_percent",
+          "display_label": "THD right",
+          "value": 1.02,
+          "unit": "%",
+          "classification": "diagnostic"
+        }
+      ],
+      "search_text": "GS-2026-0015 1 kHz Reference Check Takumi TT Level 2.1 DC Takumi Aka MC ART preamp USB Audio CODEC"
+    },
     {
       "measurement_id": "GS-2026-0014",
       "publication_status": "published",
@@ -2014,6 +2187,16 @@
         ]
       },
       {
+        "identifier": "takumi-aka-mc",
+        "display_name": "Takumi Aka MC",
+        "manufacturer": null,
+        "model": null,
+        "measurement_count": 1,
+        "measurement_ids": [
+          "GS-2026-0015"
+        ]
+      },
+      {
         "identifier": "transfiguration-orpheus",
         "display_name": "Transfiguration Orpheus",
         "manufacturer": null,
@@ -2094,6 +2277,16 @@
         "measurement_count": 1,
         "measurement_ids": [
           "GS-2026-0014"
+        ]
+      },
+      {
+        "identifier": "takumi-tt-level-2-1-dc",
+        "display_name": "Takumi TT Level 2.1 DC",
+        "manufacturer": null,
+        "model": null,
+        "measurement_count": 1,
+        "measurement_ids": [
+          "GS-2026-0015"
         ]
       },
       {
@@ -2195,8 +2388,9 @@
         "display_name": "ART preamp",
         "manufacturer": null,
         "model": null,
-        "measurement_count": 3,
+        "measurement_count": 4,
         "measurement_ids": [
+          "GS-2026-0015",
           "GS-2026-0013",
           "GS-2026-0012",
           "GS-2026-0011"

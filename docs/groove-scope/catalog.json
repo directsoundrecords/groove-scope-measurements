@@ -1,7 +1,24 @@
 {
   "schema_version": "1.0.0",
-  "updated": "2026-11-07",
+  "updated": "2026-11-09",
   "measurements": [
+    {
+      "measurement_id": "GS-2026-0015",
+      "title": "Takumi TT Level 2.1 DC / Takumi Aka MC — 1 kHz Reference Check",
+      "short_title": "Takumi TT Level 2.1 DC / Takumi Aka MC",
+      "date": "2026-11-07",
+      "status": "published",
+      "hero_image": "assets/GS-2026-0015/web/hero-1448.webp",
+      "summary": "The Takumi TT Level 2.1 DC averaged 33.33 RPM with 0.030% DIN-shaped wow and flutter. The measurer observed excellent vibration rejection and moderate trackability. Average separation was 27.0 dB for this setup, with a low capture level that may have limited the crosstalk measurement.",
+      "primary_metrics": {
+        "playback_rpm": 33.33,
+        "speed_error_percent": 0.00,
+        "din_shaped_wow_flutter_percent": 0.030,
+        "average_separation_db": 27.0
+      },
+      "measurement_url": "measurements/GS-2026-0015.html",
+      "provenance_label": "The measurer confirmed TT Level 2.1 DC. The source PDF title lists TT Level 1.1."
+    },
     {
       "measurement_id": "GS-2026-0014",
       "title": "SME Model 12 MkII / Series V / Charisma Audio MC-1 Alpha — 1 kHz Reference Check",
