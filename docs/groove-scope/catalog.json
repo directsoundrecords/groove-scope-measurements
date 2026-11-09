@@ -37,6 +37,23 @@
       "provenance_label": "DSR measurement after azimuth adjustment with session observations on vibration rejection and trackability"
     },
     {
+      "measurement_id": "GS-2026-0017",
+      "title": "Ortofon 2M Bronze — 1 kHz Reference Check",
+      "short_title": "Ortofon 2M Bronze",
+      "date": "2026-11-06",
+      "status": "published",
+      "hero_image": "assets/GS-2026-0017/web/hero-1448.webp",
+      "summary": "The Ortofon 2M Bronze averaged 32.2 dB separation on a vintage Thorens after azimuth and anti-skate adjustment. The measurer reported an initial 5.86 dB imbalance and a marked improvement after adjusting anti-skate.",
+      "primary_metrics": {
+        "playback_rpm": 33.3,
+        "speed_error_percent": -0.11,
+        "din_shaped_wow_flutter_percent": 0.028,
+        "average_separation_db": 32.2
+      },
+      "measurement_url": "measurements/GS-2026-0017.html",
+      "provenance_label": "DSR 1 kHz reference check with measurer-reported azimuth and anti-skate adjustments"
+    },
+    {
       "measurement_id": "GS-2026-0014",
       "title": "Charisma Audio MC-1 Alpha — 1 kHz Reference Check",
       "short_title": "Charisma Audio MC-1 Alpha",

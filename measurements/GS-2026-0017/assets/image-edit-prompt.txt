@@ -1,0 +1,7 @@
+Built-in ImageGen editorial retouch
+
+Use case: identity-preserve
+Asset type: editorial hero photograph for the Groove Scope measurement archive
+Edit target: the supplied close-up photograph of the actual vintage Thorens TD 160 Super, SME III tonearm, and orange Ortofon 2M Bronze. Retouch this photograph as a faithful documentary image.
+Preserve the 4:3 framing and low camera angle, with the cartridge on the left and the whole visible arm and pivot assembly on the right. Retain the same light and burgundy walls, platter, black perforated headshell, wiring colours and routing, mounting hardware, arm geometry, real reflections and wear, fine anti-skate filament and weight, and any visible lettering or partial lettering exactly where they are. Keep focus falloff and the exact orange stylus housing geometry, scale and position.
+Improve only photographic finish. Balance colour and white balance, temper the bright foreground and specular glare, gently lift dark detail, reduce distracting sensor noise and loose dust, and bring out legible authentic surfaces with restrained local contrast. Smooth uneven illumination of the existing walls without replacing them. Keep a natural, clean editorial look and existing materials. Avoid fabricated lettering, reconstructed parts, added or removed hardware, perspective changes, repainting, artificial blur, new background objects or zooming in.

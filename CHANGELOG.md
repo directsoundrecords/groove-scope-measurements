@@ -2,6 +2,11 @@
 
 All notable repository and measurement-record changes are documented here.
 
+## 1.1.18 — 2026-11-09
+
+- Published GS-2026-0017, a 1 kHz reference check of an Ortofon 2M Bronze on a vintage Thorens TD 160 Super with an SME III tonearm and ART preamp.
+- Archived the original report, eight rotation fingerprints and setup photograph. The final capture averaged 32.2 dB separation, and the record documents the reported azimuth and anti-skate adjustments.
+
 ## 1.1.17 — 2026-11-09
 
 - Redesigned the public library header with a shorter title, a concise introduction, and a compact app download area.
