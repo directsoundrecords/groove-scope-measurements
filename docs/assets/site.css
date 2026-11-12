@@ -134,6 +134,18 @@ a:focus-visible{outline:2px solid var(--copper);outline-offset:4px;border-radius
 .measurement-chain dt{color:var(--copper);font-size:.68rem;font-weight:800;letter-spacing:.1em;text-transform:uppercase}
 .measurement-chain dd{font-size:1rem;font-weight:710;margin:7px 0 0}
 .measurement-chain dd small{display:block;color:var(--muted);font-weight:520;margin-top:4px}
+.measurement-detail .playback-system>.section-intro{display:block}
+.measurement-detail .playback-system-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,21rem),1fr));gap:20px}
+.measurement-detail .setup-card{min-width:0;padding:24px;border:1px solid var(--line);border-radius:20px;background:linear-gradient(145deg,#18212b,var(--panel))}
+.measurement-detail .setup-card h3{margin:0 0 14px;font-size:1.12rem;line-height:1.3;letter-spacing:-.02em;color:var(--ink)}
+.measurement-detail .setup-facts{margin:0;padding:0}
+.measurement-detail .setup-facts>div{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:16px;align-items:baseline;padding:13px 0;border-top:1px solid var(--line)}
+.measurement-detail .setup-facts>div:last-child{padding-bottom:0}
+.measurement-detail .setup-facts dt,.measurement-detail .setup-facts dd{min-width:0;margin:0;overflow-wrap:anywhere}
+.measurement-detail .setup-facts dt{color:var(--muted);font-size:.875rem;line-height:1.5;font-weight:500}
+.measurement-detail .setup-facts dd{color:var(--ink);font-size:1rem;line-height:1.5;font-weight:650;font-variant-numeric:tabular-nums}
+@media(max-width:760px){.measurement-detail .playback-system-grid{grid-template-columns:1fr}.measurement-detail .setup-card{padding:20px}}
+@media(max-width:360px){.measurement-detail .setup-facts>div{grid-template-columns:1fr;gap:4px}}
 .technical-record{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:12px}
 .technical-action{display:flex;min-height:120px;flex-direction:column;justify-content:space-between;text-decoration:none;border:1px solid var(--line);border-radius:16px;background:var(--panel);padding:18px;transition:border-color .2s,transform .2s}
 .technical-action span{color:var(--muted);font-size:.7rem;text-transform:uppercase;letter-spacing:.09em;font-weight:800}
