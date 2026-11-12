@@ -3,23 +3,6 @@
     "updated": "2026-11-12",
     "measurements": [
         {
-            "measurement_id": "GS-2026-0018",
-            "title": "2M Bronze — 1 kHz Reference Check",
-            "short_title": "2M Bronze",
-            "date": "2026-11-08",
-            "status": "published",
-            "hero_image": "assets/GS-2026-0018/source/setup-photo.jpg",
-            "summary": "Very satisfied great 3D image",
-            "primary_metrics": {
-                "playback_rpm": 33.20254303929931,
-                "speed_error_percent": -0.3923708821020888,
-                "din_shaped_wow_flutter_percent": 0.05852417789457656,
-                "average_separation_db": 37.59549404509626
-            },
-            "measurement_url": "measurements/GS-2026-0018.html",
-            "provenance_label": "App submission reviewed by Direct Sound Records"
-        },
-        {
             "measurement_id": "GS-2026-0016",
             "title": "AVID Reference Ruby — 1 kHz Reference Check",
             "short_title": "AVID Reference Ruby",
