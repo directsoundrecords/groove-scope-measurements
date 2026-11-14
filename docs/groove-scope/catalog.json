@@ -14,6 +14,7 @@
                 "playback_rpm": 33.239943758682394,
                 "speed_error_percent": -0.2801687239528228,
                 "din_shaped_wow_flutter_percent": 0.02933733474889614,
+                "channel_balance_db": 0.8557858991838962,
                 "average_separation_db": 30.99508541303481
             },
             "measurement_url": "measurements/GS-2026-0019.html",
