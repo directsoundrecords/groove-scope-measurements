@@ -1,7 +1,24 @@
 {
     "schema_version": "1.0.0",
-    "updated": "2026-11-12",
+    "updated": "2026-11-14",
     "measurements": [
+        {
+            "measurement_id": "GS-2026-0019",
+            "title": "Super Cartridge — 1 kHz Reference Check",
+            "short_title": "Super Cartridge",
+            "date": "2026-11-08",
+            "status": "published",
+            "hero_image": "assets/GS-2026-0019/source/setup-photo.jpg",
+            "summary": "This is a very good measurement",
+            "primary_metrics": {
+                "playback_rpm": 33.239943758682394,
+                "speed_error_percent": -0.2801687239528228,
+                "din_shaped_wow_flutter_percent": 0.02933733474889614,
+                "average_separation_db": 30.99508541303481
+            },
+            "measurement_url": "measurements/GS-2026-0019.html",
+            "provenance_label": "App submission reviewed by Direct Sound Records"
+        },
         {
             "measurement_id": "GS-2026-0016",
             "title": "AVID Reference Ruby — 1 kHz Reference Check",
