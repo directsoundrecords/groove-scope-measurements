@@ -2,6 +2,10 @@
 
 All notable repository and measurement-record changes are documented here.
 
+## 1.1.20 — 2026-11-14
+
+- Removed GS-2026-0019, “Super Cartridge”, from the archive and public library at the publisher’s request.
+
 ## 1.1.19 — 2026-11-09
 
 - Restored the shared measurement-page photo layout for GS-2026-0017.
