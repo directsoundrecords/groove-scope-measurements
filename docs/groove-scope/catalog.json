@@ -3,22 +3,6 @@
     "updated": "2026-11-17",
     "measurements": [
         {
-            "measurement_id": "GS-2026-0020",
-            "title": "audio technica — 1 kHz Reference Check",
-            "short_title": "audio technica",
-            "date": "2026-11-16",
-            "status": "published",
-            "hero_image": "assets/GS-2026-0020/source/setup-photo.jpg",
-            "summary": "la misura ha riportato un imbalance lieve che ho potuto rilevare grazie all'app",
-            "primary_metrics": {
-                "playback_rpm": 33.304755350997866,
-                "speed_error_percent": -0.08573394700640558,
-                "average_separation_db": 31.299568609410926
-            },
-            "measurement_url": "measurements/GS-2026-0020.html",
-            "provenance_label": "App submission reviewed by Direct Sound Records"
-        },
-        {
             "measurement_id": "GS-2026-0016",
             "title": "AVID Reference Ruby — 1 kHz Reference Check",
             "short_title": "AVID Reference Ruby",
