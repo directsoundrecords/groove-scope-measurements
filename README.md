@@ -10,6 +10,7 @@ This repository is the public measurement archive for **Groove Scope**, a vinyl 
 
 | ID | Date | Measurement | Status | Report | Structured data |
 |---|---:|---|---|---|---|
+| [GS-2026-0020](measurements/GS-2026-0020/README.md) | 2026-11-16 | audio technica — 1 kHz Reference Check | Published | [PDF](measurements/GS-2026-0020/report.pdf) | [JSON](measurements/GS-2026-0020/measurement.json) |
 | [GS-2026-0016](measurements/GS-2026-0016/README.md) | 2026-11-08 | AVID Reference Ruby — 1 kHz Reference Check | Published | [PDF](measurements/GS-2026-0016/report.pdf) · [Tracking PDF](measurements/GS-2026-0016/tracking-ability-report.pdf) | [JSON](measurements/GS-2026-0016/measurement.json) |
 | [GS-2026-0015](measurements/GS-2026-0015/README.md) | 2026-11-07 | Takumi Aka MC — 1 kHz Reference Check | Published | [PDF](measurements/GS-2026-0015/report.pdf) | [JSON](measurements/GS-2026-0015/measurement.json) |
 | [GS-2026-0017](measurements/GS-2026-0017/README.md) | 2026-11-06 | Ortofon 2M Bronze — 1 kHz Reference Check | Published | [PDF](measurements/GS-2026-0017/report.pdf) | [JSON](measurements/GS-2026-0017/measurement.json) |
