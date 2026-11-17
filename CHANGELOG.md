@@ -2,6 +2,10 @@
 
 All notable repository and measurement-record changes are documented here.
 
+## 1.1.21 — 2026-11-17
+
+- Withdrew GS-2026-0020, “audio technica”, at the publisher’s request. Removed its public page, website images and library listing; retained the source archive and original numerical results.
+
 ## 1.1.20 — 2026-11-14
 
 - Removed GS-2026-0019, “Super Cartridge”, from the archive and public library at the publisher’s request.

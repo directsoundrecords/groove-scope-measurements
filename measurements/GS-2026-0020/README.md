@@ -2,6 +2,8 @@
 
 Measurement ID: GS-2026-0020
 
+Status: **Withdrawn** on 17 November 2026 at the publisher’s request. Removed from the public website; original source files and numerical results are retained for transparency.
+
 Measured by zorro. Published by Direct Sound Records.
 
 la misura ha riportato un imbalance lieve che ho potuto rilevare grazie all'app
@@ -84,4 +86,4 @@ Harmonics are relative to the expected main-channel 1 kHz fundamental.
 
 [Saved capture](capture.json), [structured record](measurement.json), [checksums](checksums.sha256). Capture and exporter versions are separate. No raw audio is published.
 
-Licence: CC BY 4.0. [Public measurement](https://measurements.directsoundrecords.com/groove-scope/measurements/GS-2026-0020.html).
+Licence: CC BY 4.0.

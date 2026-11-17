@@ -2,8 +2,8 @@
     "$schema": "../../data/schema/measurement.schema.json",
     "schema_version": "1.0.0",
     "measurement_id": "GS-2026-0020",
-    "record_version": "1.0.0",
-    "publication_status": "published",
+    "record_version": "1.0.1",
+    "publication_status": "withdrawn",
     "title": "audio technica — 1 kHz Reference Check",
     "language": "en",
     "creator": {
